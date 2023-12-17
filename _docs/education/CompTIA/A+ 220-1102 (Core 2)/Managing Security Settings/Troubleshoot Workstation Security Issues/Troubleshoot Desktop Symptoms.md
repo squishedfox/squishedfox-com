@@ -1,3 +1,12 @@
+---
+title: Troubleshoot desktop Symptoms
+layout: page
+parent: Troubleshoot Workstation Security Issues
+grand_parent: Managing Security Settings
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-security/troubleshoot-workstations/desktops/
+---
+
 # Troubleshoot desktop Symptoms
 
 ## Performance Symptoms

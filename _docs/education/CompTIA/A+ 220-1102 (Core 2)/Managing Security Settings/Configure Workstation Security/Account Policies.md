@@ -1,4 +1,15 @@
+---
+title: Account Policies
+layout: page
+parent: Configure Workstation Security
+grand_parent: Managing Security Settings
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-security/workstations/policies/
+---
+
 # Account Policies
+
+## Summary
 
 - Restrict login times - helps prevent an account from logging in around unusual hours of the day/night.
 - Failed attempts lockout - create maximum attempts before locking the account to prevent bruteforce or disctionary attacks.

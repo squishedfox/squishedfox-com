@@ -1,4 +1,13 @@
-# Section Summary
+---
+title: Summary
+layout: page
+parent: Troubleshoot Workstation Security Issues
+grand_parent: Managing Security Settings
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-security/troubleshoot-workstations/summary/
+---
+
+# Summary
 
 - Setup best workstation practices
   - Secure boot passwords using UEFI/BIOS Passwords, as-well-as user passwords

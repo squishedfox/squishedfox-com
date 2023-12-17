@@ -1,3 +1,14 @@
+---
+title: IP Address Schemes
+layout: page
+parent: Managing Windows Networking
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-networking/ip-address-schemes/
+---
+
+# IP Address Schemes
+
 ## IPv4
 
 IPv4 uses four octets which a combined 32-bit address, and a 32-bit subnet mask. Both of which are typically entered in dotted decimal notation. 

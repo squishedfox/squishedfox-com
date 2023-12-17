@@ -1,4 +1,13 @@
-# Broser Selection and Installation
+---
+title: Browser Selection and Installation
+layout: page
+parent: Configure Browser Security
+grand_parent: Managing Security Settings
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-security/browsers/selection-and-installation/
+---
+
+# Browser Selection and Installation
 
 ## Major Browsers
 

@@ -1,12 +1,21 @@
+---
+title: Password Best Practices
+layout: page
+parent: Configure Workstation Security
+grand_parent: Managing Security Settings
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-security/workstations/passwords/
+---
+
 # Password Best Practices
 
-Weak password policies still is one of the heighest risks for cybersecurity threats because there are still companies which cannot migrate towards using systems like Active Directory Account/Credential managment or use the benefits of 2-factor authentication.
+Weak password policies still is one of the highest risks for cybersecurity threats because there are still companies which cannot migrate towards using systems like Active Directory Account/Credential management or use the benefits of 2-factor authentication.
 
 ## Password Rules
 
 - Make the password sufficiently long: The longer the password, the longer it would take for a dictionary or bruteforce attack to guess the password.
 - Chose a memorable phrase, but do not use any personal information: users whom can remember their password can help by not exposing their credential elsewhere like a spreadsheet on the internet.
-- Password rotation should be enforced, meaning that users should have to change their passwords given a period of time: rotating passwords can reduce the likelihood that a comprimised account continues to go unoticed.
+- Password rotation should be enforced, meaning that users should have to change their passwords given a period of time: rotating passwords can reduce the likelihood that a compromised account continues to go unnoticed.
 
 ## BIOS/UEFI Passwords
 

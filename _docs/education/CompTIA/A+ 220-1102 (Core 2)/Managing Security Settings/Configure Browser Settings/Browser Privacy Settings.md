@@ -1,3 +1,12 @@
+---
+title: Browser Privacy Settings
+layout: page
+parent: Configure Browser Security
+grand_parent: Managing Security Settings
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-security/browsers/privacy/
+---
+
 # Browser Privacy Settings
 
 ## Data Collection

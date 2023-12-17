@@ -1,6 +1,15 @@
+---
+title: Secure Connections and Valid Certifications
+layout: page
+parent: Configure Browser Security
+grand_parent: Managing Security Settings
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-security/browsers/connections-and-certifications/
+---
+
 # Secure Connections and Valid Certifications
 
-## Ditital Certificates
+## Digital Certificates
 
 Certificate Authorities (CA)s are trusted third-party sources which sign digital certificates which are used to encrypt data to be safely sent over a network.
 

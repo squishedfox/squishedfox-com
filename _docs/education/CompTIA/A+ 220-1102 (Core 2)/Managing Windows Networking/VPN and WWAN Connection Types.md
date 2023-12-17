@@ -1,3 +1,14 @@
+---
+title: VPN and WWAN Connection Types
+layout: page
+parent: Managing Windows Networking
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-networking/vpn-and-wwan-connection-types/
+---
+
+# VPN and WWAN Connection Types
+
 ## Virtual Private Networks (VPN)s
 
 Virtual Private Networks allow systems to connect to a network which may have private resources that belong to a person or organization. Virtual Private Networks are tunnels from public networks into "owned" networks. Users must first be authenticated and authorized to connect to the network using a public/private key pair or by providing username and password credentials.

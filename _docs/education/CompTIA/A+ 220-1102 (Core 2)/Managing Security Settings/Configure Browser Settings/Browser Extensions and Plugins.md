@@ -1,3 +1,12 @@
+---
+title: Browser Extensions and Plugins
+layout: page
+parent: Configure Browser Security
+grand_parent: Managing Security Settings
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-security/browsers/extensions/
+---
+
 # Browser Extensions and Plugins
 
 ## Extensions

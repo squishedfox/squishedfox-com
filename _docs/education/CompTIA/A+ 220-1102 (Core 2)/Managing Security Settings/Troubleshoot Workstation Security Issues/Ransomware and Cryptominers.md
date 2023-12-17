@@ -1,3 +1,12 @@
+---
+title: Ransomware and Cryptominters
+layout: page
+parent: Troubleshoot Workstation Security Issues
+grand_parent: Managing Security Settings
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-security/troubleshoot-workstations/cryptominers/
+---
+
 # Ransomware and Cryptominters
 
 Piece of software to attempt to encrypt a system and hold all the data ransom until a person or organization provides the funding being demanded.

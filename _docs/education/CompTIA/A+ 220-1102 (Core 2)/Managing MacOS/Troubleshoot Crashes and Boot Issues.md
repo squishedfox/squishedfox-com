@@ -1,3 +1,12 @@
+---
+title: Troubleshoot Crashes and Boot Issues
+layout: page
+parent: Managing MacOS
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/managing-macos/troubleshooting/
+---
+
 # Troubleshoot Crashes and Boot Issues
 
 ## App Crashes and Force Quit

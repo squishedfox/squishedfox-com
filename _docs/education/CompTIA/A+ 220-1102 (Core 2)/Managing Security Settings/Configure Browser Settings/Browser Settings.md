@@ -1,3 +1,12 @@
+---
+title: Browser Settings
+layout: page
+parent: Configure Browser Security
+grand_parent: Managing Security Settings
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-security/browsers/settings/
+---
+
 # Browser Settings
 
 Browsers often have three different modes that can are pre-configured with different settings to provide protection. 
