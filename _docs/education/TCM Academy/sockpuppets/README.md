@@ -1,6 +1,11 @@
-# Sock Puppets
+---
+title: Sock Puppets
+parent: TCM Academy
+layout: page
+has_children: false
+---
 
-## tools
+# tools
 
 | Name | Description |
 |------|-------------|
