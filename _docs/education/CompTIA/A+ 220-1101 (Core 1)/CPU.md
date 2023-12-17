@@ -1,3 +1,10 @@
+---
+title: Title
+layout: subarticle
+permalink: /comptia-a-plus/cpus/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
 
 # Central Processing Unit (CPUs)
 

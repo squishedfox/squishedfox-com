@@ -1,3 +1,11 @@
+---
+title: Networking
+layout: subarticle
+permalink: /comptia-a-plus/ram/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 - used by CPU as temporary storage
 - Increased performance beyond hard drives
 - Applications are loaded and ran from RAM

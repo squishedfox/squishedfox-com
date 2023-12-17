@@ -1,3 +1,11 @@
+---
+title: Mobile Devices
+layout: subarticle
+permalink: /comptia-a-plus/mobile/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 - Small and can be moved with you
 - Sealed unit lacking any user replaceable parts
 - Mobile devices use special mobile operating systems

@@ -1,3 +1,11 @@
+---
+title: Peripherals
+layout: subarticle
+permalink: /comptia-a-plus/peripherals/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 # Ports
 
 - Serial Ports

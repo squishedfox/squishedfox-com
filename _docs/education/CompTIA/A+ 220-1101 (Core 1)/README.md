@@ -1,3 +1,10 @@
+---
+title: CompTIA A+ 220-1101
+layout: subarticle
+permalink: /comptia-a-plus/
+has_children: true
+---
+
 # CompTIA Training
 
 ## All trianing provided by whizlabs

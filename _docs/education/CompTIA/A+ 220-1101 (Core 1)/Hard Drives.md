@@ -1,3 +1,10 @@
+---
+title: Hard Drives
+layout: subarticle
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 - Solid State Drive (SSD)
 - Hard Disk Drive (HDD)
 

@@ -1,3 +1,11 @@
+---
+title: Wireless 
+layout: subarticle
+permalink: /comptia-a-plus/wireless/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 - Provide physical ports RJ-45
 - Allow network connections to be used over radio signal (wirelessly) which extends the usage beyond the available jacks of the router
 

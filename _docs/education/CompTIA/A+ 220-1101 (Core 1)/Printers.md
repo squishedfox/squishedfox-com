@@ -1,3 +1,11 @@
+---
+title: Networking
+layout: subarticle
+permalink: /comptia-a-plus/printers/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 - Allow to generate hardcopy documents
 - Modern printers can be categorized into several types
   - Impact, ikject, dye-sublimation, thermal, laster, 3-d, and virtual

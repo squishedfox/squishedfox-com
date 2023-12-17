@@ -1,3 +1,11 @@
+---
+title: Virtualization 
+layout: subarticle
+permalink: /comptia-a-plus/virtualization/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 Host machines contains multiple virtual computers on a single machine. This machine requires a system called a "hypervisor" which runs between the hardward and the virutal hardware and amchines.
 - Virtual Machines are granted permissions to certain system resources such as CPU, RAM, disk, Network Cards, GPU, etc.
 

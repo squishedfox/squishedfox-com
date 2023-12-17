@@ -1,3 +1,11 @@
+---
+title: Specialized PCs 
+layout: subarticle
+permalink: /comptia-a-plus/specialized-pcs/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 # Thin Clients
 
 - Bare bons CPU

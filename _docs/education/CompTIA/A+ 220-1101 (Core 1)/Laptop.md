@@ -1,3 +1,11 @@
+---
+title: Laptops
+layout: subarticle
+permalink: /comptia-a-plus/laptops/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 # Keyboards
 
 - Typically have a FN key to provide additional functions on a-perkey baseis

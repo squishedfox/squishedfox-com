@@ -1,3 +1,10 @@
+---
+title: Motherboards
+layout: subarticle
+permalink: /comptia-a-plus/motherboards/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
 
 - Largest component in terms of the size of the computer
 - Keeps all the other components communicate to each other

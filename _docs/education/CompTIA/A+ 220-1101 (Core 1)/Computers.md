@@ -1,3 +1,10 @@
+---
+title: Computers
+layout: subarticle
+permalink: /comptia-a-plus/computers/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
 
 ## Input and Output (I/O)
 

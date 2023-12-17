@@ -1,3 +1,11 @@
+---
+title: Firmware
+layout: subarticle
+permalink: /comptia-a-plus/firmware/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 -  controls low level software that controls specific hardware
 - It is held in non-volatile memory devices such as ROM, EPRMO, or flash memory
 - Firmware can be upgraded on consumer electronics devices like dvd players, refrigerators, TVs, music systems, etc.

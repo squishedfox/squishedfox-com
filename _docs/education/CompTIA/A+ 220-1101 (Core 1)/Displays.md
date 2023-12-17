@@ -1,3 +1,11 @@
+---
+title: Displays
+layout: page
+permalink: /comptia-a-plus/displays/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 - three main categories of monitors
   - Laptop Monitors
   - (Liquid Crystal Displays) LCD panels

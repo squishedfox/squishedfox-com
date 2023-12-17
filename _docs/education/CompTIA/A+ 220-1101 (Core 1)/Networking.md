@@ -1,3 +1,11 @@
+---
+title: Networking
+layout: subarticle
+permalink: /comptia-a-plus/networking/
+parent: CompTIA A+ 220-1101
+has_children: false
+---
+
 - Networking; Connecting your machine to the other computers, local or remote.
 - Accessing a printer on a home network or browsing a webpage on the internet
 - these tasks require sending and receiving data
