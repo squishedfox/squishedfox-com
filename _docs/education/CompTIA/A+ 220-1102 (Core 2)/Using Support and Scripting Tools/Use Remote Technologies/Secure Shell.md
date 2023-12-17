@@ -1,3 +1,11 @@
+---
+title: Secure Shell
+layout: page
+parent: Remote Technologies
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/remote/shell/
+---
+
 # Secure Shell
 
 Secure Shell (SSH) is a terminal based connection into a remote system. It uses TCP over port 22 by default. 

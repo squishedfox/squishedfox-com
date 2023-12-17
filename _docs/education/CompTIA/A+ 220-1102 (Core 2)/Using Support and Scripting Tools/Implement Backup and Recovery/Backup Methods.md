@@ -1,3 +1,11 @@
+---
+title: Backup Methods
+layout: page
+parent: Backup and Recovery
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/backup-and-recovery/methods/
+---
+
 # Backup Methods
 
 ## Main factors of backup operations

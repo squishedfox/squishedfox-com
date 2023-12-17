@@ -1,3 +1,11 @@
+---
+title: Remote Desktop Tools
+layout: page
+parent: Remote Technologies
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/remote/tools/
+---
+
 # Remote Desktop Tools
 
 ## Summary

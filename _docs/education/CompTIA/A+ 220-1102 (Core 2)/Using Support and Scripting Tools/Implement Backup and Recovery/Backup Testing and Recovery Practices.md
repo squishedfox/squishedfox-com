@@ -1,3 +1,11 @@
+---
+title: Backup Testing and Recovery Practices
+layout: page
+parent: Backup and Recovery
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/backup-and-recovery/testing/
+---
+
 # Backup Testing and Recovery Practices
 
 ## Testing

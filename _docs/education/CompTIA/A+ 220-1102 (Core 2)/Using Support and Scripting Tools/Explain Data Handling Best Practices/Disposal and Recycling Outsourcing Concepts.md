@@ -1,3 +1,11 @@
+---
+title: Disposal and Recycling
+layout: page
+parent: Data Handling
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/data-handling/disposal/
+---
+
 # Disposal and Recycling Outsourcing Concepts
 
 ## Concepts

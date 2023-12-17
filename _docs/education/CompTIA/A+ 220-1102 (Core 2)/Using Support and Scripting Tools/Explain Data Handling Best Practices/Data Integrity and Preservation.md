@@ -1,11 +1,18 @@
+---
+title: Data Integrity and Preservation
+layout: page
+parent: Data Handling
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/data-handling/integrity/
+---
+
 # Data Integrity and Preservation
 
+## Digital Forensics
 
-## Digial Forensics
+Digital Forensics Specialists is the study of finding evidence/information which may be relevant to a breach of secure parameters setup throughout an organization.
 
-Digital Forensics Specialists is the study of finding evidence/information which may be relevant to a breach of secure parimeters setup throughout an organization.
-
-Digital Forensics Specialists will often be employeed with private agencies or law enforcement agencies.
+Digital Forensics Specialists will often be employed with private agencies or law enforcement agencies.
 
 Digital Forensics Specialists will also need to collaborate with any team members or managers to gain access or request information to put together a report/story of the incident.
 

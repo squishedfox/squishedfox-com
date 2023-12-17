@@ -1,3 +1,11 @@
+---
+title: Prohibiting Content and Licensing Issues
+layout: page
+parent: Data Handling
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/data-handling/licensing/
+---
+
 # Prohibiting Content and Licensing Issues
 
 ## Probihited Content

@@ -1,3 +1,11 @@
+---
+title: Incident Response
+layout: page
+parent: Data Handling
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/data-handling/incidents/
+---
+
 # Incident Response
 
 ## Types of Incidents

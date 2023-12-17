@@ -1,3 +1,11 @@
+---
+title: Backup and Recovery
+layout: page
+parent: Scripting
+has_children: true
+permalink: /education/comptia/a-plus/core-two/scripting/backup-and-recovery/
+---
+
 # Implement Backup and Recovery
 
 ## Objectives

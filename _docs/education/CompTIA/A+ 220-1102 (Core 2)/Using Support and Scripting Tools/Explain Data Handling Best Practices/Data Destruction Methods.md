@@ -1,3 +1,11 @@
+---
+title: Destruction
+layout: page
+parent: Data Handling
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/data-handling/destruction/
+---
+
 # Data Destruction Methods
 
 ## Recycled Devices

@@ -1,3 +1,11 @@
+---
+title: Constructs
+layout: page
+parent: Basics of Scripting
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/basics/constructs/
+---
+
 # Basic Script Constructs
 
 ## Commonts

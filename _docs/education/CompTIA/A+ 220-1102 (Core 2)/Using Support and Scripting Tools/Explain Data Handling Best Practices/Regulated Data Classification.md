@@ -1,3 +1,11 @@
+---
+title: Regulations
+layout: page
+parent: Data Handling
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/data-handling/regulations/
+---
+
 # Regulated Data Classification
 
 ## Summary

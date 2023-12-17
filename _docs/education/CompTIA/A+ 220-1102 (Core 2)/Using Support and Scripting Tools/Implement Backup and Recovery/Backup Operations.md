@@ -1,3 +1,11 @@
+---
+title: Backup Operations
+layout: page
+parent: Backup and Recovery
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/backup-and-recovery/operations/
+---
+
 # Backup Operations
 
 ## Summary

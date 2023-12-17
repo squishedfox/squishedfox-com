@@ -1,3 +1,11 @@
+---
+title: Windows Scripts
+layout: page
+parent: Basics of Scripting
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/basics/windows/
+---
+
 # Windows Scripts
 
 ## Powershell (.ps1)

@@ -1,3 +1,11 @@
+---
+title: Programming
+layout: page
+parent: Basics of Scripting
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/basics/programming/
+---
+
 # Javascript and Python
 
 ## Javascript (.js)

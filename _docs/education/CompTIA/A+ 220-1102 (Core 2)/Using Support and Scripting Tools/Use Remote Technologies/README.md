@@ -1,3 +1,11 @@
+---
+title: Remote Technologies
+layout: page
+parent: Scripting
+has_children: true
+permalink: /education/comptia/a-plus/core-two/scripting/remote/
+---
+
 # Use Remote Technologies
 
 ## Less Objective

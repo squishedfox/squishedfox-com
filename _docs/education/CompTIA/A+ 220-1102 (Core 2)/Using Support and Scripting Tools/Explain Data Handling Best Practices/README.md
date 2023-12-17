@@ -1,3 +1,11 @@
+---
+title: Data Handling
+layout: page
+parent: Scripting
+has_children: true
+permalink: /education/comptia/a-plus/core-two/scripting/data-handling/
+---
+
 # Explain Data Handling Best Practices
 
 ## Objectives

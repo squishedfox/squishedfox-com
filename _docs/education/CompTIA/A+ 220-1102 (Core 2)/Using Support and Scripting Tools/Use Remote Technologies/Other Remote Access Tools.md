@@ -1,3 +1,11 @@
+---
+title: Other Remote Access Tools
+layout: page
+parent: Remote Technologies
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/remote/other/
+---
+
 # Other Remote Access Tools
 
 ## Screen Sharing Software

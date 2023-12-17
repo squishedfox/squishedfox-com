@@ -1,3 +1,11 @@
+---
+title: Media Requirements
+layout: page
+parent: Backup and Recovery
+has_children: false
+permalink: /education/comptia/a-plus/core-two/scripting/backup-and-recovery/media/
+---
+
 # Backup Media Requirements
 
 ## Grandfather-Father-Son (GFS) Scheme 
