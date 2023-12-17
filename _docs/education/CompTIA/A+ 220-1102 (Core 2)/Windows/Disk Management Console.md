@@ -1,4 +1,12 @@
-# Dik Management Console
+---
+title: Disk Management Console
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/disk-management-console/
+---
+
+# Disk Management Console
 
 ## Summary
 

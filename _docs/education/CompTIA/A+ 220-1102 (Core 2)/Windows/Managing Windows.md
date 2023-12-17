@@ -1,3 +1,11 @@
+---
+title: Managing Windows
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/managing-windows/
+---
+
 # CompTIA A+ 220-1102
 
 ## Managing Windows

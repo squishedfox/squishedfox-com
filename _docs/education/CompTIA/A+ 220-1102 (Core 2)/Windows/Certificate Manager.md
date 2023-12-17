@@ -1,3 +1,11 @@
+---
+title: Certificate Manager
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/certificate-manager/
+---
+
 # Certificate Manager
 
 ## Summary

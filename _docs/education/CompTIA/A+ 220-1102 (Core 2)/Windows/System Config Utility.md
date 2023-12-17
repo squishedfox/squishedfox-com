@@ -1,3 +1,11 @@
+---
+title: System Config Utility
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/system-config-utility/
+---
+
 # System Config Utility
 
 ## Summary

@@ -7,7 +7,7 @@ has_children: true
 
 # CompTIA Training
 
-## All trianing provided by whizlabs
+## All training provided by whizlabs
 
 ### Objectives
 

@@ -1,3 +1,11 @@
+---
+title: System Information Tool
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/system-info-tool/
+---
+
 # System Information Tool
 
 ## Summary

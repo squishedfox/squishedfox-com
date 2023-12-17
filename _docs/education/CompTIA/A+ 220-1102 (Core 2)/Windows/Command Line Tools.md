@@ -1,3 +1,11 @@
+---
+title: Command Line Tools
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/cmd-line-tools/
+---
+
 # Command (cmd.exe) Line Tools
 
 ## Objectives

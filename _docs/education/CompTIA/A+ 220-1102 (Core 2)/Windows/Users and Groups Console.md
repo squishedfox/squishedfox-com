@@ -1,3 +1,11 @@
+---
+title: Users and Groups Console
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/users-and-groups-console/
+---
+
 # Users and Groups Console
 
 ## Summary

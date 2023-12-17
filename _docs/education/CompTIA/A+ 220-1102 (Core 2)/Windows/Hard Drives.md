@@ -1,3 +1,11 @@
+---
+title: Hard Drives
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/hard-drives/
+---
+
 Different Components
 ![[Pasted image 20230717102828.png]]
 - Platter

@@ -1,3 +1,11 @@
+---
+title: Task Manager Monitoring
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/task-manager-monitoring/
+---
+
 # Task Manager Monitoring
 
 ## Summary

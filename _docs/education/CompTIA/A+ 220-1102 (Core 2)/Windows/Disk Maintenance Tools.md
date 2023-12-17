@@ -1,3 +1,11 @@
+---
+title: Disk Maintenance Tools
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/disk-maintenance-tools/
+---
+
 # Disk Maintenance Tools
 
 ## Summary

@@ -1,3 +1,11 @@
+---
+title: Group Policy Editor
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/group-policy-editor/
+---
+
 # Group Policy Editor
 
 ## Summary

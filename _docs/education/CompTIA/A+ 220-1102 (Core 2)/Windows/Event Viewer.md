@@ -1,3 +1,11 @@
+---
+title: Event Viewer
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/event-viewer/
+---
+
 # Event Viewer
 
 # Summary

@@ -1,3 +1,12 @@
+---
+title: Registry Editor
+layout: page
+parent: Windows
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows/registry-editor/
+---
+
+
 # Registry Editor
 
 ## Summary
