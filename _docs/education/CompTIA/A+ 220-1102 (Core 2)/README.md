@@ -1,7 +1,8 @@
 ---
 title: CompTIA A+ 220-1102 (Core 2)
-layout: page
+layout: home
 parent: CompTIA
+grand_parent: Education
 has_children: true
 permalink: /education/comptia/a-plus/core-two/
 ---

@@ -3,12 +3,12 @@ title: Information Gathering (Reconnaissance)
 layout: page
 parent: PNPT
 has_children: false
-permalink: /education/tcm-academy/pnpt/files/
+permalink: /education/tcm-academy/pnpt/reconnaissance/
 ---
 
 # Identifying our Target
 
-Need to find targets whom condem in-scope work
+Need to find targets whom condom in-scope work
 
 # Email OSINT (Open Source Intelligence)
 

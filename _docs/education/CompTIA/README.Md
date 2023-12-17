@@ -1,8 +1,9 @@
 ---
 title: CompTIA
-layout: page
+layout: home
 parent: Education
 has_children: true
+permalink: /education/comptia/
 ---
 
 # Summary
