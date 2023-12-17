@@ -1,6 +1,10 @@
-# PNPT
-
-## Installing and Updating Tools
+---
+title: Installing and Updating Tools
+layout: page
+parent: PNPT
+has_children: false
+permalink: /education/tcm-academy/pnpt/tools/
+---
 
 you will need to run these commands with `sudo` as root privledges.
 

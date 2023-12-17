@@ -1,3 +1,11 @@
+---
+title: PNPT
+layout: page
+parent: TCM Academy
+has_children: true
+permalink: /education/tcm-academy/pnpt/
+---
+
 # Practical Ethical Hacking - The Complete Course
 
 ## Why you should not become an Ethical Hacker

@@ -1,6 +1,10 @@
-# PNPT
-
-## Creating, Editing, and Viewing Files
+---
+title: Creating, Editing, and Viewing Files
+layout: page
+parent: PNPT
+has_children: false
+permalink: /education/tcm-academy/pnpt/files/
+---
 
 **common commands**
 

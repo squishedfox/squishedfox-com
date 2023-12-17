@@ -2,7 +2,7 @@
 title: Web
 layout: page
 parent: OSINT
-has_children: true
+has_children: false
 permalink: /education/tcm-academy/osint/web/
 ---
 

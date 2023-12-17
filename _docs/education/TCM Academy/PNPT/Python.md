@@ -1,3 +1,11 @@
+---
+title: Python
+layout: page
+parent: PNPT
+has_children: false
+permalink: /education/tcm-academy/pnpt/python/
+---
+
 # PNPT
 
 ## Python
