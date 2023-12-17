@@ -1,3 +1,11 @@
+---
+title: Snapchat
+layout: page
+parent: OSINT
+has_children: true
+permalink: /education/tcm-academy/osint/snapchat/
+---
+
 # Snapchat OSINT
 
 Provide guides and tools for how to use Snapchat OSINT

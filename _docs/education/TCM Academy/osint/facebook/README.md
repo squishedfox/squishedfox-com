@@ -1,3 +1,11 @@
+---
+title: Facebook
+layout: page
+parent: OSINT
+has_children: true
+permalink: /education/tcm-academy/osint/facebook/
+---
+
 # Facbook OSINT
 
 ## Summary

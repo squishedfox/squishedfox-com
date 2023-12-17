@@ -1,3 +1,11 @@
+---
+title: Wireless
+layout: page
+parent: OSINT
+has_children: true
+permalink: /education/tcm-academy/osint/wireless/
+---
+
 # Wireless OSINT
 
 ## Summary

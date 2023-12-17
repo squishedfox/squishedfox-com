@@ -1,3 +1,11 @@
+---
+title: Twitter
+layout: page
+parent: OSINT
+has_children: true
+permalink: /education/tcm-academy/osint/twitter/
+---
+
 # Twitter OSINT
 
 ## Summary

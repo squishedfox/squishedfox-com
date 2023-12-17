@@ -1,3 +1,11 @@
+---
+title: Web
+layout: page
+parent: OSINT
+has_children: true
+permalink: /education/tcm-academy/osint/web/
+---
+
 # Website OSINT
 
 ## Summary

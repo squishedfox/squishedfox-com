@@ -1,3 +1,11 @@
+---
+title: Instagram
+layout: page
+parent: OSINT
+has_children: true
+permalink: /education/tcm-academy/osint/instagram/
+---
+
 # Instagram OSINT
 
 ## Summary

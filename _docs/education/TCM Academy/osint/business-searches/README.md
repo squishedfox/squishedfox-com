@@ -1,3 +1,11 @@
+---
+title: Business Searches
+layout: page
+parent: OSINT
+has_children: true
+permalink: /education/tcm-academy/osint/business-searches/
+---
+
 # Hunting Businesses
 
 ## Summary

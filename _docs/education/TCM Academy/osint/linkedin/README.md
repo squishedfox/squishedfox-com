@@ -1,3 +1,11 @@
+---
+title: Linkedin
+layout: page
+parent: OSINT
+has_children: true
+permalink: /education/tcm-academy/osint/linkedin/
+---
+
 # Linkedin OSINT
 
 ## Summary

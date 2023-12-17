@@ -1,3 +1,11 @@
+---
+title: Reddit
+layout: page
+parent: OSINT
+has_children: true
+permalink: /education/tcm-academy/osint/report-writing/
+---
+
 # OSINT
 
 ## Report Writing

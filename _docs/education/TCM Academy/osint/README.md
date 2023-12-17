@@ -1,15 +1,23 @@
+---
+title: OSINT
+layout: page
+parent: TCM Academy
+has_children: true
+permalink: /education/tcm-academy/osint/
+---
+
 # Open Source Intelligence (OSINT) Course
 
 ## Summary
 
-Provide ways to invistigate commercial businesses and individuals uses free and open tools on the internet.
+Provide ways to investigate commercial businesses and individuals uses free and open tools on the internet.
 
-All information is passively gained, meaning that it is achieved through simple looking through websites and tools. No penatration testing has been or is being done.
+All information is passively gained, meaning that it is achieved through simple looking through websites and tools. No penetration testing has been or is being done.
 
 ## Resources
 
 - Tracelabs - Helps find missing people through OSINT. All proceeds goes to a good cause.
-- Innocent Lives Foundation - Helps track child preditors and help find missing kids.
+- Innocent Lives Foundation - Helps track child predators and help find missing kids.
 - Alethe Dennis on Twitter
 - https://twitter.com/c_3pjoe
 - https://twitter.com/AletheDenis
@@ -22,7 +30,7 @@ All information is passively gained, meaning that it is achieved through simple 
 |---------| ------------|
 | https://www.google.com/advanced_search | best use for filtering down names and information based on various specific criteria of subject |
 | https://www.google.com/images | Best use for reverse image searching if information is provided |
-| https://privacy.com/ | Use case for providing a credit card and billing information that is not directly tied to any of your financial instituitions |
+| https://privacy.com/ | Use case for providing a credit card and billing information that is not directly tied to any of your financial institutions |
 | https://www.fakenamegenerator.com/ | Best use for creating sock puppet accounts with detailed information that may appear as "real" to outside consumers of it |
 | https://www.thispersondoesnotexist.com/ | Best use for creating an Artificially Generated Image of a person that in real life does not exist but may seem believable to others |
 | https://hunter.io | Best use for reverse engineering contact information in businesses |

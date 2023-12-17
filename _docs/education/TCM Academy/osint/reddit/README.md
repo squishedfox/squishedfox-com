@@ -1,3 +1,11 @@
+---
+title: Reddit
+layout: page
+parent: OSINT
+has_children: true
+permalink: /education/tcm-academy/osint/reddit/
+---
+
 # Summary
 
 Provide a guide and tools for how to use Reddit for OSINT
