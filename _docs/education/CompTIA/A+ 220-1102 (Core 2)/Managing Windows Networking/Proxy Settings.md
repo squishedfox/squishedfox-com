@@ -1,0 +1,1 @@
+Proxies are used as a way to create in-between systems for monitoring-typically. It is a way for System Administrators to route traffic or provide access to resources which should be hidden behind other resources such as firewalls, or network routing. 
