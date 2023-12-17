@@ -1,3 +1,12 @@
+---
+title: Troubleshooting App Issues
+layout: page
+parent: Troubleshoot Mobile Operating System and App Software
+grand_parent: Supporting Mobile Software
+has_children: false
+permalink: /education/comptia/a-plus/core-two/mobile-software-support/troubleshooting/software/apps/
+---
+
 # Troubleshooting App Issues
 
 If a mobile device is having issues running an application

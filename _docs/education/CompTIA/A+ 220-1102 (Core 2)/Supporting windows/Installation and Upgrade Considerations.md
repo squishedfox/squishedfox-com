@@ -1,3 +1,12 @@
+---
+title: Installation and Upgrade Considerations
+layout: page
+parent: Supporting Windows
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/supporting-windows/install-and-upgrade/
+---
+
 # Installation and Upgrade Considerations
 
 ## Clean install or In-place Upgrade

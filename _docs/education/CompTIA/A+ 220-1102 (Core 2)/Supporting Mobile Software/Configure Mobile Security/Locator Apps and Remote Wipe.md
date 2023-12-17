@@ -1,3 +1,12 @@
+---
+title: Locator Apps and Remote Wipe
+layout: page
+parent: Configure Mobile Security
+grand_parent: Supporting Mobile Software
+has_children: false
+permalink: /education/comptia/a-plus/core-two/mobile-software-support/security/remote/
+---
+
 # Locator Apps and Remote Wipe
 
 ## Locator Apps

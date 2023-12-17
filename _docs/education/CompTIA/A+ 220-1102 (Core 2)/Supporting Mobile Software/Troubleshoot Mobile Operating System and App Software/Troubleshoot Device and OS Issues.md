@@ -1,8 +1,17 @@
-# Troubleshoot Deivce and OS Issues
+---
+title: Troubleshoot Device and OS Issues
+layout: page
+parent: Troubleshoot Mobile Operating System and App Software
+grand_parent: Supporting Mobile Software
+has_children: false
+permalink: /education/comptia/a-plus/core-two/mobile-software-support/troubleshooting/software/os/
+---
+
+# Troubleshoot Device and OS Issues
 
 ## OS Fails to Update
 
-1. Us ethe vendor site to verify the update is compatible with the hardware device
+1. Use the vendor site to verify the update is compatible with the hardware device
 2. Make sure the device has a secure internet and power connection to not cause issues while performing the update
 3. restart the device and update
 4. Ensure that the device has enough storage to install the update

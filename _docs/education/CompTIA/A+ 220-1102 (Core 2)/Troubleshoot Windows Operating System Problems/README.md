@@ -1,3 +1,12 @@
+---
+title: Troubleshoot Windows Operating System Problems
+layout: page
+parent: CompTIA A+ 220-1102 (Core 2)
+grand_parent: CompTIA
+has_children: true
+permalink: /education/comptia/a-plus/core-two/windows-operating-system-problems/
+---
+
 # Troubleshoot Windows Operating System Problems
 
 ## Goal

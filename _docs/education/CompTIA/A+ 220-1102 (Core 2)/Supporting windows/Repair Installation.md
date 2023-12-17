@@ -1,3 +1,12 @@
+---
+title: Repair Installation
+layout: page
+parent: Supporting Windows
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/supporting-windows/repair/
+---
+
 # Repair Installation
 
 ## Recovery Partitions

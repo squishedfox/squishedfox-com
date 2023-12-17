@@ -1,3 +1,12 @@
+---
+title: Mobile App Source Security Concerns
+layout: page
+parent: Troubleshoot Mobile Operating System and App Security
+grand_parent: Supporting Mobile Software
+has_children: false
+permalink: /education/comptia/a-plus/core-two/mobile-software-support/troubleshooting/security/
+---
+
 # Mobile App Source Security Concerns
 
 ## App Spoofing

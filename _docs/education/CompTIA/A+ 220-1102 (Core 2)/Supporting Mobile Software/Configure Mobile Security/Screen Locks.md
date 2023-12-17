@@ -1,3 +1,12 @@
+---
+title: Screen Locks
+layout: page
+parent: Configure Mobile Security
+grand_parent: Supporting Mobile Software
+has_children: false
+permalink: /education/comptia/a-plus/core-two/mobile-software-support/security/screen-locks/
+---
+
 # Screen Locks
 
 ## Summary

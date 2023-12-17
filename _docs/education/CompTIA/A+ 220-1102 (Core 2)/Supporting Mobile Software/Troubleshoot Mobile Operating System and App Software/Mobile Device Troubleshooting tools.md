@@ -1,3 +1,12 @@
+---
+title: Mobile Device Troubleshooting Tools
+layout: page
+parent: Troubleshoot Mobile Operating System and App Software
+grand_parent: Supporting Mobile Software
+has_children: false
+permalink: /education/comptia/a-plus/core-two/mobile-software-support/troubleshooting/software/tools/
+---
+
 # Mobile Device Troubleshooting Tools
 
 ## Reboot
