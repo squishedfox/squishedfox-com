@@ -1,3 +1,12 @@
+---
+title: Troubleshoot IP Configuration
+layout: page
+parent: Troubleshooting Windows Networking 
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/troubleshooting-networking/configuration/
+---
+
 - Limited Connectivity - the adapter is set to object an address automatically, but no Dynamic Host Configuration Protocal (DHCP) server can be contacted.
 - No Internet access - This means taht the IP configuration is valid for the local network but that windows cannot identify a working internet connection. windows tests Interet access by attempting a connection to www.msftncsi.com
 

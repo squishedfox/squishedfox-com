@@ -1,3 +1,14 @@
+---
+title: Troubleshoot Local Network Connectivity
+layout: page
+parent: Troubleshooting Windows Networking 
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/troubleshooting-networking/local/
+---
+
+# Troubleshoot Local Network Connectivity
+
 If your local machine is struggling to make connections to services through applications or in general it may be beneficial to see if you can get to local resources on the network but not public resources.
 
 `ping` can be used to access reosurces on any network either by `hostname` or by IP address.
