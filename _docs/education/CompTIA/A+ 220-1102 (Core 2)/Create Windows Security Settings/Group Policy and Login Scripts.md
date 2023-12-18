@@ -1,3 +1,12 @@
+---
+title: Group Policy and Login Scripts
+layout: page
+parent: Create Windows Security Settings
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/windows-security-settings/authentication-methods/
+---
+
 # Group Policy and Login Scripts
 
 ## Group Policy Settings
