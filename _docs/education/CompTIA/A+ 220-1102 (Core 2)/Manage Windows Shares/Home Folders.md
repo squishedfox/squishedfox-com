@@ -1,3 +1,12 @@
+---
+title: Home Folders
+layout: page
+parent: Manage Windows Shares
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/manage-windows-shares/home-folders/
+---
+
 # Home Folders
 
 When a computer or system is connected to a domain they should have their account information stored on a server rather than on a local machine to best ensure auditing and backups. If the user has to access their files from a different computer they will be able to do so, or if they need to completely reset their machine they can easily gain access back to their files on the network after the machine has been restored and the computer has re-joined the domain.

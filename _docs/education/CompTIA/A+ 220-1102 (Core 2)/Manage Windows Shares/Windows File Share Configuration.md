@@ -1,3 +1,14 @@
+---
+title: Windows File Share Configuration
+layout: page
+parent: Manage Windows Shares
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/manage-windows-shares/windows-file-share-configuration/
+---
+
+# Windows File Share Configuration
+
 There are a few ways to share files on a windows system.
 
 To share files locally on the same machine, move the resource to the **Public** folder so that other users may view or modify it

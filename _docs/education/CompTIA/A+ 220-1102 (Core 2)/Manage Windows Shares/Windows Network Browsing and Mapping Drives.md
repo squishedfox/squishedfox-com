@@ -1,3 +1,14 @@
+---
+title:  Windows Network Browsing and Mapping Drives
+layout: page
+parent: Manage Windows Shares
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/manage-windows-shares/network-drives/
+---
+
+# Windows Network Browsing and Mapping Drives
+
 ## Browsing Network Computers
 
 On Microsoft Windows, you can browse network servers or clients that are connected and have resource sharing enabled. You can do this by opening up the Windows Explorer and then Opening the Network Leaf under the Sidebar context. In the Sidebar context you will observe one or many machines listed by their hostname, which can then be also opened up to view any shared resources.
