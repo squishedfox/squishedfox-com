@@ -4,44 +4,9 @@ layout: page
 parent: CompTIA A+ 220-1102 (Core 2)
 grand_parent: CompTIA
 has_children: false
-permalink: /education/comptia/a-plus/core-two/questions/
 ---
 
 # Questions
-
-## Review Activity: Windows User Settings
----
-
-1. You are assisting a home user who wants her spouse to be able to sign in to a new Windows laptop using a Microsoft account. Is this possible, and if so, which management interface is used?
-2. True or false? Under default settings, the user account added during setup is not affected by User Account Control.
-3. A user calls to say that he clicked Yes to a prompt to allow the browser to access the computer’s location service while using a particular site and is now worried about personal information being tracked by other sites. How can the user adjust the app permission in Windows?
-4. You need to assist a user in changing the extension of a file. Assuming default Explorer view settings, what steps must the user take?
-
-## Review Activity: Windows System Settings
----
-
-1. You are assisting a user over the phone and need to identify the edition of Windows that is installed. What step instructions must you give for the user to report this information to you?
-2. While troubleshooting an issue with a graphics card in Windows 10, you discover that the driver version is not up to date. What first step could you perform to install the latest driver?
-3. A Windows user is trying to join a video conference and cannot hear any sound from her headset. Which tool can you suggest using to try to remedy the fault?
-4. You are assisting a laptop user. While the user was away from their desk, the laptop powered off. The user was in the middle of working on a file and forgot to save changes. Can you reassure the user and advise on the best course of action?
-
-## Review Activity: Management Consoles
----
-
-1. You are supporting a user who has installed a vendor keyboard driver. The keyboard no longer functions correctly. Under Windows 10, what are the steps to revert to the previous driver?
-2. You are troubleshooting an issue with a wireless adapter. When you open Device Manager, you find the device's icon is shown with a down arrow superimposed. What does this mean, and why might this configuration have been imposed?
-3. If a single physical disk is divided into three partitions, how many different file systems can be supported?
-4. True or false? The dfrgui.exe utility should be disabled if Windows is installed to an SSD.
-5.  In Windows, what is the difference between the boot partition and the system partition?
-
-## Review Activity: Performance and Troubleshooting Tools
----
-
-1. Identify how to open the tool shown in this exhibit. What single word command can you use to open the tool shown in the exhibit? How can this tool assist with troubleshooting?
-2. You take a support call where the user doesn't understand why a program runs at startup when the Startup folder is empty. What is the likely cause, and how could you verify this?
-3. You are monitoring CPU Usage and notice that it often jumps to 100% and then falls back. Does this indicate a problem?
-4. You have a computer with two SATA disks. You want to evaluate the performance of the primary disk. How would you select this in Performance Monitor, and what might be appropriate counters to use?
-5. You are monitoring system performance and notice that a substantial number of page faults are occurring. Does this indicate that a memory module is faulty?
 
 
 ## Review Activity: Command-line Tools
@@ -54,82 +19,6 @@ Angel brought in the new tablet he just purchased and tried to connect to the co
 3. Is the command format `d: /fs:exfat /q` valid? If so, what is its effect, and what precaution might you need to take before running it?
 4. How do you perform a scan to identify file system errors in read-only mode?
 5. Why might you run the shutdown command with the /t switch?
-
-## Review Activity: OS Types
----
-
-1. Apart from Windows and macOS, what operating system options are there for client PCs installed to a local network?
-2. You are advising a customer with an older-model Android smartphone. The customer wants to update to the latest version of Android, but using the update option results in a "No updates available" message. What type of issue is this, and what advice can you provide?
-3. What feature of modern file systems assists recovery after power outages or OS crash events?
-4. A customer asks whether an iOS app that your company developed will also work on her Apple macOS computer. What issue does this raise, and what answer might you give?
-
-## Windows Editions
----
-
-1. In terms of system hardware, what is the main advantage of a 64-bit version of Windows?
-2. You are advising a business that needs to provision video-editing workstations with 4-way multiprocessing. Which retail Windows edition will allow them to make full use of this hardware?
-3. 
-4. You are advising a customer whose business is expanding. The business owner needs to provision an additional 30 desktop computers, some of which will be installed at a second office location. The business is currently run with a workgroup network of five Windows 7 Home Premium desktop computers and one file server. Why might you suggest licenses for an edition of Windows 10 that supports corporate needs for the new computers and has upgrades for the old computers? Which specific edition(s) could you recommend?'
-
-## Operating System Upgrades
----
-
-1. You are supporting a home user with upgrading a computer from Windows 10 to Windows 11. You have run Microsoft’s PC Health Check tool, and it verifies that the computer meets the hardware requirements. Should you now proceed with the in-place upgrade?
-2. You are writing some work instructions to assist technicians with deploying new user desktops via cloning. What type of installation and boot method is this process most likely to use, and what are the boot requirements?
-3. You are repurposing an old computer. You perform a clean OS install using optical media. During setup, you configured the partition manager to apply GPT style. After the file copy stage, the new installation fails to boot. What is the likely cause?
-
-
-## Review Activity: Applications
----
-
-1. You are writing work instructions for third-party app deployments using the CompTIA A+ objectives to guide you. In the section on system requirements for applications, you have covered the following topics
-
-    - 32-bit- vs. 64-bit-dependent application requirements
-    - Dedicated graphics card vs. integrated (VRAM requirements)
-    - RAM requirements
-    - CPU requirements
-    - External hardware tokens
-
-What additional topic should you include, if any?
-
-2. You have downloaded an installer for a third-party app from the vendor’s website. What should you do before proceeding with setup?
-3. You are writing guidance for departmental managers to request new software installs. You want each manager to consider impacts to the business, operation, network, and devices as part of their request. In terms of impacts to business, you have written guidance to consider support and training requirements. What other topic should you include?
-
-## Review Activity: Windows OS Problems
----
-
-1. A user calls saying that their screen occasionally goes blue, and the system shuts down. What should you advise the user to do?
-2. A program is continually using 99–100% of processor time. What should you do?
-3. You are assisting a user whose application is in the state shown in the exhibit. How would you troubleshoot this problem?
-4. A computer is caught in a reboot loop. It starts, shows a BSoD, and then reboots. What should you do?
-5. If you suspect improper handling during installation has caused damage to a RAM module, how could you test that suspicion?
-
-## Review Activity: Windows Networking
----
-
-1. You are assisting a user with configuring a static IP address. The user has entered the following configuration values and now cannot access the Internet. Is there a configuration issue or a different problem?
-	
-    - IP: 192.168.1.1
-	- Mask: 255.255.255.0
-	- Gateway: 192.168.1.0
-	- DNS: 192.168.1.0
-
-2. You are assisting another user who is trying to configure a static IP on a Windows workstation. The user says that 255.255.255.0 is not being accepted in the prefix length box. Should the user open a different dialog to complete the configuration or enter a different value?
-3. You are supporting a user who has just replaced a wireless router. The user has joined the new wireless network successfully but can no longer find other computers on the network. What should you check first?
-
-## Review Activity: Windows Networking
----
-
-1. A DHCP server has been reconfigured to use a new network address scheme following a network problem. What command would you use to refresh the IP configuration on Windows client workstations?
-2. A computer cannot connect to the network. The machine is configured to obtain a TCP/IP configuration automatically. You use ipconfig to determine the IP address and it returns 0.0.0.0. What does this tell you?
-3. You are pinging a host at 192.168.0.99 from a host at 192.168.0.200. The response is “Reply from 192.168.0.200: Destination host unreachable.” The hosts use the subnet mask 255.255.255.0. Does the ping output indicate a problem with the default gateway?
-4. You are checking that a remote Windows workstation will be able to dial into a web conference with good quality audio/video. What is the best tool to use to measure latency between the workstation’s network and the web conferencing server?
-5. Which command produces the output shown in this screenshot?
-
-![image](https://github.com/squishedfox/security-training/assets/141427007/65d7b473-2e21-4c3a-9fe8-62d82ffa8196)
-
-6. True or false? Windows Defender Firewall cannot be disabled.
-7. You need to set up a VPN connection on a user’s Windows laptop. The VPN type is IKEv2. What other information, if any, do you need to configure the connection?
 
 ## Review Activity: Windows Security Settings
 ---
