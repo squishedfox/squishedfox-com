@@ -11,7 +11,7 @@ permalink: /education/comptia/a-plus/core-two/windows-security-settings/
 
 ## Objectives
 
-1.2 Given a scneario, use the appropriate Microsoft command-line tool
+1.2 Given a scenario, use the appropriate Microsoft command-line tool
 2.1 Summarize various security measures and their purposes
 2.5 Given a scenario, manage and configure basic security settings in the Microsoft Windows Operation System (OS)
 
