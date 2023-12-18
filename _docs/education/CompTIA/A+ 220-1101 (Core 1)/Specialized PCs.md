@@ -1,31 +1,34 @@
 ---
-title: Specialized PCs 
-layout: subarticle
-permalink: /comptia-a-plus/specialized-pcs/
-parent: CompTIA A+ 220-1101
+title: Specialized PCs
+layout: page
+parent: CompTIA A+ 220-1101 (Core 1)
+grand_parent: CompTIA
 has_children: false
+permalink: /education/comptia/a-plus/core-one/specialized-pcs/
 ---
 
-# Thin Clients
+# Specialized PCs
+
+## Thin Clients
 
 - Bare bons CPU
 - Flash memory
 - Basic Operating System
 - Usually requires an active connection to some sort of internal or external network
 
-# Virtual Workstation
+## Virtual Workstation
 
 - Allows machines to run an Operating System in an Operating Systems
 - Guest Sistems
 
-# Gaming PCs
+## Gaming PCs
 
 - Requires high end graphics cards
 - Multi core CPU
 - Sound Card
 - High end cooling System
 
-# Design Workstation
+## Design Workstation
 
 - Multicore processor
 - High-end monitor
@@ -33,7 +36,7 @@ has_children: false
 - Very Large Amounts fo RAM
 - Lots of system Storage
 
-# Network Attached Storage Devices
+## Network Attached Storage Devices
 
 - For the network storage
 - NAS has to have a very fast network connection

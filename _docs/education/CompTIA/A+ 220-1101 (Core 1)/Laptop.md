@@ -1,30 +1,33 @@
 ---
 title: Laptops
-layout: subarticle
-permalink: /comptia-a-plus/laptops/
-parent: CompTIA A+ 220-1101
+layout: page
+parent: CompTIA A+ 220-1101 (Core 1)
+grand_parent: CompTIA
 has_children: false
+permalink: /education/comptia/a-plus/core-one/laptops/
 ---
 
-# Keyboards
+# Laptops
+
+## Keyboards
 
 - Typically have a FN key to provide additional functions on a-perkey baseis
 
-# Touchpads
+## Touchpads
 
 
-# Webcams and Microphones
+## Webcams and Microphones
 
 - Usually low quality
 - Typically built in
 - Can't be replaced
 
-# Display Types
+## Display Types
 
 - Backlight inviter
 - most LCD/LED screens use twisted nematic (TN) technology
 
-# Ports
+## Ports
 
 - Laptops can come with various ports based on manufacture
   - HDMI
@@ -33,25 +36,25 @@ has_children: false
   - HDMI-mini
   - thunderbolt
  
-# Wifi/Radio
+## Wifi/Radio
 
 - Bluetooth built in typically
 - Wireless Card Built in
 
-# Extensions
+## Extensions
 
 - Docking stations
 - Port extensions
 - Small devices which can extend functionality such as wifi, bluetooth, keyboard, or mouse support.
 
-# Batteries
+## Batteries
 
 - Built into the laptop
 - In many systems they are not replacable
 - Typically only keep it charged at 70 - 80 percent
 - Limited number of charge cycles
 
-# Power Management
+## Power Management
 
 - Different components may require more power than others
 - Displays, CPUs, and GPUs require the most power
@@ -60,13 +63,13 @@ has_children: false
 - Suspend
 - With sleeping/hybernation the system writes the RAM to an HDD and powered down
 
-# Security
+## Security
 
 - Can physically lock
 - Software tracking
 - Biometric or USB Keys
 
-# General Care
+## General Care
 
 - Cleaning
 - Cooling
@@ -75,7 +78,7 @@ has_children: false
 - Power Supplies
 - Travel
 
-# Repair and Disassembly Process
+## Repair and Disassembly Process
 
 - Document and label cable and screw locations
 - Organize parts

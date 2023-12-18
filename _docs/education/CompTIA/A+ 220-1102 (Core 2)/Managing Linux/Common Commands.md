@@ -4,7 +4,7 @@ layout: page
 parent: Manage Linux
 grand_parent: CompTIA A+ 220-1102 (Core 2)
 has_children: false
-permalink: /education/comptia/a-plus/core-two/manage-linux/cmd-line-interface/
+permalink: /education/comptia/a-plus/core-two/manage-linux/common-commands/
 ---
 
 # Common Linux Commands

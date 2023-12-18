@@ -1,9 +1,10 @@
 ---
 title: Firmware
-layout: subarticle
-permalink: /comptia-a-plus/firmware/
-parent: CompTIA A+ 220-1101
+layout: page
+parent: CompTIA A+ 220-1101 (Core 1)
+grand_parent: CompTIA
 has_children: false
+permalink: /education/comptia/a-plus/core-one/firmware/
 ---
 
 -  controls low level software that controls specific hardware

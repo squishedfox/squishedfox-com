@@ -1,33 +1,36 @@
 ---
 title: Peripherals
-layout: subarticle
-permalink: /comptia-a-plus/peripherals/
-parent: CompTIA A+ 220-1101
+layout: page
+parent: CompTIA A+ 220-1101 (Core 1)
+grand_parent: CompTIA
 has_children: false
+permalink: /education/comptia/a-plus/core-one/peripherals/
 ---
 
-# Ports
+# Peripherals
+
+## Ports
 
 - Serial Ports
 - USB root hub connects to the controller and to the devices which are called the USB bus
 - A single host controller supports up to 127 USB devices
 
-# USB
+## USB
 
-## USB Type-C
+#### USB Type-C
 
 - Uses 24 Pins, can be inserted in either oreintation and fully supports USB 3.1
 - Also supports other busses such as Thunderbolt, display and power
 - USB Type-C is quickly replacing Micro-USB
 - Numerous manufactures make USB A to B adapeters
 
-# Troubleshooting
+## Troubleshooting
 
 - Operating systems typically come with USB drivers. Check drivers.
 - Mismatch between required power and provided power.
 - Some USB devices can sleep and won't wake back up by default.
 
-# Thunderbolt
+## Thunderbolt
 
 - Developed by Intel and Apple
 - USB 2.0, for data, video, and audio
@@ -36,7 +39,7 @@ has_children: false
 - Thunderbolt chains can go to 3 devices and 60 meters
 - Speeds: 10, 20, 40, Gbps
 
-# Common Peripherals
+## Common Peripherals
 
 - Keyboards
 - Mouse

@@ -1,8 +1,10 @@
 ---
-title: CompTIA A+ 220-1101
-layout: subarticle
-permalink: /comptia-a-plus/
+title: CompTIA A+ 220-1101 (Core 1)
+layout: home
+parent: CompTIA
+grand_parent: Education
 has_children: true
+permalink: /education/comptia/a-plus/core-one/
 ---
 
 # CompTIA Training

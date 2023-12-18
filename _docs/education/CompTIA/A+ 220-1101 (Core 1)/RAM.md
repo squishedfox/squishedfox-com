@@ -1,30 +1,32 @@
 ---
-title: Networking
-layout: subarticle
-permalink: /comptia-a-plus/ram/
-parent: CompTIA A+ 220-1101
+title: RAM
+layout: page
+parent: CompTIA A+ 220-1101 (Core 1)
+grand_parent: CompTIA
 has_children: false
+permalink: /education/comptia/a-plus/core-one/ram/
 ---
+# RAM
 
 - used by CPU as temporary storage
 - Increased performance beyond hard drives
 - Applications are loaded and ran from RAM
 - RAM can be scoped by 32-bit and 64-bit systems
 
-# Synchronous SDRAM 
+## Synchronous SDRAM 
 
 - Started as a dual inline memory module (DIMM)
 - Most common pin sizes on desktops were 168-pin
 - Each slot on a Memory board is called a "bank"
 - Tied to the system clock and must match the front side bus, 66, 75, 83, 100
 
-# RDRAM
+## RDRAM
 
 - A stick of RDRAM was called RIMM
 - Very Expensive
 - Intel Replaced with RAM which was just DRAM
 
-# DDR3
+## DDR3
 
 - Faster speeds
 - Better support for mobile devices like laptops
@@ -32,7 +34,7 @@ has_children: false
 - DDR3L/DDR3U are low voltage for servers
 - Some motherboards supported tripple channel architecture or quad-channel architectures for DDR3
 
-# DDR4
+## DDR4
 
 - Release for public consumption since 2014
 - Lower voltage than DDR3
@@ -40,7 +42,7 @@ has_children: false
 - DIMMS running DDR4 top out at 64 GB, compared to 16GB max of DDR3
 - DDR4 uses 288-pin
 
-# Working with RAM
+## Working with RAM
 
 - System share sluggish or the HDD usage is high
 - Troubleshooting

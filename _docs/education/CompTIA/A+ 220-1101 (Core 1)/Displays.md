@@ -1,10 +1,13 @@
 ---
 title: Displays
 layout: page
-permalink: /comptia-a-plus/displays/
-parent: CompTIA A+ 220-1101
+parent: CompTIA A+ 220-1101 (Core 1)
+grand_parent: CompTIA
 has_children: false
+permalink: /education/comptia/a-plus/core-one/displays/
 ---
+
+# Displays
 
 - three main categories of monitors
   - Laptop Monitors

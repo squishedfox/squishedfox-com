@@ -1,9 +1,10 @@
 ---
 title: Motherboards
-layout: subarticle
-permalink: /comptia-a-plus/motherboards/
-parent: CompTIA A+ 220-1101
+layout: page
+parent: CompTIA A+ 220-1101 (Core 1)
+grand_parent: CompTIA
 has_children: false
+permalink: /education/comptia/a-plus/core-one/motherboards/
 ---
 
 - Largest component in terms of the size of the computer

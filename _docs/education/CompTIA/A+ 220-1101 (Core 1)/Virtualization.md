@@ -1,12 +1,15 @@
 ---
 title: Virtualization 
-layout: subarticle
-permalink: /comptia-a-plus/virtualization/
-parent: CompTIA A+ 220-1101
+layout: page
+parent: CompTIA A+ 220-1101 (Core 1)
+grand_parent: CompTIA
 has_children: false
+permalink: /education/comptia/a-plus/core-one/virtualization/
 ---
 
-Host machines contains multiple virtual computers on a single machine. This machine requires a system called a "hypervisor" which runs between the hardward and the virutal hardware and amchines.
+# Virtualization
+
+Host machines contains multiple virtual computers on a single machine. This machine requires a system called a "hypervisor" which runs between the hardware and the virtual hardware and machines.
 - Virtual Machines are granted permissions to certain system resources such as CPU, RAM, disk, Network Cards, GPU, etc.
 
 # Benefits
@@ -20,13 +23,13 @@ Host machines contains multiple virtual computers on a single machine. This mach
 
 # Emulators vs Virtualization
 
-Hypervisors pass core host machine resources to the virutal machine
+Hypervisors pass core host machine resources to the virtual machine
 Emulators simulate both hardware and software
 
 # Network Requirements
 
 - Internal Networking: Only aces to other Virtual Machines
-- Bridge Networking: Way to get a VM conneceted to the internet
+- Bridge Networking: Way to get a VM connected to the internet
 - Virtual Switch: Hypervisors have built in
 - Air Gap: No network access
 
@@ -63,7 +66,7 @@ Emulators simulate both hardware and software
 
 # Public Cloud
 
-- Avaialble to the general public by a service provider who hosts the cloud infrastructure.
+- Available to the general public by a service provider who hosts the cloud infrastructure.
 - Private: Cloud is a cloud infrastructure dedicated to a particular organization.
-- Community cloud is a a multi-tenant cloud service model taht is shared among several organizations.
+- Community cloud is a a multi-tenant cloud service model that is shared among several organizations.
 - Hybrid: clouds are a composition of two or more clouds (private, community, or public) that remain unique entities.

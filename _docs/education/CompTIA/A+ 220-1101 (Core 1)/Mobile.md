@@ -1,9 +1,10 @@
 ---
 title: Mobile Devices
-layout: subarticle
-permalink: /comptia-a-plus/mobile/
-parent: CompTIA A+ 220-1101
+layout: page
+parent: CompTIA A+ 220-1101 (Core 1)
+grand_parent: CompTIA
 has_children: false
+permalink: /education/comptia/a-plus/core-one/mobile/
 ---
 
 - Small and can be moved with you
@@ -12,7 +13,7 @@ has_children: false
 
 # General vs. Purpose built
 
-- General purpose devices are loaded with a Kernal system that can be transformed into a fully usable Operting System
+- General purpose devices are loaded with a Kernel system that can be transformed into a fully usable Operating System
 - Purpose built is specific towards a single usage such as reading, calculating, tracking, transmitting, etc.
 
 # Smartphones
@@ -35,7 +36,7 @@ has_children: false
 
 # Virtual Reality Headsets
 
-- Provide ability to engage in augmented and virutal reality
+- Provide ability to engage in augmented and virtual reality
 
 # Hardware
 
