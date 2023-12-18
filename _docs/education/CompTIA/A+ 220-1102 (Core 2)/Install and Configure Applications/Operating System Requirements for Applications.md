@@ -1,8 +1,17 @@
+---
+title: Operating System (OS) Requirements for Applications
+layout: page
+parent: Install and Configure Applications
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/applications/os-requirements/
+---
+
 # Operating System (OS) Requirements for Applications
 
 ## Summary
 
-Some Applications have different distributables based on a Linux Distribution, a Windows Version, or a MacOS Version. The application installation and runtime will depend on the Operating System you are utalizing. 
+Some Applications have different distributable based on a Linux Distribution, a Windows Version, or a MacOS Version. The application installation and runtime will depend on the Operating System you are utilizing. 
 
 ### Linux
 
@@ -14,4 +23,4 @@ MacOS has installation packages with the extension *.dmg which are downloaded on
 
 ### Microsoft Windows
 
-Microsoft Windows has a few different ways in which software is distributed and installed. The first is the traditional *.exe files which are archived folders that contain scripts and files to be extracted onto the local file system and executated as necessary. Later on in the 64-bit verion of windows they moved to the *.msi installer which had a different type of format for installing and made packages smaller and easier to distribute. 
+Microsoft Windows has a few different ways in which software is distributed and installed. The first is the traditional *.exe files which are archived folders that contain scripts and files to be extracted onto the local file system and executed as necessary. Later on in the 64-bit version of windows they moved to the *.msi installer which had a different type of format for installing and made packages smaller and easier to distribute. 
