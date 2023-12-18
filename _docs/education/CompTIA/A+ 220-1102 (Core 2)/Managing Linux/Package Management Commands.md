@@ -1,3 +1,12 @@
+---
+title: Package Management Commands
+layout: page
+parent: Manage Linux
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/manage-linux/package-management-commands/
+---
+
 # Package Management Commands
 
 In Linux systems there are several ways to manage applications and executables on the system, and different ways the installation can take place.
@@ -31,4 +40,4 @@ The `apt-get` command is used for interfacing with APT.
 
 ## Antivirus
 
-Linux may provide a higher barrier for virus development and intrution but does not make it impossible. The way the system has been developed such that it requires very specific permissions on objects, has many different distrobutions which install software at various location, varoius package managers, etc. 
+Linux may provide a higher barrier for virus development and intrusion but does not make it impossible. The way the system has been developed such that it requires very specific permissions on objects, has many different distributions which install software at various location, various package managers, etc. 

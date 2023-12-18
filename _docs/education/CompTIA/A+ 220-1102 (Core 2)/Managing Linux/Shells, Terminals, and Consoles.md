@@ -1,8 +1,17 @@
+---
+title: Shells Terminals and Consoles
+layout: page
+parent: Manage Linux
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/manage-linux/shells-terminals-and-consoles/
+---
+
 # Shells Terminals and Consoles
 
 ## Shells and Terminals
 
-The linux shell provides a basic text interface for a user with an optical input such as a keyboard to interact with the Operating System and it's mounted or installed applications. Most linux Operating Systems, than not, are distributed with only the command line interface rather than the Graphical User Interface (Desktops) many users are acustomed to.
+The linux shell provides a basic text interface for a user with an optical input such as a keyboard to interact with the Operating System and it's mounted or installed applications. Most linux Operating Systems, than not, are distributed with only the command line interface rather than the Graphical User Interface (Desktops) many users are accustomed to.
 
 ## Desktop Environments
 

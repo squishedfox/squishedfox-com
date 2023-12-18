@@ -1,9 +1,18 @@
+---
+title: File Permissions and Commands
+layout: page
+parent: Manage Linux
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/manage-linux/file-permissions/
+---
+
 # File Permissions and Commands
 
 ## Flags
 
 - Read (r) provides the ability to read files or an entire directory
-- Write (w) provides thea bility to modify or delete a resource on the system.
+- Write (w) provides thea ability to modify or delete a resource on the system.
 - Execute (x) gives permission to run an executable file or script
 
 ## CHMOD

@@ -1,12 +1,21 @@
+---
+title: Command-Line Interface
+layout: page
+parent: Manage Linux
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/manage-linux/cmd-line-interface/
+---
+
 # Command Line Interface
 
 ## Entering in commands
 
-Linux commands are often entered into the system in the format of `command <options> <actions>` for example `mv /Users/squishedfox/Applications/AnApplication ./Users/squishedfox/Applications/deprecated/Anapplication` which moves a fild or directory from the first argument to the second argument. Another example would be listing files or directories with the `ls` command with additional arguments like `ls -l .` which will print out to the terminal all of the files and folders in the current directory and output them in a list format using the `-l` flag.
+Linux commands are often entered into the system in the format of `command <options> <actions>` for example `mv /Users/USERNAME/Applications/AnApplication ./Users/USERNAME/Applications/deprecated/Application` which moves a file or directory from the first argument to the second argument. Another example would be listing files or directories with the `ls` command with additional arguments like `ls -l .` which will print out to the terminal all of the files and folders in the current directory and output them in a list format using the `-l` flag.
 
-## Case sensativity
+## Case sensitivity
 
-Case sensativity matters for commands that have been entered into the terminal. Case sensativity matters when typing in commands or using switches as you may receive different results based on the input into the terminal.
+Case sensitivity matters for commands that have been entered into the terminal. Case sensitivity matters when typing in commands or using switches as you may receive different results based on the input into the terminal.
 
 ## File Editors
 
