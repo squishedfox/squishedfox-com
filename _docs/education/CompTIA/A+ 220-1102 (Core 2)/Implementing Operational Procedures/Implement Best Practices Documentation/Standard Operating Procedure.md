@@ -1,3 +1,12 @@
+---
+title: Standard Operating Procedure
+layout: page
+parent: Implement Best Practices Documentation
+grand_parent: Implementing Operational Procedures
+has_children: false
+permalink: /education/comptia/a-plus/core-two/implementing-operational-procedures/best-practices/procedures/
+---
+
 # Standard Operating Procedure
 
 ## Standard Operating Policy (SOP)

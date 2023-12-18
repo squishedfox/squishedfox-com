@@ -1,8 +1,17 @@
+---
+title: Ticket Management
+layout: page
+parent: Implement Best Practices Documentation
+grand_parent: Implementing Operational Procedures
+has_children: false
+permalink: /education/comptia/a-plus/core-two/implementing-operational-procedures/best-practices/ticket-management/
+---
+
 # Ticket Management
 
 ## Summary
 
-Tickets must be triaged and appached to understand the severity and priority of which it shouuld be resolved. Higher priority is given to issues which may be effecting larger amounts of users or products, these are called Escalation Levels.
+Tickets must be triaged to understand the severity and priority of which it should be resolved. Higher priority is given to issues which may be effecting larger amounts of users or products, these are called Escalation Levels.
 
 ## Communication
 

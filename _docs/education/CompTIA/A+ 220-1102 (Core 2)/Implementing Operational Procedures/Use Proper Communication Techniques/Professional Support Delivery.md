@@ -1,3 +1,12 @@
+---
+title: Professional Support Delivery
+layout: page
+parent: Use Proper Communication Techniques
+grand_parent: Implementing Operational Procedures
+has_children: false
+permalink: /education/comptia/a-plus/core-two/implementing-operational-procedures/communication/support-delivery/
+---
+
 # Professional Support Delivery
 
 ## Be On Time
