@@ -1,4 +1,13 @@
-# Configureing SOHO (Small Office, Home Office) Network Security
+---
+title: Configuring SOHO (Small Office, Home Office) Network Security
+layout: page
+parent: CompTIA A+ 220-1102 (Core 2)
+grand_parent: CompTIA
+has_children: true
+permalink: /education/comptia/a-plus/core-two/soho/
+---
+
+# Configuring SOHO (Small Office, Home Office) Network Security
 
 ## LESSON INTRODUCTION
 

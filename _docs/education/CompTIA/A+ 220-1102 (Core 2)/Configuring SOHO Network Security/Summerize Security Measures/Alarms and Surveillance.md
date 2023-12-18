@@ -1,3 +1,12 @@
+---
+title: Alarms and Surveillance
+layout: page
+parent: Summarize Security Measures
+grand_parent: Configuring SOHO (Small Office, Home Office) Network Security
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/security-measures/alarms/
+---
+
 # Alarms and Surveillance
 
 These devices are used to monitor areas with sophisticated technologies that can silently or actively alert staff.

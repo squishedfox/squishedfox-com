@@ -1,3 +1,12 @@
+---
+title: Phishing and Evil Twins
+layout: page
+parent: Configuring SOHO (Small Office, Home Office) Network Security
+grand_parent: Explain Attacks, Threats, and Vulnerabilities
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/threats/phishing/
+---
+
 # Phishing and Evil Twins
 
 ## Phishing 

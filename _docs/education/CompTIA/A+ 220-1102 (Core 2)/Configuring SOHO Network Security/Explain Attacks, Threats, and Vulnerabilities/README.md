@@ -1,3 +1,12 @@
+---
+title: Explain Attacks, Threats, and Vulnerabilities
+layout: home
+parent: Configuring SOHO (Small Office, Home Office) Network Security
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: true
+permalink: /education/comptia/a-plus/core-two/soho/threats/
+---
+
 # Explain Attacks, Threats, and Vulnerabilities
 
 ## CORE 2 EXAM OBJECTIVES COVERED

@@ -1,3 +1,12 @@
+---
+title: Home Router LAN and WLAN Configuration
+layout: page
+parent: Configure SOHO Router Security
+grand_parent: Configuring SOHO (Small Office, Home Office) Network Security
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/router-security/lan-and-wlan/
+---
+
 # Home Router LAN and WLAN Configuration
 
 ## Summary

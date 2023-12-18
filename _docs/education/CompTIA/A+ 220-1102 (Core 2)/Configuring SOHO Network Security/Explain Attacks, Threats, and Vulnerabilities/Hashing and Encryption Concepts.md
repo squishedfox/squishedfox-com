@@ -1,3 +1,12 @@
+---
+title: Hashing and Encryption Concepts
+layout: page
+parent: Configuring SOHO (Small Office, Home Office) Network Security
+grand_parent: Explain Attacks, Threats, and Vulnerabilities
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/threats/hashing/
+---
+
 # Hashing and Encryption Concepts
 
 Sensitive data is encrypted with ciphers and sent to other systems via networks. This data in-theory can only be decrypted by systems or users whom posess the correct decryption keys. There are also concepts called one-way-hashes which will hash a piece of data-typically with a salt hash as well-and then never be decrypted or read as plaintext ever again.

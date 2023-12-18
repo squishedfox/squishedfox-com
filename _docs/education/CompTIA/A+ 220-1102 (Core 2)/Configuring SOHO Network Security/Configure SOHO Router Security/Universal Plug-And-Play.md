@@ -1,3 +1,12 @@
+---
+title: Universal Plug-and-Play (UPnP)
+layout: page
+parent: Configure SOHO Router Security
+grand_parent: Configuring SOHO (Small Office, Home Office) Network Security
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/router-security/upnp/
+---
+
 # Universal Plug-and-Play (UPnP)
 
 ## Summary

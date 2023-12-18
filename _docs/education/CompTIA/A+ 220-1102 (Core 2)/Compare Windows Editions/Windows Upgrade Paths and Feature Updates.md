@@ -1,3 +1,12 @@
+---
+title: Windows Upgrade Paths and Feature Updates
+layout: page
+parent: Compare Windows Editions
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: false
+permalink: /education/comptia/a-plus/core-two/compare-windows/upgrade-paths/
+---
+
 # Windows Upgrade Paths and Feature Updates
 
 ## Upgrade Paths

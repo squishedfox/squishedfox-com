@@ -1,3 +1,12 @@
+---
+title: Summarize Security Measures
+layout: home
+parent: Configuring SOHO (Small Office, Home Office) Network Security
+grand_parent: CompTIA A+ 220-1102 (Core 2)
+has_children: true
+permalink: /education/comptia/a-plus/core-two/soho/security-measures/
+---
+
 # Summarize Security Measures
 
 ## Objectives

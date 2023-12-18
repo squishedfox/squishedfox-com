@@ -1,3 +1,12 @@
+---
+title: Threat Types
+layout: page
+parent: Configuring SOHO (Small Office, Home Office) Network Security
+grand_parent: Explain Attacks, Threats, and Vulnerabilities
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/threats/types/
+---
+
 # Threat Types
 
 ## External versus Internal Threats

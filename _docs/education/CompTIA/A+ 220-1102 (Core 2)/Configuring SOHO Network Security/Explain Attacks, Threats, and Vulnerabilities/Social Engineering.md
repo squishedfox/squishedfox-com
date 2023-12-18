@@ -1,3 +1,12 @@
+---
+title: Social Engineering
+layout: page
+parent: Configuring SOHO (Small Office, Home Office) Network Security
+grand_parent: Explain Attacks, Threats, and Vulnerabilities
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/threats/social-engineering/
+---
+
 # Social Engineering
 
 Social engineering is the practice of gaining access to systems through strategies of persuasion to gain access to a system or to get pieces of knowledge about people or system access. They can tell an attacker where to go next as parts of clues.

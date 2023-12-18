@@ -1,3 +1,12 @@
+---
+title: Enterprise Authentication Protocols
+layout: page
+parent: Compare Wireless Security Protocols
+grand_parent: Configuring SOHO (Small Office, Home Office) Network Security
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/wireless-security-protocols/enterprise/
+---
+
 # Enterprise Authentication Protocols
 
 ## Summary

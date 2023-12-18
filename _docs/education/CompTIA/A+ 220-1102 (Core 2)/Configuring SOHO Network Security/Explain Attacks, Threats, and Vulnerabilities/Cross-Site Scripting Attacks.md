@@ -1,3 +1,12 @@
+---
+title: Cross Site Scripting Attacks 
+layout: page
+parent: Configuring SOHO (Small Office, Home Office) Network Security
+grand_parent: Explain Attacks, Threats, and Vulnerabilities
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/threats/xss/
+---
+
 # Cross Site Scripting Attacks
 
 Cross Site Scripting is a way of embedding what might look like trusted scripts from a source which the user may frequently visit. The steps below are what it may look like for an attacker to exploit a Cross Site Scripting (XSS) Vulnterability.

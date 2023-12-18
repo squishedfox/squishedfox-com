@@ -1,3 +1,12 @@
+---
+title: Vulnerabilities
+layout: page
+parent: Configuring SOHO (Small Office, Home Office) Network Security
+grand_parent: Explain Attacks, Threats, and Vulnerabilities
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/threats/vulnerabilities/
+---
+
 # Vulnerabilities
 
 Some fault or weakness than can be exploited by a threat actor. Vulnerabilities can be exploits found by good or bad actors, which can appear from poor design in software design and programming, system failures, social engineering, or workarounds.

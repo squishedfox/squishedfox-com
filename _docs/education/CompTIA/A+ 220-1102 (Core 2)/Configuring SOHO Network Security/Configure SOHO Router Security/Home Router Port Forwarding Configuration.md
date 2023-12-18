@@ -1,3 +1,12 @@
+---
+title: Home Router Port Forwarding Configuration
+layout: page
+parent: Configure SOHO Router Security
+grand_parent: Configuring SOHO (Small Office, Home Office) Network Security
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/router-security/port-forwarding/
+---
+
 # Home Router Port Forwarding Configuration
 
 Like firewalls a Port Forwarding Configuration and be used to filter or redirect traffic to different ports on a system.

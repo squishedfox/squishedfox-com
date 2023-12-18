@@ -1,3 +1,12 @@
+---
+title: Physical Access Control
+layout: page
+parent: Summarize Security Measures
+grand_parent: Configuring SOHO (Small Office, Home Office) Network Security
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/security-measures/physical-access-control/
+---
+
 # Physical Access Control
 
 ## Perimeter Security

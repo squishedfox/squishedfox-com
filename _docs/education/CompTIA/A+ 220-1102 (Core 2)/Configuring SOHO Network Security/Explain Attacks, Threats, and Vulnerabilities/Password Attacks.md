@@ -1,3 +1,12 @@
+---
+title: Password Attacks
+layout: page
+parent: Configuring SOHO (Small Office, Home Office) Network Security
+grand_parent: Explain Attacks, Threats, and Vulnerabilities
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/threats/password-attacks/
+---
+
 # Password Attacks
 
 Password attacks can come in a few different forms. A threat actor has captured a data dump directly from gaining access to a database, credential store such as Active Directory, or possibly from an online data dump of information, or even by listening in on unencrypted traffic.

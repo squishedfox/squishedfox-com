@@ -1,3 +1,12 @@
+---
+title: Wi-Fi Protected Access
+layout: page
+parent: Compare Wireless Security Protocols
+grand_parent: Configuring SOHO (Small Office, Home Office) Network Security
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/wireless-security-protocols/wifi-protected-access/
+---
+
 # Wi-Fi Protected Access
 
 ## Summary

@@ -1,3 +1,12 @@
+---
+title: Radius, TACACS+, and Kerberos
+layout: page
+parent: Compare Wireless Security Protocols
+grand_parent: Configuring SOHO (Small Office, Home Office) Network Security
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/wireless-security-protocols/radius-tacacs-kerberos/
+---
+
 # Radius, TACACS+, and Kerberos
 
 ## Radius

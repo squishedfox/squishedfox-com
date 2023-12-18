@@ -1,3 +1,12 @@
+---
+title: Home Router Firewall Configuration
+layout: page
+parent: Configure SOHO Router Security
+grand_parent: Configuring SOHO (Small Office, Home Office) Network Security
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/router-security/firewalls/
+---
+
 # Home Router Firewall Configuration
 
 Home routers can configure firewall settings to allow, block, or redirect traffic to specific ports or IP address.

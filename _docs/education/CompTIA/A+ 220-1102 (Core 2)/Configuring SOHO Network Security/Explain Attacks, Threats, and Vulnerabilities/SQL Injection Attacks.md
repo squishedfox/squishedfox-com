@@ -1,3 +1,12 @@
+---
+title: SQL Injection Attacks
+layout: page
+parent: Configuring SOHO (Small Office, Home Office) Network Security
+grand_parent: Explain Attacks, Threats, and Vulnerabilities
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/threats/sql-injection/
+---
+
 # SQL Injection Attacks
 
 A web application is likely to use Structured Query Language (SQL) to read/write to a data store.

@@ -1,3 +1,12 @@
+---
+title: Digital Signatures and Key Exchange
+layout: page
+parent: Configuring SOHO (Small Office, Home Office) Network Security
+grand_parent: Explain Attacks, Threats, and Vulnerabilities
+has_children: false
+permalink: /education/comptia/a-plus/core-two/soho/threats/certificates/
+---
+
 # Digital Signatures and Key Exchange
 
 ## Digital Signatures
