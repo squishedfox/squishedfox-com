@@ -1,8 +1,22 @@
-<h2>{{ question.title }}</h2>
+---
+layout: page
+---
+{{ content | markdownify  }}
 
-{% for question in questions %}
+<h2>{{ page.title }}</h2>
+
+{% for question in page.questions %}
+    <div style="font-weight: 500;">
+        {{ question.question | markdownify }}
+    </div>
+    {% if question.image %}
+        <img src="{{ question.image }}" alt="{{ question.question }}" />
+    {% endif %}
     <details>
-        <summary>{{ question.question }}</summary>
-        {{ question.answer | markdownify }}
+        <summary>Click to show answer</summary>
+        <div>
+            {{ question.answer | markdownify }}
+        </div>
     </details>
+    <hr />
 {% endfor %}
