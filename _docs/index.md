@@ -3,6 +3,7 @@ title: Home
 layout: home
 permalink: /
 has_children: false
+nav_order: 1
 ---
 
 # Home
