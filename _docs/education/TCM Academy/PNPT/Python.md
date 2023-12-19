@@ -2,15 +2,14 @@
 title: Python
 layout: page
 parent: PNPT
+grand_parent: TCM Academy
 has_children: false
 permalink: /education/tcm-academy/pnpt/python/
 ---
 
-# PNPT
+# Python
 
-## Python
-
-### Strings
+## Strings
 
 Strings can be wrapped with single quotes ' 
 
@@ -36,7 +35,7 @@ World
 """
 ```
 
-### Expressions
+## Expressions
 
 ```python
 #!/bin/python3
@@ -49,7 +48,7 @@ print (2 <= 2)  # prints True
 print (1 != 2)  # prints True
 ```
 
-### and or
+## and or
 
 ```python
 #!/bin/python3
@@ -61,7 +60,7 @@ print (False or False)  # prints False
 print (False or True)  # prints True
 ```
 
-### For loop
+## For loop
 
 ```python
 #!/bin/python3
@@ -70,7 +69,7 @@ for i in range(0, 10): # loop from 0 to 9
 # will print 0 1 2 3 4 5 6 7 8 9
 ```
 
-### while loop
+## while loop
 
 ```python
 #!/bin/python3
@@ -81,7 +80,7 @@ while i > 0:
 # will print 10 9 8 7 6 5 4 3 2 1
 ```
 
-### If and if-else statements
+## If and if-else statements
 
 ```python
 #!/bin/python3
@@ -103,7 +102,7 @@ if a_var > 10:
 # will print "Hello world" because there are multiple if statments that are true here
 ```
 
-### Tuples
+## Tuples
 
 ```python
 #!/bin/python3
@@ -125,7 +124,7 @@ for name in a_few_names:
   # will print mike
 ```
 
-### Dictionaries
+## Dictionaries
 
 ```python
 #!/bin/python3
@@ -138,7 +137,7 @@ a_dict_object = {
 print (a_dict_object)
 ```
 
-### Lists
+## Lists
 
 ```python
 #!/bin/python3
@@ -147,7 +146,7 @@ a_string_list: list[str] = ["steve", "mike", "chris"]
 a_tuple_list: list[tuple] = [("steve", "mike", "chris"), (22,23,24)]
 ```
 
-### Functions and Methods
+## Functions and Methods
 
 ```python
 #!/bin/python3
@@ -161,7 +160,7 @@ print (add(1, 2))  # will print 3
 print (multiply(2, 2))  # will print 4
 ```
 
-### Casting
+## Casting
 
 ```python
 #!/bin/python3
@@ -170,7 +169,7 @@ print (my_floating_point_number)  # will print 3.14156
 print (int(my_floating_point_number))  # will print 3
 ```
 
-### Classes
+## Classes
 
 ```python
 #!bin/python3

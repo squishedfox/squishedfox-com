@@ -2,6 +2,7 @@
 title: Networking
 layout: page
 parent: PNPT
+grand_parent: TCM Academy
 has_children: false
 permalink: /education/tcm-academy/pnpt/networking/
 ---

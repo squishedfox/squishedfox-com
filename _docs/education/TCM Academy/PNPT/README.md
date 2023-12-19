@@ -1,7 +1,8 @@
 ---
 title: PNPT
-layout: page
+layout: home
 parent: TCM Academy
+grand_parent: Education
 has_children: true
 permalink: /education/tcm-academy/pnpt/
 ---

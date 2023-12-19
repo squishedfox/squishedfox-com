@@ -3,6 +3,7 @@ title: TCM Academy
 layout: home
 parent: Education
 has_children: true
+permalink: /education/tcm-academy/
 ---
 
 # About
