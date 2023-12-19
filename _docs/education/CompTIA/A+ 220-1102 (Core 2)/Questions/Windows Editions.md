@@ -1,5 +1,5 @@
 ---
-title: Command-line Tools
+title: Windows Editions
 layout: questions
 parent: Questions
 grand_parent: CompTIA A+ 220-1102 (Core 2)

@@ -1,5 +1,5 @@
 ---
-title: Windows Security Protocols
+title: Wireless Security Protocols
 layout: questions
 parent: Questions
 grand_parent: CompTIA A+ 220-1102 (Core 2)

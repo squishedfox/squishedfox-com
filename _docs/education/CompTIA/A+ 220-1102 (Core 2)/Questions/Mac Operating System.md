@@ -1,5 +1,5 @@
 ---
-title: Linux Operating System
+title: Mac Operating System
 layout: questions
 parent: Questions
 grand_parent: CompTIA A+ 220-1102 (Core 2)
