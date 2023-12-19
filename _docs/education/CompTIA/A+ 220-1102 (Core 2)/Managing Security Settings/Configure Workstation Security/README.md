@@ -1,6 +1,6 @@
 ---
 title: Configure Workstation Security
-layout: page
+layout: home
 parent: Managing Security Settings
 grand_parent: CompTIA A+ 220-1102 (Core 2)
 has_children: true

@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot Mobile Operating System and App Security
-layout: page
+layout: home
 parent: Supporting Mobile Software
 grand_parent: CompTIA A+ 220-1102 (Core 2)
 has_children: true
