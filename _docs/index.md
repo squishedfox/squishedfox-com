@@ -1,7 +1,7 @@
 ---
 title: Home
+layout: home
 permalink: /
 has_children: false
-layout: home
 ---
 Home

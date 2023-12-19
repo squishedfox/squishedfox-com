@@ -1,6 +1,6 @@
 ---
 title: Bookmarks
 layout: page
-permalink: /bookmarks
+permalink: /bookmarks/
 has_children: false
 ---
