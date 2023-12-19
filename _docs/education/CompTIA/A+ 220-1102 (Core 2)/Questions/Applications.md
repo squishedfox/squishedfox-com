@@ -7,13 +7,13 @@ permalink: /education/comptia/a-plus/core-two/questions/applications/
 questions:
     - question: "You are writing work instructions for third-party app deployments using the CompTIA A+ objectives to guide you. In the section on system requirements for applications, you have covered the following topics
 
-    - 32-bit- vs. 64-bit-dependent application requirements
+    - 32-bit vs. 64-bit-dependent application requirements
     - Dedicated graphics card vs. integrated (VRAM requirements)
     - RAM requirements
     - CPU requirements
     - External hardware tokens
     
-    What additional topic should you include, if any?"\
+    What additional topic should you include, if any?"
       answer: ""
     - question: "You have downloaded an installer for a third-party app from the vendor’s website. What should you do before proceeding with setup?"
       answer: ""

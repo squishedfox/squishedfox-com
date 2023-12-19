@@ -3,7 +3,7 @@ title: Windows Security Protocols
 layout: questions
 parent: Questions
 grand_parent: CompTIA A+ 220-1102 (Core 2)
-permalink: /education/comptia/a-plus/core-two/questions/windows-security-protocols/
+permalink: /education/comptia/a-plus/core-two/questions/wireless-security-protocols/
 has_children: false
 questions:
     - question: "True or false. TKIP represents the best available wireless encryption and should be configured in place of AES if supported."

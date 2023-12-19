@@ -3,7 +3,7 @@ title: Mobile Operating System Security
 layout: questions
 parent: Questions
 grand_parent: CompTIA A+ 220-1102 (Core 2)
-permalink: /education/comptia/a-plus/core-two/questions/mobile-os-security/
+permalink: /education/comptia/a-plus/core-two/questions/mobile-os-system-security/
 has_children: false
 questions:
     - question: "What two types of biometric authentication mechanism are supported on smartphones?"
