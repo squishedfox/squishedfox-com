@@ -1,9 +1,11 @@
 ---
 layout: page
 ---
-{{ content | markdownify  }}
+{% if page.title %}
+    <h2>{{ page.title }}</h2>
+{% endif %}
 
-<h2>{{ page.title }}</h2>
+{{ content | markdownify  }}
 
 {% for question in page.questions %}
     <div style="font-weight: 500;">
