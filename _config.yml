@@ -1,10 +1,10 @@
-title: christopherschoeder.me
+title: SquishedFox
 description: Personal website for Christopher Schoeder
 theme: just-the-docs
 source: "_docs"
-url: christopherschoeder.me
+url: squishedfox-com
 baseurl: ""
-repository: squishedfox.com/christopherschoeder
+repository: squishedfox.com/squishedfox-com
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 # Set a path/url to a logo that will be displayed instead of the title
