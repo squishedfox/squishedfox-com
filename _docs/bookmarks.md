@@ -8,8 +8,7 @@ nav_order: 3
 
 # Politics
 
-- https://projects.propublica.org/coronavirus/bailouts/ - Government Bailouts
-- 
+- [projects.propublica.org](https://projects.propublica.org/coronavirus/bailouts/) - Government Bailouts
 
 # Games
 
@@ -33,7 +32,7 @@ nav_order: 3
 ## Foundations
 
 - [Open Source Security Foundation](https://openssf.org/getinvolved/)
-- https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-soc-2
+- [SOCII](https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-soc-2)
 
 # IT Infrastructure
 
@@ -42,13 +41,13 @@ nav_order: 3
 
 # Web Development
 
-- https://www.w3.org/TR/wai-aria-1.1/ - Good for referencing accessability and DOM components
-- https://jsonplaceholder.typicode.com/todos - Good for building test applications
-- https://just-the-docs.com/ - Good for building static websites
+- [Accessability](https://www.w3.org/TR/wai-aria-1.1/) - Good for referencing accessability and DOM components
+- [Todo Test Data](https://jsonplaceholder.typicode.com/todos) - Good for building test applications
+- [just-the-docs](https://just-the-docs.com/) - Good for building static websites
 
 # Freight Management
 
-- https://help.roserocket.com - Great for understanding Freight Logistics Questions. Platform is a great example of a good TMS
-- https://www.zim.com/services/cargo-services/reefer-cargo/recommended-temperature-for-dairy-fish-meat-and-other-products - Freight Freight Standards for cargo shipping services
-- https://freightsidekick.com/resources/nmfc/shrimp-69870 - NMFC for cargo shipping standards
+- [roserocket](https://help.roserocket.com) - Great for understanding Freight Logistics Questions. Platform is a great example of a good TMS
+- [reefer cargo](https://www.zim.com/services/cargo-services/reefer-cargo/recommended-temperature-for-dairy-fish-meat-and-other-products) - Freight Freight Standards for cargo shipping services
+- [NMFC](https://freightsidekick.com/resources/nmfc/shrimp-69870) - NMFC for cargo shipping standards
 
