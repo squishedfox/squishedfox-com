@@ -7,6 +7,11 @@ has_children: true
 permalink: /education/comptia/a-plus/core-two/
 ---
 
+# Quizlet
+
+- [Class](https://quizlet.com/class/27738448/)
+- [Request to join](https://quizlet.com/join/Pc2Qcsm8x)
+
 # Goals
 
 You will learn and be able to
