@@ -3,7 +3,7 @@ title: Layer 1 - Physical Layer
 layout: page
 parent: OSI Model 
 grand_parent: Network+
-has_children: true
+has_children: false
 permalink: /education/comptia/network-plus/osi-model/physical-layer/
 ---
 
