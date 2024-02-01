@@ -3,7 +3,7 @@ title: Typescript Examples
 layout: page
 parent: Examples
 has_children: false
-permalink: /examples/typescript
+permalink: /examples/typescript/
 ---
 
 # Typescript Examples
