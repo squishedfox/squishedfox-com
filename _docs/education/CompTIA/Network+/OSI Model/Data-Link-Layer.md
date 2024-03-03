@@ -11,11 +11,11 @@ permalink: /education/comptia/network-plus/osi-model/datalink-layer/
 
 ## Summary
 
-The Data Link Layer provides the fundamentals for packats to get to where they need to be based on address alone. In a Data Link topology multiple physical nodes/segments may be connected at a hub and then forward packats as necessary to their destinations.
+The Data Link Layer provides the fundamentals for packets to get to where they need to be based on address alone. In a Data Link topology multiple physical nodes/segments may be connected at a hub and then forward packets as necessary to their destinations.
 
 ## Frames
 
-The Data Link Layer attaches a header to a packat which has three different components
+The Data Link Layer attaches a header to a packet which has three different components
 
 - Source and Destination - Where did the packet come from and where is it trying to get to in the form of **Hardware Addresses**
 - Error Checking - Did the package make it between it's nodes without any issues.
