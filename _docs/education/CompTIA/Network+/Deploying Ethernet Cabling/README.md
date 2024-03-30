@@ -1,10 +1,10 @@
 ---
 title: Network+ - Deploying Ethernet Cabling
 layout: home
-parent: CompTIA
-grand_parent: Education
+parent: Network+
+grand_parent: CompTIA
 has_children: true
-permalink: /
+permalink: permalink: /education/comptia/network-plus/deploying-ethernet-cabling/
 ---
 
 # Deploying Ethernet Cabling
