@@ -12,3 +12,7 @@ permalink: /education/comptia/network-plus/soho/
 ## Objectives
 
 1.1 Compare and contrast the Open Systems Interconnection (OSI) model layers and encapsulation concepts.
+
+## Quizlet
+
+https://quizlet.com/896955653/network-small-home-small-office-soho-flash-cards/?i=3896f3&x=1jqt
