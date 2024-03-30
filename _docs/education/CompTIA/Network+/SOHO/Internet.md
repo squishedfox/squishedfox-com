@@ -16,7 +16,3 @@ Most Small Home, Small Office (SOHO)s are setup with a Modem connected to a Inte
 ## Internet Service Providers (ISP)
 
 Internet Service Providers create larger networks between each other to send communications between each other in different regions.
-
-## Internet Standards
-
-**Intern
