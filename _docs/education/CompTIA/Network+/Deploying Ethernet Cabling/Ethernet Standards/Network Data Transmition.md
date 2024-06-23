@@ -1,12 +1,12 @@
 ---
-title: Network+ > Deploying Ethernet Cabling > Network Data Transmition
+title: Network+ > Deploying Ethernet Cabling > Ethernet Standards > Network Data Transmition
 layout: page
 parent: Deploying Ethernet Cabling
 grand_parent: Network+
-permalink: /education/comptia/network-plus/deploying-ethernet-cabling/network-data-transmition/
+permalink: /education/comptia/network-plus/deploying-ethernet-cabling/ethernet-standards/network-data-transmition/
 ---
 
-# Network+ > Deploying Ethernet Cabling > Network Data Transmition
+# Network Data Transmition
 
 ## Summary
 

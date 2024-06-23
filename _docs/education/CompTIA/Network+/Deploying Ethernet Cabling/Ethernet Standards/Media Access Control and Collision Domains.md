@@ -1,12 +1,12 @@
 ---
-title: Network+ > Deploying Ethernet Cabling > Media Access Control and Collision Domains
+title: Network+ > Deploying Ethernet Cabling > Ethernet Standards > Media Access Control and Collision Domains
 layout: page
 parent: Deploying Ethernet Cabling
 grand_parent: Network+
-permalink: /education/comptia/network-plus/deploying-ethernet-cabling/mac-and-collisions/
+permalink: /education/comptia/network-plus/deploying-ethernet-cabling/ethernet-standards/mac-and-collisions/
 ---
 
-# Network+ > Deploying Ethernet Cabling > Media Access Control and Collision Domains
+# Media Access Control and Collision Domains
 
 ## Summary
 
