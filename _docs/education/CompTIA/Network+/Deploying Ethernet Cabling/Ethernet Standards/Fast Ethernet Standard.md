@@ -1,5 +1,5 @@
 ---
-title: Network+ > Deploying Ethernet Cabling > Ethernet Standards > Fast Ethernet Standard
+title: Fast Ethernet Standard
 layout: page
 parent: Ethernet Standards
 grand_parent: Deploying Ethernet Cabling

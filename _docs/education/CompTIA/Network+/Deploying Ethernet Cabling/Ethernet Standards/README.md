@@ -1,9 +1,10 @@
 ---
-title: Network+ > Deploying Ethernet Cabling > Ethernet Standards
+title: Ethernet Standards
 layout: home
 parent: Deploying Ethernet Cabling
 grand_parent: Network+
 permalink: /education/comptia/network-plus/deploying-ethernet-cabling/ethernet-standards/
+has_children: true
 ---
 
 # Ethernet Standards

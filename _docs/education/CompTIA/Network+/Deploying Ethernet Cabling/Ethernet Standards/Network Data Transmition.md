@@ -1,5 +1,5 @@
 ---
-title: Network+ > Deploying Ethernet Cabling > Ethernet Standards > Network Data Transmition
+title: Network Data Transmition
 layout: page
 parent: Ethernet Standards
 grand_parent: Deploying Ethernet Cabling+

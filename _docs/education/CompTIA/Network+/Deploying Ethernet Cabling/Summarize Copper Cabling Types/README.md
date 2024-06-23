@@ -1,5 +1,5 @@
 ---
-title: Network+ > Deploying Ethernet Cabling > Summarize Copper Cabling Types
+title: Summarize Copper Cabling Types
 layout: home
 parent: Deploying Ethernet Cabling
 grand_parent: Network+

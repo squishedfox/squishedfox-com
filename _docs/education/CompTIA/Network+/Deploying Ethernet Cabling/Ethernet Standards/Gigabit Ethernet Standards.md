@@ -1,5 +1,5 @@
 ---
-title: Network+ > Deploying Ethernet Cabling > Ethernet Standards > Gigabit Ethernet Standards
+title: Gigabit Ethernet Standards
 layout: page
 parent: Ethernet Standards
 grand_parent: Deploying Ethernet Cabling

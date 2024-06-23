@@ -1,5 +1,5 @@
 ---
-title: Network+ > Deploying Ethernet Cabling > Ethernet Standards > Media Access Control and Collision Domains
+title: Media Access Control and Collision Domains
 layout: page
 parent: Ethernet Standards
 grand_parent: Deploying Ethernet Cabling

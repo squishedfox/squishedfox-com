@@ -1,5 +1,5 @@
 ---
-title: Network+ - Deploying Ethernet Cabling
+title: Deploying Ethernet Cabling
 layout: home
 parent: Network+
 grand_parent: CompTIA
