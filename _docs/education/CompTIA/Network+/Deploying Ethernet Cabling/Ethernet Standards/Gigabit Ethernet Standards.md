@@ -1,8 +1,8 @@
 ---
 title: Network+ > Deploying Ethernet Cabling > Ethernet Standards > Gigabit Ethernet Standards
 layout: page
-parent: Deploying Ethernet Cabling
-grand_parent: Network+
+parent: Ethernet Standards
+grand_parent: Deploying Ethernet Cabling
 permalink: /education/comptia/network-plus/deploying-ethernet-cabling/ethernet-standards/gigabit-ethernet-standard/
 ---
 
