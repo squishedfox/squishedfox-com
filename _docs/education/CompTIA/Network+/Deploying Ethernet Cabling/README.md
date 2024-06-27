@@ -4,7 +4,7 @@ layout: home
 parent: Network+
 grand_parent: CompTIA
 has_children: true
-permalink: permalink: /education/comptia/network-plus/deploying-ethernet-cabling/
+permalink: /education/comptia/network-plus/deploying-ethernet-cabling/
 ---
 
 # Deploying Ethernet Cabling
