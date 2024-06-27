@@ -17,4 +17,3 @@ has_children: true
 
 Copper wire twisted pair cabling is the most popular choice for access network in officces.
 
-
