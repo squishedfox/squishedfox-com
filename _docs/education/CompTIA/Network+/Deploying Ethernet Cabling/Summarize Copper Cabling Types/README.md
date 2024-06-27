@@ -4,6 +4,7 @@ layout: home
 parent: Deploying Ethernet Cabling
 grand_parent: Network+
 permalink: /education/comptia/network-plus/deploying-ethernet-cabling/summarize-copper-cabling-types/
+has_children: true
 ---
 
 # Summarize Copper Cabling Types
