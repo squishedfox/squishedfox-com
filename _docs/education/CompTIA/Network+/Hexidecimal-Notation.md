@@ -1,8 +1,8 @@
 ---
-title: Network+ - Hexidecimal Notation
+title: Hexidecimal Notation
 layout: page
-parent: CompTIA
-grand_parent: Education
+parent: Network+
+grand_parent: CompTIA
 has_children: false
 permalink: /education/comptia/network-plus/hexidecimal-notation/
 ---
