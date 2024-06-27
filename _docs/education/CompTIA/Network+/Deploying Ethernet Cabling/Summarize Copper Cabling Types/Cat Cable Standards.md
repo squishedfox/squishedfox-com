@@ -1,10 +1,9 @@
 ---
 title: Cat Cable Standards
 layout: page
-parent: Deploying Ethernet Cabling
-grand_parent: Network+
+parent: Summarize Copper Cabling Types
+grand_parent: Deploying Ethernet Cabling
 permalink: /education/comptia/network-plus/deploying-ethernet-cabling/summarize-copper-cabling-types/cat-cable-standards/
-has_children: false
 ---
 
 # Cat Cable Standards

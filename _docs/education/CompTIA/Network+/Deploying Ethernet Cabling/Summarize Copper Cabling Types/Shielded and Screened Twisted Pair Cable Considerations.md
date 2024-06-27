@@ -1,10 +1,9 @@
 ---
 title: Shielded and Screened Twisted Pair Cable Considerations
 layout: page
-parent: Deploying Ethernet Cabling
-grand_parent: Network+
+parent: Summarize Copper Cabling Types
+grand_parent: Deploying Ethernet Cabling
 permalink: /education/comptia/network-plus/deploying-ethernet-cabling/summarize-copper-cabling-types/shielded-and-screened-twisted-pair-cable-considerations/
-has_children: false
 ---
 
 # Shielded and Screened Twisted Pair Cable Considerations
