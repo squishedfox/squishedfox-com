@@ -16,7 +16,6 @@ has_children: false
 --> lua
 ----> formatting.lua
 ----> init.lua
-----> linting.lua
 ----> options.lua
 ```
 
