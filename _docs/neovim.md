@@ -1,3 +1,10 @@
+---
+title: Neovim
+layout: page
+permalink: /neovim
+has_children: false
+---
+
 # Neovim Configuration
 
 ## Directory structure
