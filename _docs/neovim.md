@@ -1,7 +1,7 @@
 ---
 title: Neovim
 layout: page
-permalink: /neovim
+permalink: /neovim/
 has_children: false
 ---
 
