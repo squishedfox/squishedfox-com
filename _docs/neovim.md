@@ -23,6 +23,43 @@ has_children: false
 
 ```vim
 set number
+
+call plug#begin()
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'BurntSushi/ripgrep'
+Plug 'pmizio/typescript-tools'
+call plug#end()
+
+function! s:on_lsp_buffer_enabled() abort
+    setlocal omnifunc=v:lua.vim.lsp.omnifunc
+    setlocal signcolumn=yes
+    nnoremap <buffer> gi <cmd>lua vim.lsp.buf.definition()<CR>
+    nnoremap <buffer> gd <cmd>lua vim.lsp.buf.declaration()<CR>
+    nnoremap <buffer> gr <cmd>lua vim.lsp.buf.references()<CR>
+    nnoremap <buffer> gl <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
+    nnoremap <buffer> <f2> <cmd>lua vim.lsp.buf.rename()<CR>
+    nnoremap <buffer> <f3> <cmd>lua vim.lsp.buf.hover()<CR>
+endfunction
+
+" Call the function when an LSP client attaches to a buffer
+augroup lsp
+    autocmd!
+    autocmd User LspAttachBuffers call s:on_lsp_buffer_enabled()
+augroup END
+
+lua <<EOF
+require('init')
+require('options')
+EOF
+```
+
+## init.vim
+
+```vim
+set number
 call plug#begin()
 
 Plug 'tpope/vim-sensible'
