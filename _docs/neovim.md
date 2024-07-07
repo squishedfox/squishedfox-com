@@ -7,6 +7,7 @@ has_children: false
 
 ## Helpful commands
 
+- Create a new file using `%` and then entering in the file name
 - Copy and paste from system clipboard using `set paste` and then using `ctrl` + `shift` + v
 
 # Neovim Configuration
