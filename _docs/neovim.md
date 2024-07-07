@@ -5,6 +5,10 @@ permalink: /neovim/
 has_children: false
 ---
 
+## Helpful commands
+
+- Copy and paste from system clipboard using `set paste` and then using `ctrl` + `shift` + v
+
 # Neovim Configuration
 
 ## Directory structure
