@@ -5,109 +5,95 @@ permalink: /neovim/
 has_children: false
 ---
 
-# Neovim Configuration
-
-## Directory structure
-
-```txt
---> nvim.init
---> autoupload
-----> plug.vim
---> lua
-----> formatting.lua
-----> init.lua
-----> options.lua
-```
-
-## init.vim
-
-```vim
-  1 set number
-  2  
-  3 call plug#begin()
-  4 Plug 'prabirshrestha/vim-lsp'
-  5 Plug 'mattn/vim-lsp-settings'
-  6 Plug 'nvim-telescope/telescope.nvim'
-  7 Plug 'nvim-lua/plenary.nvim'
-  8 Plug 'BurntSushi/ripgrep'
-  9 Plug 'pmizio/typescript-tools'
- 10 call plug#end()
- 11  
- 12 function! s:on_lsp_buffer_enabled() abort
- 13     setlocal omnifunc=v:lua.vim.lsp.omnifunc
- 14     setlocal signcolumn=yes
- 15     nnoremap <buffer> gi <cmd>lua vim.lsp.buf.definition()<CR>
- 16     nnoremap <buffer> gd <cmd>lua vim.lsp.buf.declaration()<CR>
- 17     nnoremap <buffer> gr <cmd>lua vim.lsp.buf.references()<CR>
- 18     nnoremap <buffer> gl <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
- 19     nnoremap <buffer> <f2> <cmd>lua vim.lsp.buf.rename()<CR>
- 20     nnoremap <buffer> <f3> <cmd>lua vim.lsp.buf.hover()<CR>
- 21 endfunction
- 22  
- 23 " Call the function when an LSP client attaches to a buffer
- 24 augroup lsp
- 25     autocmd!
- 26     autocmd User LspAttachBuffers call s:on_lsp_buffer_enabled()
- 27 augroup END
- 28  
- 29 lua <<EOF
- 30 require('init')
- 31 require('options')
- 32 EOF
-```
-
 ## init.vim
 
 ```vim
 set number
-call plug#begin()
+set termguicolors
+syntax on
+colorscheme slate
+set number
 
-Plug 'tpope/vim-sensible'
-" Configure Telescope
+call plug#begin()
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-gocode.vim'
+Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope-fzy-native.nvim'
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.6' }
-" Configure Tree Sitter
-" Extra modules for Tree Sitter
-Plug 'drybalka/tree-climber.nvim'
-Plug 'nvim-treesitter/nvim-treesitter-context'
-Plug 'mfussenegger/nvim-dap'
-Plug 'christianchiarulli/nvcode-color-schemes.vim'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'theHamsta/nvim-dap-virtual-text'
-Plug 'nvim-tree/nvim-web-devicons'
-Plug 'MunifTanjim/nui.nvim'
-Plug 'neovim/nvim-lspconfig'
-Plug 'ray-x/go.nvim'
-Plug 'ray-x/guihua.lua'
-" Neo-tree
-Plug 'nvim-neo-tree/neo-tree.nvim'
-"linting
-Plug 'dense-analysis/ale'
-" formatting
+Plug 'BurntSushi/ripgrep'
 Plug 'stevearc/conform.nvim'
 call plug#end()
 
-lua require('init')
-lua require('formatting');
-lua <<EOF
-require("nvim-dap-virtual-text").setup()
-EOF
-lua <<EOF
-require('go').setup()
-EOF
 
-syntax on
-colorscheme nvcode " Or whatever colorscheme you make
+function! s:on_lsp_buffer_enabled() abort
+    setlocal omnifunc=lsp#complete
+    setlocal signcolumn=yes
+    if exists('+tagfunc') | setlocal tagfunc=lsp#tagfunc | endif
+    nmap <buffer> gd <plug>(lsp-definition)
+    nmap <buffer> gs <plug>(lsp-document-symbol-search)
+    nmap <buffer> gS <plug>(lsp-workspace-symbol-search)
+    nmap <buffer> gr <plug>(lsp-references)
+    nmap <buffer> gi <plug>(lsp-implementation)
+    nmap <buffer> gt <plug>(lsp-type-definition)
+    nmap <buffer> <leader>rn <plug>(lsp-rename)
+    nmap <buffer> [g <plug>(lsp-previous-diagnostic)
+    nmap <buffer> ]g <plug>(lsp-next-diagnostic)
+    nmap <buffer> K <plug>(lsp-hover)
+
+    nnoremap <buffer> <expr><c-f> lsp#scroll(+4)
+    nnoremap <buffer> <expr><c-d> lsp#scroll(-4)
+
+    inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+    inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+    inoremap <expr> <cr>    pumvisible() ? asyncomplete#close_popup() : "\<cr>"
+
+    let g:lsp_format_sync_timeout = 1000
+    " allow modifying the completeopt variable, or it will
+    " be overridden all the time
+    let g:asyncomplete_auto_completeopt = 0
+
+    set completeopt=menuone,noinsert,noselect,preview
+    autocmd! BufWritePre *.rs,*.go call execute('LspDocumentFormatSync')
+    autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
+    " refer to doc to add more commands
+endfunction
+
+" Call the function when an LSP client attaches to a buffer
+augroup lsp_install
+	au!
+ 	autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
+augroup END
+
+if executable('gopls')
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'gopls',
+        \ 'cmd': {server_info->['gopls', '-remote=auto']},
+        \ 'allowlist': ['go', 'gomod', 'gohtmltmpl', 'gotexttmpl'],
+        \ })
+    autocmd BufWritePre *.go
+        \ call execute('LspDocumentFormatSync') |
+        \ call execute('LspCodeActionSync source.organizeImports')
+	"	augroup LspGo
+"	  au!
+"	  autocmd User lsp_setup call lsp#register_server({
+"	      \ 'name': 'go-lang',
+"	      \ 'cmd': {server_info->['gopls']},
+"	      \ 'whitelist': ['go'],
+"	      \ })
+"	  autocmd FileType go setlocal omnifunc=lsp#complete
+"	  "autocmd FileType go nmap <buffer> gd <plug>(lsp-definition)
+"	  "autocmd FileType go nmap <buffer> ,n <plug>(lsp-next-error)
+"	  "autocmd FileType go nmap <buffer> ,p <plug>(lsp-previous-error)
+"	augroup END
+endif
+lua <<EOF
+require('init')
+EOF
 ```
 
-### options.lua
-
-```lua
-vim.opt.termguicolors = true
-```
-
-## formatting.lua
+## lua/formatting.lua
 
 ```lua
 -- Setup formatting for all styles
@@ -131,10 +117,16 @@ return require("conform").setup({
 })
 ```
 
+## lua/init.lua
 
-## plug.vim
+```lua
+require('formatting')
+require('options')
+```
 
-```txt
+### autoupload/plug.vim
+
+```vim
 " vim-plug: Vim plugin manager
 " ============================
 "
@@ -2965,6 +2957,4 @@ endif
 
 let &cpo = s:cpo_save
 unlet s:cpo_save
-
-
 ```
