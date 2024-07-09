@@ -16,10 +16,9 @@ has_children: false
 
 ```vim
 set number
-set termguicolors
+set paste
 syntax on
 colorscheme slate
-set number
 
 call plug#begin()
 Plug 'prabirshrestha/vim-lsp'
@@ -31,6 +30,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'BurntSushi/ripgrep'
 Plug 'stevearc/conform.nvim'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
 
@@ -82,18 +82,6 @@ if executable('gopls')
     autocmd BufWritePre *.go
         \ call execute('LspDocumentFormatSync') |
         \ call execute('LspCodeActionSync source.organizeImports')
-	"	augroup LspGo
-"	  au!
-"	  autocmd User lsp_setup call lsp#register_server({
-"	      \ 'name': 'go-lang',
-"	      \ 'cmd': {server_info->['gopls']},
-"	      \ 'whitelist': ['go'],
-"	      \ })
-"	  autocmd FileType go setlocal omnifunc=lsp#complete
-"	  "autocmd FileType go nmap <buffer> gd <plug>(lsp-definition)
-"	  "autocmd FileType go nmap <buffer> ,n <plug>(lsp-next-error)
-"	  "autocmd FileType go nmap <buffer> ,p <plug>(lsp-previous-error)
-"	augroup END
 endif
 lua <<EOF
 require('init')
