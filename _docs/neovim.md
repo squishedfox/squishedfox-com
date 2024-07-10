@@ -33,6 +33,8 @@ Plug 'stevearc/conform.nvim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " enable debugging with DAP
 Plug 'mfussenegger/nvim-dap'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} "" jester depends on this
+Plug 'David-Kunz/jester' " allow for debugging jest unit tests https://github.com/David-Kunz/jester?tab=readme-ov-file'
 call plug#end()
 
 
