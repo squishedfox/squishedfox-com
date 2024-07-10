@@ -31,6 +31,8 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'BurntSushi/ripgrep'
 Plug 'stevearc/conform.nvim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+" enable debugging with DAP
+Plug 'mfussenegger/nvim-dap'
 call plug#end()
 
 
