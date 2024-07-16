@@ -8,6 +8,8 @@ permalink: /education/comptia/network-plus/deploying-ethernet-cabling/Summarize-
 
 # Review Activity: Fiber Optic Cabling Types
 
+[quizlet](https://quizlet.com/929048172/comptia-network-fiber-optic-cabling-types-flash-cards/?i=3896f3&x=1jqt)
+
 1. What type of fiber optic cable is suited for long distance links?
 
 > Single mode fiber (SMF).
