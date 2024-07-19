@@ -27,3 +27,4 @@ permalink: /education/comptia/network-plus/deploying-ethernet-cabling/review-act
 4. A network designer wants to run a 10 gigabit backbone between two switches in buildings that are 75 m (246 feet) apart. What is the main consideration when selecting an appropriate copper cable?
 
     > At that distance, some type of shielded or screened cat 6A or better cable is required for the installation to be compliant with Ethernet standard 10GBASE-T.
+
