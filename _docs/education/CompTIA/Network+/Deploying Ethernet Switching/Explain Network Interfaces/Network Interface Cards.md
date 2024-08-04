@@ -1,9 +1,8 @@
 ---
 title: Network Interface Cards
-layout: home
+layout: page
 parent: Explain Network Interfaces 
 grand_parent: Deploying Ethernet Switching
-has_children: true
 permalink: /education/comptia/network-plus/deploying-ethernet-switching/explain-network-interfaces/network-interface-cards/
 ---
 
