@@ -14,3 +14,5 @@ permalink: /education/comptia/network-plus/explaining-ipv4-addressing/
 - Explain IPv4 addressing schemes
 - Explain IPv4 forwarding
 - Configure IP networks and subnets
+
+[Quizlet](https://quizlet.com/949308548/comptia-network-n10-008-explain-ipv4-addressing-flash-cards/)
