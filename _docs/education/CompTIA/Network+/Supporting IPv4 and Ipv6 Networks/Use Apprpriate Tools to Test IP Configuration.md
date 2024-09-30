@@ -4,7 +4,7 @@ layout: page
 parent: Explaining IPv4 Addressing
 grand_parent: Network+
 has_children: false
-permalink: /education/comptia/network-plus/explaining-ipv4-addressing/use-appropriate-tools-to-test-ip-configuration
+permalink: /education/comptia/network-plus/explaining-ipv4-addressing/use-appropriate-tools-to-test-ip-configuration/
 ---
 
 # Use Appropriate Tools for IP Configuration
