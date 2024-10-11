@@ -38,3 +38,8 @@ Consider the IPv6 Address 2001:db8:3c4d::/48
 
 if the prefix is 48 then that means that the first 48 bits of the address are the same as another address and they can be routed to the same area
 
+## Unicasting
+
+![image](https://github.com/user-attachments/assets/ebfc8e7a-439f-499c-b763-801770f9ddb5)
+
+
