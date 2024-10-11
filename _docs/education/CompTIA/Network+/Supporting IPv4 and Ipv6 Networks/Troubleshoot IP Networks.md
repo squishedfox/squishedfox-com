@@ -9,6 +9,8 @@ permalink: /education/comptia/network-plus/explaining-ipv4-addressing/troublesho
 
 # Troubleshoot IP Networks
 
+[quizlet](https://quizlet.com/949836269/comptia-network-n10-008-troubleshoot-ip-networks-flash-cards/?i=3896f3&x=1qqt)
+
 ## Objectives
 
 5.5 Given a scenario, troubleshoot general networking issues
@@ -55,4 +57,32 @@ On windows systems you will typically get an error message when assigning a stat
    If a local host cannot be pinged and the error is destination unreachable, then verify the IP configuration does not contain an incorrect IP address or netmask. If these are correct but pings still time out, suspect either a security issue (such as a switch port security issue) or a problem at the data link or physical layer.
 
 5. Ping the IP address of a remote host to verify you can communicate through the router. If a remote IP address cannot be contacted, check the default gateway parameter on the local host to rule out an incorrect gateway issue. If the gateway is configured correctly and you can ping the router, you need to start investigating the routing infrastructure.
+6. 
 
+### IGMP (Interenet Group Management Protocol)
+
+A way of reducing traffic over a network that needs to be broadcast as a single-to-many packet system
+
+## Review Activity: Troubleshoot IP Networks
+
+1. User sont he floor served by a single switch cannot get a network connection. What is the best first step?
+
+> Check that the switch is powered on and reset it. If that does not work, check for other causes such as a poorly seated plug-in module.
+
+2. A workstation cannot connect to a server application on a remote network. What is the first test you could perform to establish whether the workstation's link is OK?
+
+> Ping another local system, such as the default gateway
+
+3. A technician is troubleshooting a network and has asked your advice. He is trying to ping 192.168.16.192. The network has been subnetted with the custom mask 255.255.255.224. Why might this return a “Destination host unreachable” message?
+
+> The IP address resolves to the subnet network address, not a host address. Windows does not normally allow pinging the network address. Other OSs treat it as an alternative broadcast address, but most systems are configured to disallow such directed broadcasts for security reasons.
+
+4. Two client hosts have intermittent connectivity issues when accessing a server service on another subnet. No other client hosts exhibit this problem. What configuration problem might you suspect?
+
+> This is likely to be caused by a duplicate IP or MAC address. Replies from the server will be misdirected between the two hosts.
+
+5. You have pinged the router for the local subnet and confirmed that there is a valid link. The local host cannot access remote hosts, however. No other users are experiencing problems. What do you think is the cause?
+
+6. A Windows client workstation cannot access a help desk application server by its name support.515support.com. The service can be accessed using its IP address. What two command line tools should you use to identify possible causes of this issue?
+
+> Use ipconfig to report the DNS servers that the client is trying to use and verify they are correct. Use ping to verify connectivity with the DNS servers.
