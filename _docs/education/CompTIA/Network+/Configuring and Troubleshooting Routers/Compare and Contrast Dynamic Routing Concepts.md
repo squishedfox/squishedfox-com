@@ -20,6 +20,9 @@ Dynamic routing protocols focus on the ability to build routing information at e
 
 ### Topology and Metrics
 
-
+- distance vector - used by routers to determine the lest amount of hops to get to destination network
+- link state - link state is a generic way of saying "we're just going to keep calculating the algorithm"
 
 ### Convergence
+
+Convergence is the way routers can communicate and work together to agree on the best path forward for sending packets
