@@ -25,4 +25,16 @@ Dynamic routing protocols focus on the ability to build routing information at e
 
 ### Convergence
 
-Convergence is the way routers can communicate and work together to agree on the best path forward for sending packets
+Convergence is the way routers can communicate and work together to agree on the best path forward for sending packets.
+
+## Interior versus Exterior Gateway Protocols
+
+### Autonomous Systems
+
+Autonomous systems are systems that are controled by a single administrator to determine the best route for traffic that uses Interior Gateway Protocol (IGP).
+
+### Exterior Gateway Protocol
+
+Exterior Gateway Protocol is a system which communicates between multiple autonomous systems to determine the best path forward for traffic.
+
+![alt text](image.png)
