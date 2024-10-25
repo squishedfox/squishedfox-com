@@ -9,6 +9,8 @@ permalink: /education/comptia/network-plus/
 
 # Network+
 
+[Quizlet Class](https://quizlet.com/join/GZ9uJFKAA?i=3896f3&x=1bqt)
+
 ## Summary
 
 My personal notes taken from the paid-for, self-paced, study guide through CompTIA store.

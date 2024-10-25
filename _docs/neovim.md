@@ -17,9 +17,15 @@ has_children: false
 ## init.vim
 
 ```vim
+<<<<<<< HEAD
 syntax on
 set number
 set paste
+=======
+set number
+set paste
+syntax on
+>>>>>>> fdd972e5deb28db2b16f6168a2c08534e14adf5a
 colorscheme slate
 
 call plug#begin()
@@ -32,6 +38,11 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'BurntSushi/ripgrep'
 Plug 'stevearc/conform.nvim'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+" enable debugging with DAP
+Plug 'mfussenegger/nvim-dap'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} "" jester depends on this
+Plug 'David-Kunz/jester' " allow for debugging jest unit tests https://github.com/David-Kunz/jester?tab=readme-ov-file'
 call plug#end()
 
 
@@ -83,7 +94,10 @@ if executable('gopls')
     autocmd BufWritePre *.go
         \ call execute('LspDocumentFormatSync') |
         \ call execute('LspCodeActionSync source.organizeImports')
+<<<<<<< HEAD
 	augroup END
+=======
+>>>>>>> fdd972e5deb28db2b16f6168a2c08534e14adf5a
 endif
 lua <<EOF
 require('init')
