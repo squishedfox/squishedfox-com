@@ -98,3 +98,38 @@ Asymetrical routing issues occur when the path to the destination is different t
 5. A campus to datacenter fiber optic link has been laid over 15 km of single mode fiber with one fusion splice along this run. The termination at each end requires two connectors. You need to evaluate a proposal to use 10GBASE-LR transceiver modules for the router. The module specification quotes Tx power of –8.2 dBm and Rx sensitivity of –14.4 dBm. Assuming attenuation of 0.4 dB/km, 0.75 dB loss per connector, and 0.3 dB loss per splice, do these modules work within the expected loss budget?
 
 > The loss budget is (15 * 0.4 = 6) + (2 * 0.75 = 1.5) + (1 * 0.3 = 0.6) = 7.8 dB. The power budget is –8.2 – 14.4 dBm = 6.2 dB. Consequently, the power budget is insufficient. Note that 10GBASE-LR is rated for 10 km operation over single mode. 
+
+### Review Activity Part 2
+
+Helpful Help is a charitable organization that operates out of numerous small offices spread all over the country. Each office has a team of 10–20 people who currently use a network of PCs and Apple Macs running various applications. Each office is connected back to a main site, which has a connection to the Internet via an ISP. Staff at each local office uses the link for web access and to access an online email service. Each office has a 192.168.x.0/24 subnet allocated to it. The East region is shown in the graphic.
+
+Using the above scenario, answer the following questions:
+
+![alt text](helpful-help-main-router-branch-office.png)
+
+1. Given the current scenario of the charity, how would the routers at each local office be configured?
+
+Presently, each local office has several PSTN (landline) telephones. The plan is to replace these with a unified communications system for VoIP, conferencing, and messaging/information. This will require devices in each local office to be able to contact devices in other offices for direct media streaming. It is also anticipated that additional links may be added between branch offices where larger numbers of users are situated due to the increased bandwidth required by the new applications at this site. Here is the revised diagram:
+
+> As the link is only used for web browsing and online email, the local office routers would just be configured with a static route/default gateway/gateway of last resort to forward all traffic to the main site, which would forward the web traffic on.
+
+![alt text](helpful-help-main-router-branch-office-internal.png)
+
+
+2. With this new infrastructure in place, what changes would need to be made to the router's configuration?
+
+> Due to the need for offices and therefore routers to be able contact each other, additional routing table entries will be needed. This could be through more static routes, but a dynamic routing protocol would be better able to cope with any future changes to the topology.
+
+3. Which protocol would be best here?
+
+> There are several choices. The network is relatively simple with only a few network hops, so RIPv2 could be used as it is easier to configure. 
+
+If the new system works well in the East region (the smallest), the plan is to roll out the system to the three other regions (North, South, and West). This will involve connecting the main routers for each region together, plus some additional links for redundancy. The other regions use different IP numbering systems and some use VLSM.
+
+4. Considering the potential changes a successful pilot in the East region might bring about in the whole organization, would your router configuration options change? 
+
+> Due to the potential increase in the number of routers and subnets, OSPF may be the better choice of dynamic routing protocol. This is especially true due to potential IP subnet numbering differences, including VLSM. 
+
+5. What might you do to manage the much larger number of IP subnets?
+
+> It may be worth considering different OSPF areas to manage the size of the OSPF topology tables and use route summarization to reduce the router's CPU load.
