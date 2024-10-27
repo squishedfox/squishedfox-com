@@ -1,6 +1,6 @@
 ---
 title: Explain Network Types and Characteristics 
-layout: home
+layout: page 
 parent: Explaining Network Topologies and Types
 grand_parent: Network+
 has_children: false
