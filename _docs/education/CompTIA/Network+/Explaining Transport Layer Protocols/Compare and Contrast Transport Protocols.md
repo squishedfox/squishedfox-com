@@ -27,4 +27,8 @@ Port numbers 0 through 1,023 are preassigned by the Internet Assigned Numbers Au
 
 ## Transmission Control Protocol (TCP)
 
-###  
+Transmission Control Protocol is a "slower" protocol of the two between it and UDP, but is more reliable to ensure missing critical information reaches its destination.
+
+### TCP Port Fields
+
+![alt text](tcp-ports.png)
