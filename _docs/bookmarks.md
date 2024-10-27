@@ -44,6 +44,7 @@ nav_order: 3
 - [Accessability](https://www.w3.org/TR/wai-aria-1.1/) - Good for referencing accessability and DOM components
 - [Todo Test Data](https://jsonplaceholder.typicode.com/todos) - Good for building test applications
 - [just-the-docs](https://just-the-docs.com/) - Good for building static websites
+- [icons8](https://icons8.com/) - Good for fetching free Icon assets for project
 
 # Freight Management
 
