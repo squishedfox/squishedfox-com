@@ -1,7 +1,8 @@
 ---
 title: Datastores 
-layout: home 
-permalink: /datastore/
+layout: page 
+parent: Opinion
+permalink: /opinion/datastore/
 ---
 
 # Data Stores

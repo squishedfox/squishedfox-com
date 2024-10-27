@@ -1,7 +1,7 @@
 ---
 title: Infrastructure 
-layout: home
-has_children: false
+layout: page 
+parent: Opinion
 permalink: /opinion/infrastructure/
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Design 
-layout: home
-permalink: /design/
+layout: page
+parent: Opinion 
+permalink: /opinion/design/
 ---
 
 # Design

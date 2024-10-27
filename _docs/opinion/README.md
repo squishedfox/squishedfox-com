@@ -1,5 +1,5 @@
 ---
-title: opinion 
+title: Opinion 
 layout: home
 has_children: true
 permalink: /opinion/

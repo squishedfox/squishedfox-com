@@ -1,8 +1,8 @@
 ---
 title: Languages 
 layout: page 
-has_children: false 
-permalink: /opinion/
+parent: Opinion
+permalink: /opinion/languages/
 ---
 
 # Programming/Markup Lanugages

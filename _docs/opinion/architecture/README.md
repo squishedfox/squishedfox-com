@@ -1,7 +1,8 @@
 ---
 title: Architecture 
-layout: home
-permalink: /architecture/
+layout: page 
+parent: Opinion
+permalink: /opinion/architecture/
 ---
 
 # Architecture
