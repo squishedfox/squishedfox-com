@@ -96,4 +96,26 @@ VLSM (Variable length subnet masking) provides Internet Service Providers (ISP)s
 6. True or False? VLSM means using more than one mask to subnet an IP network.
 > True. By using different mask sizes, variable length subnet masking (VLSM) allows designers to match subnet sizes to requirements more precisely.
 
+### Part 2
 
+In this activity, you will be designing an IP subnetting plan for an organization using VLSM. This division of the company must use the 172.30.0.0/16 network address range and subnet this down to develop an address scheme for the network displayed in the topology diagram. You should be as efficient as possible when designing your VLSM ranges, as additional branch offices may be added in the future.
+
+![alt text](review-activity-topology.png)
+
+1. How large will each of the subnets that join the three routers together need to be? 
+
+> Large enough for just 2 IP addresses. Just 2 host bits, so /30 mask.
+
+2. Which is the largest subnet in the topology? What is the minimum number of bits that will be needed for that number of hosts? How many IP addresses will that subnet provide? What would be the VLSM and address range for the largest subnet? 
+
+> Branch A is the largest subnet with 16,000 hosts. 14 bits are needed, providing 16,382 addresses (16384 - 2). /18 will be the VLSM mask, giving an IP address range of 172.30.0.1—172.30.63.254.
+
+3. What is the next largest subnet in the design? How many host bits will be needed for that subnet? How many IP addresses will that subnet provide and what is the VLSM?
+
+> Branch B is the next largest subnet with 8,000 hosts. 13 bits are needed, providing 8,190 addresses (8,192 - 2). /19 will be the VLSM mask, giving an IP address range of 172.30.64.1—172.30.95.254.
+
+4. Work out the remaining subnets, remembering to ensure that subnet ranges do not overlap, but equally that you do not waste IP addresses. Complete the table.
+
+![alt text](review-activity-subnets.png)
+
+![alt text](review-activity-subnets-answer.png)
