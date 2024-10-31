@@ -1,13 +1,13 @@
 ---
-title: Compare andk Contrast Transport Protocols
+title: Compare and Contrast Transport Protocols
 layout: page 
-parent: Compare and Contrast Transport Protocols 
+parent: Explaining Transport Layer Protocols 
 grand_parent: Network+
 has_children: false 
 permalink: /education/comptia/network-plus/explaining-transport-layer-rotocols/compare-and-contrast-transport-rotocols/
 ---
 
-# Explaining Transport Layer Protocols
+# Compare and Contrast Transport Protocols
 
 ## Objectives
 
@@ -32,3 +32,26 @@ Transmission Control Protocol is a "slower" protocol of the two between it and U
 ### TCP Port Fields
 
 ![alt text](tcp-ports.png)
+
+## TCP Handshake Breakdown
+
+A three way handshake is made to establish a connection for TCP
+
+1. Client sends a SYN TCP Flag and enteres SYN-SENT state with a randomly generated sequence number
+2. Server receives the SYN and enters the SYN-RECEIVED state. It then responds with a SYN/ACK TCP flag of it's own back to the client with a randomly generated sequence number.
+3. Client responds with an ACK segment and assumes the connection has been established.
+4. Server opens up the connection and enters the Established state.
+
+While a connection has been established the client sends packets to the server. If the client doesn't receive an ACK for the packets sent then the client resends the packet.
+## TCP Connection Teardown
+
+1. Client sends a FIN segment and the client enters a FIN-WAIT1 state
+2. Server responds with ACK segment and enters CLOSE-WAIT state
+3. Client receives the ACK segment and enters the FIN-WAIT2 state
+4. The server sends it's own FIN segment to the client and goes to LAST-ACK state
+5. Client sends an ACK and enters the TIME-AWAIT state. After a time of period the client closes the connection.
+6. Server closes the connection when it receives the ACK 
+
+## User Datagram Protocol (UDP)
+
+
