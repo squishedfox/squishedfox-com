@@ -57,3 +57,24 @@ While a connection has been established the client sends packets to the server. 
 UDP is "connectionless" meaning that there is no guarantee of a successful packet delivery occuring or a retransmission request occuring.
 
 ![alt text](common-ports.png)
+
+## Review Activity: 
+
+1. How many port numbers are required to establish a connection at the Transport layer?
+> Two—a server port and a client port.
+
+2. What is the purpose of the window field in a TCP segment?
+
+> It is used for flow control. The window indicates the amount of data that the host can receive before sending another acknowledgement.
+
+3. What is the purpose of the window field in a TCP segment?
+
+> TCP is 20 bytes (or more) while UDP is 8 bytes.
+
+4. True or False? User Datagram Protocol (UDP), like TCP, uses flow control in the sending of data packets.
+
+> False.
+
+5. What port and protocol does TFTP use at the Transport layer?
+
+> UDP/69
