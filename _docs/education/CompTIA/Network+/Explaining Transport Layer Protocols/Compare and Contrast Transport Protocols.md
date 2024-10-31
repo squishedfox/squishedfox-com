@@ -54,4 +54,6 @@ While a connection has been established the client sends packets to the server. 
 
 ## User Datagram Protocol (UDP)
 
+UDP is "connectionless" meaning that there is no guarantee of a successful packet delivery occuring or a retransmission request occuring.
 
+![alt text](common-ports.png)
