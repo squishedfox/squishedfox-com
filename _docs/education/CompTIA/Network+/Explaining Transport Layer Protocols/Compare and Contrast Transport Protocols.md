@@ -9,6 +9,8 @@ permalink: /education/comptia/network-plus/explaining-transport-layer-rotocols/c
 
 # Compare and Contrast Transport Protocols
 
+[quizlet](https://quizlet.com/964886628/comptia-network-n10-008-transport-protocols-flash-cards/?i=3896f3&x=1jqt)
+
 ## Objectives
 
 - 1.1 Compare and contrast the Open Systems Interconnection (OSI) model layers and encapsulation concepts.
@@ -43,6 +45,7 @@ A three way handshake is made to establish a connection for TCP
 4. Server opens up the connection and enters the Established state.
 
 While a connection has been established the client sends packets to the server. If the client doesn't receive an ACK for the packets sent then the client resends the packet.
+
 ## TCP Connection Teardown
 
 1. Client sends a FIN segment and the client enters a FIN-WAIT1 state
@@ -61,13 +64,14 @@ UDP is "connectionless" meaning that there is no guarantee of a successful packe
 ## Review Activity: 
 
 1. How many port numbers are required to establish a connection at the Transport layer?
+
 > Two—a server port and a client port.
 
 2. What is the purpose of the window field in a TCP segment?
 
 > It is used for flow control. The window indicates the amount of data that the host can receive before sending another acknowledgement.
 
-3. What is the purpose of the window field in a TCP segment?
+3. What are the sizes of TCP and UDP headers? 
 
 > TCP is 20 bytes (or more) while UDP is 8 bytes.
 

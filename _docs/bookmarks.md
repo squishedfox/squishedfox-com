@@ -28,6 +28,9 @@ nav_order: 3
 - [Web Security Auditing Tool](https://caido.io/)
 - [Virus Total](https://www.virustotal.com/gui/home/upload) - Great for finding existing Malware applications or new ones
 - [Send Secure Note](https://privnote.com/#)
+- [nmap](https://formulae.brew.sh/formula/nmap#default) port scanning
+- [angry ip](https://angryip.org/) - for port scanning and topology
+- 
 
 ## Foundations
 
