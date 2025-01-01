@@ -26,7 +26,7 @@ The next level (level two) typically is a .com, .gov, .org, app, etc.
 
 The third level subdomain is a country code controlled by the ICAAN which describes .eu, .us, .co, .etc
 
-### Name Resolution using Domain Name Servers (DNS)
+#### Name Resolution using Domain Name Servers (DNS)
 
 iterative name resolution is used between a root server and local servers to find the correct IP address to forward traffic to. Once the local server has identified the correct DNS record it then caches it for a period of time.
 
@@ -41,3 +41,28 @@ SVC Records are service records that map service host names, ports, and IP addre
 ### TXT Records
 
 Text records are often used as a way of verification and security of ownership to a domain. Other things TXT is used for are Sender Policy Framework (SPF) and Domain Keys Identified Mail (DKIM) as a way of identifiying that you can indeed send mail from that hostname or alias.
+
+### Pointer Recorders
+
+Pointer Records come in the shape of
+
+- Forward Lookups - forward lookups provide the IP address of a hostname to a requester
+- Reverse Lookups - reverse lookups provide the hostname for an IP address
+
+### Questions and Answer
+
+1. What type of DNS record resolves a host name to an IPv6 address?
+
+> AAAA.
+
+2. What use is a PTR DNS record?
+
+> A pointer maps an IP address to a host name, enabling a reverse lookup. Reverse lookups are used (for example) in spam filtering to confirm that a host name is associated with a given IP address.
+
+3. What types of DNS records have priority or preference values?
+
+> Typically, mail (MX) and service (SRV) records.
+
+4. What type of DNS record is used to prove the valid origin of email?
+
+> Sender Policy Framework (SPF) and DomainKeys Identified Mail (DKIM) records can be used to validate the origin of email and reject spam. These are configured in DNS as text (TXT) records.
