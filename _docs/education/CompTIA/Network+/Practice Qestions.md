@@ -1,10 +1,10 @@
 ---
 title: Practice Questions 
-layout: home
+layout: page 
 parent: Network+
 grand_parent: CompTIA
-has_children: true
-permalink: /education/comptia/network-plus/pratice-questions
+has_children: false 
+permalink: /education/comptia/network-plus/practice-questions/
 ---
 
 # CompTIA Network+ N10-009

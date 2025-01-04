@@ -1,15 +1,15 @@
 ---
-title: Practice Questions 
-layout: home
+title: Practice Answers 
+layout: page 
 parent: Network+
 grand_parent: CompTIA
-has_children: true
-permalink: /education/comptia/network-plus/pratice-questions
+has_children: false 
+permalink: /education/comptia/network-plus/practice-answers/
 ---
 
 # CompTIA Network+ N10-009
 
-## Practice Questions
+## Practice Answers 
 
 ### Part 1
 
