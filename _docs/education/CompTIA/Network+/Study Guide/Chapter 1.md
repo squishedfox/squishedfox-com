@@ -1,10 +1,10 @@
 ---
-title: Book Notes 
+title: Chapter 1 
 layout: page
-parent: Network+
-grand_parent: CompTIA
+parent: Study Guide 
+grand_parent: Network+
 has_children: false
-permalink: /education/comptia/network-plus/book-notes/
+permalink: /education/comptia/network-plus/book-notes/chapter-1/
 ---
 
 # CompTIA Network+ N10-008
