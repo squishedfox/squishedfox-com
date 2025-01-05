@@ -37,11 +37,27 @@ Summary: Combines packets into bytes and bytes into frames, access to media usin
 
 Summary: Provides logical adressing, which routers use for path determination
 
+**Data Packets** - pieces of information moved throughout a network from source to destination
+
+**Route-Update Pckets** - Updates about nodes in the network, their addresses, and what other nodes they are connected to
+
 ### Layer 4 Transport Layer
 
 - Examples: End-to-end connection
 
 Summary: Provides reliable or unreliable delivery and performs error correction before retransmition
+
+#### TCP
+
+Transmission Control Protocol (Connection oriented) uses a three way handshake (ACK -> SYN/ACK -> ACK) to establish a connection with a end system to send packets in a specific sequence.
+
+**Flow control** is enabled with TCP that allows a recipient to respond with confirmation of a packet or tell the sender to wait, or slow down with sending data.
+
+A **window** is the amount segments (measured in bytes) of which a sender can continue to send without an acknowledgement. **Windows** are used to control the amount of outstanding, unacknowledged data segments 
+
+#### UDP
+
+User Datagram Protocol (Connectionless) is a protocol that sends floods of packets to it's destination without the confirmation from the recipient
 
 ### Layer 5 Session Layer
 
@@ -60,3 +76,6 @@ Summary: Presents the data and handels processing such as encryption
 - Examples: File, print, message, database, and applicaiton services
 
 Summary: Provides a user interface
+
+### Window
+
