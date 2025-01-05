@@ -110,7 +110,7 @@ Credit to [https://www.examcompass.com/](https://www.examcompass.com/comptia-net
     - [ ] ARP
     - [ ] SNMP
 
-13.  In the OSI model, the Layer 4 UDP protocol data unit is called:
+13. In the OSI model, the Layer 4 UDP protocol data unit is called:
 
     - [ ] Bit
     - [ ] Frame
@@ -153,7 +153,7 @@ Credit to [https://www.examcompass.com/](https://www.examcompass.com/comptia-net
     - [ ] Network Layer
     - [ ] Transport Layer
 
-19.  Which of the OSI layers listed below is also known as the Session Layer?
+19. Which of the OSI layers listed below is also known as the Session Layer?
 
     - [ ] Layer 6
     - [ ] Layer 3
@@ -167,7 +167,7 @@ Credit to [https://www.examcompass.com/](https://www.examcompass.com/comptia-net
     - [ ] Bridge
     - [ ] Router
 
-21.  In the OSI model, the Layer 2 protocol data unit is known as:
+21. In the OSI model, the Layer 2 protocol data unit is known as:
 
     - [ ] Bit
     - [ ] Frame
@@ -175,14 +175,14 @@ Credit to [https://www.examcompass.com/](https://www.examcompass.com/comptia-net
     - [ ] Segment
     - [ ] Datagram
 
-22.  Which OSI layer enables direct interaction between the end-user and the network?
+22. Which OSI layer enables direct interaction between the end-user and the network?
 
     - [ ] Layer 5
     - [ ] Layer 1
     - [ ] Layer 7
     - [ ] Layer 3
 
-23.  In the OSI model, the Network Layer protocol data unit is called:
+23. In the OSI model, the Network Layer protocol data unit is called:
 
     - [ ] Bit
     - [ ] Frame
@@ -235,7 +235,7 @@ Credit to [https://www.examcompass.com/](https://www.examcompass.com/comptia-net
     - [ ] Session Layer
     - [ ] Application Layer
 
-30.  At which OSI layers is the protocol data unit referred to simply as data? (Select 3 answers)
+30. At which OSI layers is the protocol data unit referred to simply as data? (Select 3 answers)
 
     - [ ] Application
     - [ ] Presentation
@@ -252,7 +252,7 @@ Credit to [https://www.examcompass.com/](https://www.examcompass.com/comptia-net
     - [ ] Transport Layer
     - [ ] Presentation Layer
 
-32.  What is the name of Layer 3 in the OSI model?
+32. What is the name of Layer 3 in the OSI model?
 
     - [ ] Network Layer
     - [ ] Data Link Layer
@@ -266,7 +266,7 @@ Credit to [https://www.examcompass.com/](https://www.examcompass.com/comptia-net
     - [ ] Session Layer
     - [ ] Transport Layer
 
-34.  Which of the following answers describe the characteristics of a router? (Select 3 answers)
+34. Which of the following answers describe the characteristics of a router? (Select 3 answers)
 
     - [ ] Operates at Layer 2 of the OSI model
     - [ ] Connects Multiple Networks Together
@@ -291,7 +291,7 @@ Credit to [https://www.examcompass.com/](https://www.examcompass.com/comptia-net
     - [ ] Firewall
     - [ ] Content filter
 
-37.  Which of the answers listed below illustrates the difference between passive and active network security breach response?
+37. Which of the answers listed below illustrates the difference between passive and active network security breach response?
 
     - [ ] NIPS vs. UTM
     - [ ] IDS vs. IPS
@@ -364,14 +364,14 @@ Credit to [https://www.examcompass.com/](https://www.examcompass.com/comptia-net
     - [ ] User management process
     - [ ] Network storage capacity
 
-47.  A system that uses public network (such as the Internet) as a means for creating private encrypted connections between remote locations is referred to as:
+47. A system that uses public network (such as the Internet) as a means for creating private encrypted connections between remote locations is referred to as:
 
     - [ ] WWAN
     - [ ] VPN
     - [ ] PAN
     - [ ] VLAN
 
-48.  Which of the following answers refers to a solution that allows network administrators to prioritize certain types of network traffic?
+48. Which of the following answers refers to a solution that allows network administrators to prioritize certain types of network traffic?
 
     - [ ] NAC
     - [ ] QoS
@@ -419,14 +419,14 @@ Credit to [https://www.examcompass.com/](https://www.examcompass.com/comptia-net
     - [ ] Primarily used in traditional/non-virtualized network environments
     - [ ] Detects or prevents intrusion attempts or malicious activities within the network traffic
 
-54.  A type of network gateway that allows instances within a cloud environment to send and receive unencrypted traffic to and from the Internet is called:
+54. A type of network gateway that allows instances within a cloud environment to send and receive unencrypted traffic to and from the Internet is called:
 
     - [ ] NAT gateway
     - [ ] Internet gateway
     - [ ] VPN gateway
     - [ ] Default gateway
 
-55.  Which of the statements listed below describe the functions of a cloud gateway using NAT? (Select 3 answers)
+55. Which of the statements listed below describe the functions of a cloud gateway using NAT? (Select 3 answers)
 
     - [ ] Enables instances within a VPC to access external networks
     - [ ] Translates private IP addresses to a public IP address
@@ -463,12 +463,12 @@ Credit to [https://www.examcompass.com/](https://www.examcompass.com/comptia-net
     - [ ] Hybrid cloud
     - [ ] Private cloud
 
-60.  A hybrid cloud is a cloud computing environment that combines elements of both public and private clouds
+60. A hybrid cloud is a cloud computing environment that combines elements of both public and private clouds
 
     - [ ] True
     - [ ] False
 
-61.  A cloud computing service model that provides remote access to software applications based on a subscription fee is known as:
+61. A cloud computing service model that provides remote access to software applications based on a subscription fee is known as:
 
     - [ ] PaaS
     - [ ] SaaS
