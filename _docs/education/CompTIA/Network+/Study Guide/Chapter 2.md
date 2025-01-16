@@ -31,6 +31,10 @@ Summary: Moves bits between devices and specifies voltage, wire speed, and pin-o
 
 Summary: Combines packets into bytes and bytes into frames, access to media using MAC addresses, and performs error detection, not correction
 
+- Responsabilities: 
+  - Formats messages into pieces called data frames which have a header attached which links the source and destination MAC addresses.
+  - Responsabile for fingerprinting devices on a network
+
 ### Layer 3 Network Layer
 
 - Examples: Routing
@@ -77,5 +81,109 @@ Summary: Presents the data and handels processing such as encryption
 
 Summary: Provides a user interface
 
-### Window
+## Written Lab
 
+1. Which layer chooses and determines the availability of communicating partners along with the resources necessary to make the connection, coordinates partnering applications,a nd forms a concsensus on procedures for controlling data integrity and error recovery?
+
+2. Which layer is responsible for converting frames from the Data Link Layer into electrical signals?
+
+3. At which layer is routing implemented, enabling connections and path selection between two end systems
+
+4. Which layer defines how data is formatted, presented, encoded, and converted?
+
+5. What layer is responsible for creating, managing, and terminating sessions between applications?
+
+6. Which layer manages the transmission of data cross physical link and is primarily concerned with physical addressing and the order delivery of frames?
+
+7. Which layer is used fo rreliable communication between end nodes over the networka nd provides mechanisms for estbalishing, maintaining, and terminating virutal circuits as-well-as controlling the flow of information?
+
+8. Which layer provides logical addressing that routers use for path determinations
+
+9. Which layer specifies voltage, wire speed, and connector pin-outs and moves bits between devices?
+
+10. Which layer combines bits into bytes and bytes into frames and uses MAC Addressing?
+
+## Review Questions
+
+1. Host 1 sent a SYN packet to Host 2. What will host 2 send in response?
+
+  - [ ] A. ACK
+  - [ ] B. NAK
+  - [ ] C. SYN/ACK
+  - [ ] D. SYN/NAK
+  - [ ] E: SYN
+
+2. TCP and UDP reside at which layer of the OSI model?
+
+  - [ ] A. 1
+  - [ ] B. 2
+  - [ ] C. 3
+  - [ ] D. 4
+
+3. Which layer of the OSI model provides an entry point for programs to access the network infrastructure?
+
+  - [ ] A. Application
+  - [ ] B. Transport
+  - [ ] C. Network
+  - [ ] D: Physical
+
+4. You are connected to a server on the internet and you click a link on the server and receive a time-out mesage. What layer could be the source of the message?
+
+  - [ ] A. Application
+  - [ ] B. Transporation
+  - [ ] C. Network
+  - [ ] D. Physical
+
+5. Which layer of the OSI model is responsible for code and character-set conversion as well as recognizing data formats?
+
+  - [ ] A. Application
+  - [ ] B. Presentation
+  - [ ] C. Session
+  - [ ] D. Network
+
+6. At which layers of the OSI model do bridges, hubs, and routers primarily operate, respectively
+
+  - [ ] A. Physical, Physical, Data Link
+  - [ ] B. data Link, Data Link, Network
+  - [ ] C. Data Link, Physical Network
+  - [ ] D. Physical Data Link, Network
+
+7. Which layer of the OSI model is responsible for converting data into signals appropriate for the transmission medium?
+
+  - [ ] A. Application
+  - [ ] B. Network
+  - [ ] C. Data Link
+  - [ ] D. Physical
+
+8. A receiving host has failed to receive all segments that it should acknowledge. What can the host do to improve the reliability of this communication session?
+
+  - [ ] A. Send a different source port number
+  - [ ] B. Restart the virtual circuit
+  - [ ] C. Decrease the sequence number
+  - [ ] D. Decrease the window size
+
+9. Which layer 1 device can be used to enlarge the area covered by a single LAN segment?
+
+  - [ ] A. Firewall
+  - [ ] B. NIC
+  - [ ] C. Hub
+  - [ ] D. Repeater
+  - [ ] E: RJ-45 transceiver
+
+10. Segmentation of a dta stream happens at which layer of the OSI model?
+
+  - [ ] A. Physical
+  - [ ] B. Data Link
+  - [ ] C. NEtwork
+  - [ ] D. Transpor
+
+11. When data is encapsulated, which is the correct order?
+
+  - [ ] A. Data, frame, packet, segment, bits
+  - [ ] B. Segment, data, packet, frame, bits
+  - [ ] C. Data, segment, packet, frame, bits
+  - [ ] D. Data, segment, frame, packet, bits
+
+12. What are the two purposes for segmentation with a bridge? (Choose Two)
+
+  - [ ]
