@@ -83,7 +83,7 @@ Summary: Provides a user interface
 
 ## Written Lab
 
-1. Which layer chooses and determines the availability of communicating partners along with the resources necessary to make the connection, coordinates partnering applications,a nd forms a concsensus on procedures for controlling data integrity and error recovery?
+1. Which layer chooses and determines the availability of communicating partners along with the resources necessary to make the connection, coordinates partnering applications, and forms a consensus on procedures for controlling data integrity and error recovery? 
 
 2. Which layer is responsible for converting frames from the Data Link Layer into electrical signals?
 
@@ -95,7 +95,7 @@ Summary: Provides a user interface
 
 6. Which layer manages the transmission of data cross physical link and is primarily concerned with physical addressing and the order delivery of frames?
 
-7. Which layer is used fo rreliable communication between end nodes over the networka nd provides mechanisms for estbalishing, maintaining, and terminating virutal circuits as-well-as controlling the flow of information?
+7. Which layer is used for reliable communication between end nodes over the network and provides mechanisms for establishing, maintaining, and terminating virtual circuits as-well-as controlling the flow of information? 
 
 8. Which layer provides logical addressing that routers use for path determinations
 
@@ -127,10 +127,10 @@ Summary: Provides a user interface
   - [ ] C. Network
   - [ ] D: Physical
 
-4. You are connected to a server on the internet and you click a link on the server and receive a time-out mesage. What layer could be the source of the message?
+4. You are connected to a server on the internet and you click a link on the server and receive a time-out message. What layer could be the source of the message?
 
   - [ ] A. Application
-  - [ ] B. Transporation
+  - [ ] B. Transport
   - [ ] C. Network
   - [ ] D. Physical
 
@@ -170,7 +170,7 @@ Summary: Provides a user interface
   - [ ] D. Repeater
   - [ ] E: RJ-45 transceiver
 
-10. Segmentation of a dta stream happens at which layer of the OSI model?
+10. Segmentation of a data stream happens at which layer of the OSI model?
 
   - [ ] A. Physical
   - [ ] B. Data Link
@@ -186,4 +186,58 @@ Summary: Provides a user interface
 
 12. What are the two purposes for segmentation with a bridge? (Choose Two)
 
-  - [ ]
+  - [ ] A. To add more broadcast domains
+  - [ ] B. To create more collision domains
+  - [ ] C. To add more bandwidth for users
+  - [ ] D. To allow more broadcasts for users
+
+13. Acknowledgements, sequencing, and flow control are characteristic of which OSI layer?
+
+  - [ ] A. Layer 2
+  - [ ] B. Layer 3
+  - [ ] C. Layer 4
+  - [ ] D. Layer 7
+
+14. Which of the following is true regarding sequencing and acknowledgements? (Chose all that apply)?
+
+  - [ ] A. The segments delivered are acknowledged back to the sender upon their reception
+  - [ ] B. If a segment is not received, the virtual circuit must be restarted from the beginning at the slower transmit interval
+  - [ ] C. Any segments not acknowledged are retransmitted
+  - [ ] D. Segmetns are sequenced back into their proper order upon arrival at their destination
+  - [ ] E. All segments are retransmitted on time slot intervals
+
+15. Which is the purpose of flow control?
+
+  - [ ] A. To ensure the data is retransmitted of an acknowledgement is not received
+  - [ ] B. To reassemble segments in the correct order at the destination device
+  - [ ] C. To provide a means for the receiver to govern the amount of data sent by the sender
+  - [ ] D. To regulate the size of each segment
+
+16. At which layer of the OSI model would you find IP?
+
+  - [ ] A. Transport
+  - [ ] B. Network
+  - [ ] C. Data Link
+  - [ ] D. Physical
+
+17. Of the following, which is the highest layer in the OSI model?
+
+  - [ ] A. Transport
+  - [ ] B. Session
+  - [ ] C. Network
+  - [ ] D. Presentation
+
+18. Routers perform routing at which OSI layer?
+
+  - [ ] A. Physical
+  - [ ] B. Data Link
+  - [ ] C. Network
+  - [ ] D. Transport
+  - [ ] E. Application
+
+19. Which IEEE Standard specifies the protocol for CSMA/CD?
+
+  - [ ] A. 802.2
+  - [ ] B. 802.3
+  - [ ] C. 802.5
+  - [ ] D. 802.11
