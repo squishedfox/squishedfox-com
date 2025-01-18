@@ -1,5 +1,5 @@
 ---
-title: Chapter d 
+title: Chapter 2 
 layout: page
 parent: Study Guide 
 grand_parent: Network+
@@ -67,17 +67,17 @@ User Datagram Protocol (Connectionless) is a protocol that sends floods of packe
 
 - Examples: Dialog Control
 
-Summary: Keeps different appplications' data separate
+Summary: Keeps different applications data separate
 
 ### Layer 6 Presenation Layer
 
-- Examples: Data encryption, compresion, and translation servies
+- Examples: Data encryption, compression, and translation services
 
-Summary: Presents the data and handels processing such as encryption
+Summary: Presents the data and handles processing such as encryption
 
 ### Layer 7 Application Layer
 
-- Examples: File, print, message, database, and applicaiton services
+- Examples: File, print, message, database, and application services
 
 Summary: Provides a user interface
 
@@ -175,7 +175,7 @@ Summary: Provides a user interface
   - [ ] A. Physical
   - [ ] B. Data Link
   - [ ] C. NEtwork
-  - [ ] D. Transpor
+  - [ ] D. Transport
 
 11. When data is encapsulated, which is the correct order?
 
@@ -203,7 +203,7 @@ Summary: Provides a user interface
   - [ ] A. The segments delivered are acknowledged back to the sender upon their reception
   - [ ] B. If a segment is not received, the virtual circuit must be restarted from the beginning at the slower transmit interval
   - [ ] C. Any segments not acknowledged are retransmitted
-  - [ ] D. Segmetns are sequenced back into their proper order upon arrival at their destination
+  - [ ] D. Segments are sequenced back into their proper order upon arrival at their destination
   - [ ] E. All segments are retransmitted on time slot intervals
 
 15. Which is the purpose of flow control?
