@@ -20,6 +20,8 @@ permalink: /education/comptia/network-plus/book-notes/chapter-4/
 
 ## Review Questions
 
+<iframe src="https://quizlet.com/994666342/test/embed?i=3896f3&x=1jj1" height="500" width="100%" style="border:0"></iframe>
+
 1. On an ethernet switch network, what address does one host computer use to communicate with another
 
   - [ ] A. IP Address 
