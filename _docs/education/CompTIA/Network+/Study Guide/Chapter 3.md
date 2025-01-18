@@ -142,7 +142,7 @@ Twinaxial Cabling is used as a short distance high speed connection cable. Advan
 4. Which RG rating of coax is used for cable modems?
 5. Which UTP uses four twisted wire pairs (eight wires)
 6. You want to connect a host to switch port. What type of Ethernet cable will you use?
-7. In what instance would you use T! crossover cable?
+7. In what instance would you use T1 crossover cable?
 8. T568A uses which pins to make a connection?
 9. A crossover uses which pints to make a connection?
 10. What are two advantages of fiber-optic cabling?
@@ -207,7 +207,7 @@ Twinaxial Cabling is used as a short distance high speed connection cable. Advan
 9. What is the main difference between single-mode fiber (SMF) and multimode fiber (MMF)?
 
   - [ ] A. Electrical Signals
-  - [ ] B. Number of light years
+  - [ ] B. Number of light rays
   - [ ] C. Number of digital Signals
   - [ ] D. That signal-mode can be run shorter distance
 
@@ -289,3 +289,6 @@ Twinaxial Cabling is used as a short distance high speed connection cable. Advan
   - [ ] B. Two
   - [ ] C. Three
   - [ ] D. Four
+
+
+<iframe src="https://quizlet.com/989830241/flashcards/embed?i=3896f3&x=1jj1" height="500" width="100%" style="border:0"></iframe>
