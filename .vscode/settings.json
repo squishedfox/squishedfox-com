@@ -1,8 +1,11 @@
 {
     "cSpell.words": [
+        "Baseband",
         "bruteforce",
         "Connectionless",
         "Datagram",
-        "Mbps"
+        "Mbps",
+        "Thicknet",
+        "Thinnet"
     ]
 }
