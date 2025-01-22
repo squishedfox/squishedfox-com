@@ -15,6 +15,15 @@ permalink: /education/comptia/network-plus/book-notes/chapter-5/
 1.6 Explain the use and purpose of network services
 2.1 Compare and contrast various devices, their features, and their appropriate placement on the network
 
+### Network Time Protocol (NTP)
+
+**Network Time Protocol** is a way of synchronizing clocks across devices on a network. NTP is an important concept because it provides a mechanism for
+   - Time Logging
+   - Security Logs
+   - Ensure sequencing of tasks
+   - Ensure tasks are not delayed or running late
+
+
 ### Network Interface Cards (NIC)s
 
 Layer 2 device installed in your computer to connect, or interface, your computer to the network. It provides the physical, electrical, and electronic connections to the network media.
@@ -108,18 +117,52 @@ Carrier Sense Multiple Access with Collision Detection is easier to use on syste
 
 ### Dynamic Host Configuration Protocol Server (DHCP) Server
 
-DCHP  Servers assign IP (Internet Protocol) Addresses to connected systems. It's a way of assigning IP Addresses as systems connect to a network rather than assigning static IP addresses to a system 
+- **DCHP Servers** assign IP (Internet Protocol) Addresses to connected systems. It's a way of assigning IP Addresses as systems connect to a network rather than assigning static IP addresses to a system 
+- DHCP is an Application layer protocol that uses DORA (Discover, Request, Offer, Acknowledgement) at layer 2 (Data Link Layer)
+- **Scope** is a way of defining a range/pool of addresses within a subnet to reduce collision domains and assign IP Addresses from a DHCP Server.
+- An IP Address can be assigned to a system with a **Lease** Time-a time in which the host system is given an IP address but must release it after such they must request the same IP address or a new one.
+- One root domain starting with the "." (period) character.
+- Common sub domains
+   - .com - typically assigned to for-profit companies
+   - .edu - assigned to education organizations
+   - .gov - assigned to local or federal government websites
+   - .int - assigned to international organizations such as NATO
+   - .mil - strictly for military
+   - .net - a network organization such as your ISP
+   - .org - assigned to a nonprofit organizations
+- **DHCP Relay** is if a message for a IP Address is relayed to another DHCP Server that may be on a different network and then forwarded back to the host system requesting one.
 
-DHCP is an Application layer protocol that uses DORA (Discover, Request, Offer, Acknowledgement) at layer 2 (Data Link Layer)
+### Domain Name Server (DNS) 
 
-Scope is a way of defining a range/pool of addresses within a subnet to reduce collision domains and assign IP Addresses from a DHCP Server.
+- **reverse lookup** is a way for finding a hostname based on the IP (internet protocol) address
+- **DMZ** is an internal DNS server which provides lookups
 
-An IP Address can be assigned to a system with a Lease Time-a time in which the host system is given an IP address but must release it after such they must request the same IP address or a new one.
+#### Record Types
 
-### DHCP Relay
+- A Record - an alias record that converts human readable characters or text into an IPv4 address
+- AAAA Record - an alias record that converts human readable characters or text into an IPV6 address
+- TXT Record - is a record which typically can be used to store any data but is often a way to confirm ownership of a domain
+- PTR Record - is an alias record which sends an IP address or host name to another domains
+- MX Record - is for mail exchange Servers
+- SRV Record - is for a Service record that is stood up typically inside of an organization's intranet
+- CNAME Record - is commonly used to alias one record for another such as www.example.com to example.com
+- NS Records - strictly belong to Authoritative DNS Servers for a Domain 
 
-DHCP Relay is if a message for a IP Address is relayed to another DHCP Server that may be on a different network and then forwarded back to the host system requesting one.
+### Proxy Server
+
+- A **proxy server** is a type of server that handles its client-machine requests by forwarding them on to other servers while allowing granular control over the traffic between the local LAN and the Internet. Proxy servers act at the Application Layer (Layer 7) of the OSI Model.
+- **web proxy server** is usually used to create a web cache.
+- **caching proxy server** is usually a caching proxy server speeds up the networks service requests by recovering information from a client's earlier requests.
+
+### Encryption Appliances
+
+An encryption appliance can sit in the middle of two connected lines and encrypt or decrypt information as it is sent along the physical medium
+
+### Analog Modem
+
+
+
 
 ### IPAM (Internet Protocol Address Management)
 
-IPAM Software more easily allows for tracking IP Addresses which are used and assigned to Hosts.
+- IPAM Software more easily allows for tracking IP Addresses which are used and assigned to Hosts.

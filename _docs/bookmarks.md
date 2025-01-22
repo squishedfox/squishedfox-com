@@ -30,7 +30,7 @@ nav_order: 3
 - [Send Secure Note](https://privnote.com/#)
 - [nmap](https://formulae.brew.sh/formula/nmap#default) port scanning
 - [angry ip](https://angryip.org/) - for port scanning and topology
-- 
+- [Available NSP Servers](https://tf.nist.gov/tf-cgi/servers.cgi) 
 
 ## Foundations
 
