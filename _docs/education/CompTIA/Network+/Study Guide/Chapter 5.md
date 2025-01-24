@@ -39,6 +39,9 @@ A bridge is a Layer 2 device that connects two different networks segments toget
 ### Switch
 
 Switches are Layer 2 devices which have intelligent port forwarding looking at the source and destination MAC Addresses. They can also provide Virtual LANs, Firewalls, break up collision domains using different hardware or software techniques.
+Switches basically just forward for filter frames. By default switches break up collision domains.
+
+Switches will not segment a network packet that is targeted for broadcast or multicast
 
 ### Multilayer Switch
 
@@ -47,6 +50,25 @@ A multilayer switch (MLS)
 ### Routers
 
 Routers are layer 3 devices that are more intelligent versions of bridges and are actual hardware instead of just software. Routes can provide port forwarding, firewalls, virtual LANs. They can also hold onto best network paths to traverse and forward packets.
+
+- Routers do not forward broadcasts by default
+- Routers can filter the network based on layer 3 information such as IP Addresses
+- Routers use logic addresses at layer 3 to understand the next hold
+- Routers can use access lists, created by an administrator, to control security on the types of packets that are allowed to enter or exit an interface 
+- Routers provide Quality of Service (QoS) Services
+- Routers can provide layer 2 bridging functions if needed and can simultaneously route through the same interface. 
+
+#### Types of packets
+
+- Route Update Packets - Tell the router information about their neighbors, and what they know about their neighbors for forwarding packets
+- Data Packets - information that is ideally intended for a host connected to the router's network
+
+#### Functions
+
+- Packet switching
+- Packet filtering
+- Internet communication
+- Path Selection
 
 ###  Firewall
 
@@ -160,9 +182,62 @@ An encryption appliance can sit in the middle of two connected lines and encrypt
 
 ### Analog Modem
 
+Analog Modems are device which convert phone signal into usable bytes to a computer network, at layer 1
 
+### Packet Shaping
 
+Packet Shaping is created by a device that can rate limit the amount of traffic come into a house or company so it doesn't flood the network
+
+### Media Converter
+
+Media converter is a device which can be used to convert the physical signals of transmitted on a network from one medium to another such as fiber to analog or copper wire signaling.
 
 ### IPAM (Internet Protocol Address Management)
 
 - IPAM Software more easily allows for tracking IP Addresses which are used and assigned to Hosts.
+
+### Creating a Network
+
+Deciding factors for choosing equipment
+
+- Growth of the network. How fast does the network need to be able to scale
+- Available cost. What is the initial cost for the scope of the work, how much needs to be allocated for the future?
+- Security. What compliances if any do you need to maintain or security concerns need to be mitigated
+- Maintainability - How easy to troubleshoot the network matters
+
+### Causes for Network Congestion
+
+- Multicasting
+- Lowe Bandwidth
+- Adding hubs for connectivity to the network
+- Broadcast storms
+- Too many hosts in a broadcast domain
+
+## Exam Essentials
+
+- Understand how DHCP (Dynamic Host Configuration Protocol) works and it's purpose
+- Understand how DNS (Domain Name System) Server works and it's purpose
+- Understand the difference between a hub, a switch (bridge), and a router
+- Remember the different names for a router
+- Remember the various devices used on networks today, and when you would use each one, and how
+- Identify the purpose, benefits, and characteristics of using a proxy service
+- Describe the proper use of network segmentation when planning and implementing a basic Small Home, Small Office Network- Describe the benefits of using a network load Balancer
+- Describe the benefits of using dedicated appliances for certain services
+
+## Written Lab Questions
+
+| Description | Device or OSI Layer |
+|-------------|---------------------|
+| This device sends and receives information about the network layer | | 
+| This layer creates a virtual circuit before transmitting between end stations | |
+| A layer 3 switch or multiplayer switch | |
+| This device uses hardware addresses to filter a network | | 
+| Ethernet is defined at these layers | |
+| This layer supports flow control and sequencing | |
+| This device can measure the distance to a remote network | |
+| Logical Addressing is used at this Layer | |
+| Hardware addresses are defined at this layer | |
+| This device creates one big collision domain and one large broadcast domain | |
+| This device creates many smaller collision domains, but the network is still one larger broadcast domain | |
+| This device can never run full duplex | |
+| This device breaks up collision domains and broadcast domains | |
