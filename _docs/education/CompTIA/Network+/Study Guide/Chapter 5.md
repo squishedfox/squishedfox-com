@@ -241,3 +241,148 @@ Deciding factors for choosing equipment
 | This device creates many smaller collision domains, but the network is still one larger broadcast domain | |
 | This device can never run full duplex | |
 | This device breaks up collision domains and broadcast domains | |
+
+## Review Questions
+
+1. Which of the following is not a term used when making SOHO Internet connections?
+   - [ ] A. Hub
+   - [ ] B. Router
+   - [ ] C. NIC
+   - [ ] D. Switch
+   - [ ] E. IDS/IPS 
+2. What advanced does a switch have over a hub
+   - [ ] A. It discards frames
+   - [ ] B. Transmissions received on one port will be sent out all the other ports
+   - [ ] C. It recognized frames boundaries and destinations MAC addresses of incoming frames
+   - [ ] D. Any two or more devices that switch connects are capable of causing a collision with each other
+3. Which device is used to segment a network?
+   - [ ] A. Hub
+   - [ ] B. Switch
+   - [ ] C. Repeater
+   - [ ] D. All of the above
+4. What is the primary function of a bridge?
+   - [ ] A. Breaks up collision domains
+   - [ ] B. Allows a NIC or other networking device to connect to a different type of media than it was designed for 
+   - [ ] C. Allows mobile users to connect to a wired network wirelessly
+   - [ ] D. None of the above 
+5. A network device that is used to connect multiple devices together without segmenting a network is a ______
+   - [ ] A. Hub
+   - [ ] B. Wireless access point
+   - [ ] C. Switch
+   - [ ] D. Router
+6. Which of the following is among the benefits of a switch?
+   - [ ] A. Protect LAN Resources from attackers on the internet  
+   - [ ] B. Provides extra bandwidth
+   - [ ] C. Reduces throughput 
+   - [ ] D. Allows access to all computers on the LAN
+7. Which of the following devices can work at both layers 2 and 3 of the OSI model?
+   - [ ] A. Hub
+   - [ ] B. Switch
+   - [ ] C. Multilayer switch
+   - [ ] D. Bridge
+8. What is an advantage of using DHCP in a network environment?
+   - [ ] A. More difficult administration of the network
+   - [ ] B. Static IP addressing
+   - [ ] C. Can send an operating system for the PC to boot from
+   - [ ] D. Assigns IP Addresses to hosts
+9. What is a benefit of multilayer switch (MLS) over a layer 2 switch?
+   - [ ] A. Less Bandwidth
+   - [ ] B. Routing functions
+   - [ ] C. Fewer features
+   - [ ] D. Fewer ports
+10. Which device should be used if you need to send incoming packets to on or more machines that are hidden behind a single IP address?
+   - [ ] A. Switch
+   - [ ] B. Load balancer
+   - [ ] C. Hub
+   - [ ] D. Repeater
+11. What role does the A record in a Domain NAme Service (DNS) server have in your network?
+   - [ ] A. Translate human name to IP address
+   - [ ] B. Translates IP address to human name
+   - [ ] C. Enables printing, copying, and faxing from one device 
+   - [ ] D. Controls network packets to optimize performance
+12. Which device does not aid in network segmentation?
+   - [ ] A. Router
+   - [ ] B. Switch
+   - [ ] C. Hub
+   - [ ] D. Bridge
+13. What is the most common use for a web proxy?
+   - [ ] A. Web cache
+   - [ ] B. Throughput increase
+   - [ ] C. DHCP services
+   - [ ] D. Support for the user authentication
+14. Which is not an advantage of network segmentation?
+   - [ ] A. Reducing congestion
+   - [ ] B. Improving security
+   - [ ] C. Containing network problems
+   - [ ] D. Preventing broadcast storms
+15. Users arrive at the office after a weekend and the hosts that were shutdown over the weekend are restarted but cannot access the LAN or internet. Hosts that were not shut down are working fine. Where can the problem be?
+   - [ ] A. The DNS server
+   - [ ] B. The DHCP server
+   - [ ] C. The proxy server
+   - [ ] D. The Firewall
+16. You need a device that can prevent your users from accessing certain websites. Which device should you install?
+   - [ ] A. Firewall
+   - [ ] B. IDS
+   - [ ] C. IPS
+   - [ ] D. Proxy server
+17. Which device creates separate collision domains and a single broadcast domain?
+   - [ ] A. Hub
+   - [ ] B. Router
+   - [ ] C. Switch
+   - [ ] D. Modem
+18. Which of the following is _not_ an advantage of using appliances to offload services like encryption and content filtering?
+   - [ ] A. Less Expensive
+   - [ ] B. Reduced load on other devices
+   - [ ] C. Additional functionality
+   - [ ] D. Better performance
+19. Which type of server in your network uses pointer and A records?
+   - [ ] A. NAT translation server
+   - [ ] B. IDS/IPS server
+   - [ ] C. DNS server
+   - [ ] D. Proxy server
+20. Users on your network are saturating your bandwidth because they are using too many non work related sites. What device would limit the availability of the types of sites that users on a LAN have access to while providing granular control over the traffic between the local LAN and the internet?
+   - [ ] A. Switch
+   - [ ] B. DHCP server
+   - [ ] C. DNS server
+   - [ ] D. Proxy server\
+
+## Written Lab Answers
+
+| Description | Device or OSI Layer |
+|-------------|---------------------|
+| This device sends and receives information about the network layer | Router | 
+| This layer creates a virtual circuit before transmitting between end stations | Transport |
+| A layer 3 switch or multiplayer switch | Router |
+| This device uses hardware addresses to filter a network | Bridge or Switch | 
+| Ethernet is defined at these layers | Data Link and Physical |
+| This layer supports flow control and sequencing | Transport |
+| This device can measure the distance to a remote network | Router |
+| Logical Addressing is used at this Layer | Network |
+| Hardware addresses are defined at this layer | Data Link (MAC sublayer) |
+| This device creates one big collision domain and one large broadcast domain | Hub |
+| This device creates many smaller collision domains, but the network is still one larger broadcast domain | Switch or bridge |
+| This device can never run full duplex | Hub |
+| This device breaks up collision domains and broadcast domains | Router |
+
+## Review Answers
+
+1. E
+2. C
+3. B
+4. A
+5. A
+6. B
+7. C
+8. D
+9. B
+10. B
+11. A
+12. C
+13. A
+14. D
+15. B
+16. D
+17. C
+18. A
+19. C
+20. D
