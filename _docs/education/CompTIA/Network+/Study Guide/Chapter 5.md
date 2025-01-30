@@ -242,6 +242,8 @@ Deciding factors for choosing equipment
 | This device can never run full duplex | |
 | This device breaks up collision domains and broadcast domains | |
 
+<iframe src="https://quizlet.com/999179915/flashcards/embed?i=3896f3&x=1jj1" height="500" width="100%" style="border:0"></iframe>
+
 ## Review Questions
 
 1. Which of the following is not a term used when making SOHO Internet connections?
@@ -250,7 +252,7 @@ Deciding factors for choosing equipment
    - [ ] C. NIC
    - [ ] D. Switch
    - [ ] E. IDS/IPS 
-2. What advanced does a switch have over a hub
+2. What advantage does a switch have over a hub
    - [ ] A. It discards frames
    - [ ] B. Transmissions received on one port will be sent out all the other ports
    - [ ] C. It recognized frames boundaries and destinations MAC addresses of incoming frames
@@ -344,7 +346,9 @@ Deciding factors for choosing equipment
    - [ ] A. Switch
    - [ ] B. DHCP server
    - [ ] C. DNS server
-   - [ ] D. Proxy server\
+   - [ ] D. Proxy server
+
+<iframe src="https://quizlet.com/999173192/flashcards/embed?i=3896f3&x=1jj1" height="500" width="100%" style="border:0"></iframe>
 
 ## Written Lab Answers
 
