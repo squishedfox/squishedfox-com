@@ -96,3 +96,24 @@ UDP Segment typically has the below data in only 8 bytes versus TCP's 60 bytes
 - Checksum
 - Length
 - Data
+
+### IP (Internet Protocol)
+
+Internet Protocol Header in total 20 bytes or 160 bits
+
+| Header Name | Description | Bits |
+|-------------|-------------|-----|
+| Version - IP Version Number | 4 |
+| Header Length | Header length (HLEN) in 32-bit words | 4 |
+| Priority and Type of Service | first three bits are priority bits, which tells the type of service how the datagram should be handled | 8 |
+| Total Length | Length of the packet, including header and data | 16 |
+| Identification | Unique IP-packet value used to differentiate fragmented packets from different datagrams | 16 |
+| Flags | this one field specifies whether fragmentation of the packet should occur | 3 | 
+| Fragment Offset | Allows for different Maximum Transmission Units (MTUs) and breaks up packets into different fragments if they are too large for one frame | 13 |
+| Time to Live | Number of Seconds or Number of hops the packet can make before it has expired and no longer is forwarded to the destination host | 8 |
+| Protocol | Port of upper layer protocol such as TCP or UDP ports, or Network layer protocols like ARP and ICMP | 8 |
+| Header Checksum | Cyclic redundancy check (CRC) on header only | 16 |
+| Source IP Address | 32-bit IP address of sending station | 32 | 
+| Destination IP Address | 32-bit IP address of receiving station | 32 |
+| Options | Used for network testing, debugging, security, and more | 32 |
+| Data | After the IP option field, will be the upper-layer data | varies | 
