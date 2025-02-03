@@ -176,8 +176,10 @@ Internet Protocol Header in total 20 bytes or 160 bits
 ### Data Encapsulation
 
  - Data Encapsulation is where each layer of the OSI model wraps the current data with it's own header information so that it can be unwrapped at the same layer on the receiving end. This way each layer only needs to handle and know it's own information, unwrap, and pass the data along to the next layer.
- 
-## Written Lab
+
+## Written Lab Questions
+
+<iframe src="https://quizlet.com/1000542879/flashcards/embed?i=3896f3&x=1jj1" height="500" width="100%" style="border:0"></iframe>
 
 1. What should an ARP destination MAC address appear as?
 2. Name the protocol that uses both TCP ports 20 and 21
@@ -186,11 +188,13 @@ Internet Protocol Header in total 20 bytes or 160 bits
 5. What could cause a server that you can ping to not provide the particular TCP/IP serv,ce such as FTP, HTTP, and so on, that you expect it to offer?
 6. What is the well-known port number for RDP?
 7. Which ports does the protocol MGCP use?
-8. Whta protocol is at the heart of the ping and tracert commands in a windows operating system?
+8. What protocol is at the heart of the ping and tracert commands in a windows operating system?
 9. Which destination Transport layer protocol and port number does a TFTP client use to transfer files over the network?
 10. What well-known port numbers do SMTP, POP3, RDP, and IMAP4 servers use?
 
 ## Review Questions
+
+<iframe src="https://quizlet.com/1000543909/flashcards/embed?i=3896f3&x=1jj1" height="500" width="100%" style="border:0"></iframe>
 
 1. The OSI model has seven layers and the DoD has four. At which layer does SMTP work in both models?
     - [ ] A. Network
@@ -326,7 +330,7 @@ Internet Protocol Header in total 20 bytes or 160 bits
 ## Written Lab Answers
 
 1. This would be a layer 2 broadcast, or FF:FF:FF:FF:FF:FF
-2. FTP uses both TCp ports 20 and 21 for the data channel and the control channel, respectively
+2. FTP uses both TCP ports 20 and 21 for the data channel and the control channel, respectively
 3. Both TCP and UDP
 4. ICMP uses IP directly to build error-reporting packets that are transmitted back to the originating source host when issues arise during the delivery of data packets. ICMP is also used during ping and some traceroute operations
 5. Quite simply, the service might not be running currently on that server. Another possibility might be that a firewall between the client and the server has blocked the protocol in question from passing
