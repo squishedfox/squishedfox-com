@@ -15,6 +15,15 @@ permalink: /education/comptia/network-plus/book-notes/chapter-6/
 1.1 Compare and contrast the Open Systems iNterconnection (OSI) model layers and encapsulation concepts
 1.5 Explain common ports and protocols, their application, and encrypted alternatives
 
+### Exam Essentials
+
+- Remember the Process/Application layer protocols
+- Understand data encapsulation and decapsulation within the OSI model context
+- Be able to explain common ports and protocols, their application, and encrypted alternatives
+- Be able to identify and define protocol types
+- Remember the Host-to-Host layer Protocols
+- Remember the Internet layer protocols
+
 ### DoD (Department of Defense) Layer
 
 - Process Application - controls protocols for for nod-eto-node application communication and also controls user-interface specifications
@@ -107,7 +116,7 @@ Internet Protocol Header in total 20 bytes or 160 bits
 | Header Length | Header length (HLEN) in 32-bit words | 4 |
 | Priority and Type of Service | first three bits are priority bits, which tells the type of service how the datagram should be handled | 8 |
 | Total Length | Length of the packet, including header and data | 16 |
-| Identification | Unique IP-packet value used to differentiate fragmented packets from different datagrams | 16 |
+| Identification | Unique IP-packet value used to differentiate fragmented packets from different datagram | 16 |
 | Flags | this one field specifies whether fragmentation of the packet should occur | 3 | 
 | Fragment Offset | Allows for different Maximum Transmission Units (MTUs) and breaks up packets into different fragments if they are too large for one frame | 13 |
 | Time to Live | Number of Seconds or Number of hops the packet can make before it has expired and no longer is forwarded to the destination host | 8 |
@@ -116,4 +125,236 @@ Internet Protocol Header in total 20 bytes or 160 bits
 | Source IP Address | 32-bit IP address of sending station | 32 | 
 | Destination IP Address | 32-bit IP address of receiving station | 32 |
 | Options | Used for network testing, debugging, security, and more | 32 |
-| Data | After the IP option field, will be the upper-layer data | varies | 
+| Data | After the IP option field, will be the upper-layer data | varies |
+
+### Internet Control Message Protocol (ICMP)
+
+- works at the network layer
+- provides information to host about network problems
+- encapsulated within IP datagram
+- Common Errors
+   - Destination Unreachable
+   - Buffer Full
+   - Hops
+   - Ping
+   - Traceroute
+
+### Address Resolution Protocol (ARP)
+
+- Finds the hardware address of a host from a known IP address
+- Host systems use this protocol to map between a hardware address on the network and an IP address
+- Works as IP's detective to find out where the destination is on the network
+
+### Reverse Address Resolution Protocol (RARP)
+
+- discovers the identify of the IP address for diskless machines by sending out packet that includes its MAC address and request for the IP address assigned to that MAC address. The RARP server responds with the correct information.
+
+### Generic Routing Encapsulation
+
+- Generic Routing Encapsulation is a way of creating a virtual IP point-to-point tunnel for any protocol that may be denied by either end. 
+- It is protocol agnostic
+- Simply a way to create an unencrypted tunnel between two networks
+
+### Internet Protocol Security (IPSec)
+
+- IPSec is a way of ensuring data integrity and encryption so the data is not sent in plain text.
+- Secure VPN Tunnels are creating using GRE and IPSec
+
+### Authentication Header (AH)/Encapsulating Security Payload (ESP)
+
+- IPSec uses the authentication header as a way of validating a packet
+- A one way hash is created on either side of the network and matched when received. If the packet does not match it is dropped.
+
+### Encapsulating Security Payload (ESP)
+
+- Confidentiality - ESP uses symmetric encryption at the sender end to encrypt data payloads
+- Data Integrity - Data integrity allows the receiver to verify that he data received was not altered in any way along with the way. IPSec uses checksums as a simple check of the data
+- Authentication - Receiver of the packet can verify the packet has been sent by whom claims to have sent it, and no one has man-in-the-middle attacked
+- Anti-Replay Service - A sequence number is used to verify the packet has already been received. This so someone cannot create a copy of a packet and replay it to the destination causing havoc on the receivers end
+- Traffic Flow - Tunnel flow should be enabled at a gateway to make it obscure from the outside or behind the gateway who is asking for what.
+
+### Data Encapsulation
+
+ - Data Encapsulation is where each layer of the OSI model wraps the current data with it's own header information so that it can be unwrapped at the same layer on the receiving end. This way each layer only needs to handle and know it's own information, unwrap, and pass the data along to the next layer.
+ 
+## Written Lab
+
+1. What should an ARP destination MAC address appear as?
+2. Name the protocol that uses both TCP ports 20 and 21
+3. What transport layer protocol does a DNS server use?
+4. Which protocol dynamically reports errors to source hosts by using IP directly to build packets?
+5. What could cause a server that you can ping to not provide the particular TCP/IP serv,ce such as FTP, HTTP, and so on, that you expect it to offer?
+6. What is the well-known port number for RDP?
+7. Which ports does the protocol MGCP use?
+8. Whta protocol is at the heart of the ping and tracert commands in a windows operating system?
+9. Which destination Transport layer protocol and port number does a TFTP client use to transfer files over the network?
+10. What well-known port numbers do SMTP, POP3, RDP, and IMAP4 servers use?
+
+## Review Questions
+
+1. The OSI model has seven layers and the DoD has four. At which layer does SMTP work in both models?
+    - [ ] A. Network
+    - [ ] B. Transport
+    - [ ] C. Session
+    - [ ] D. Application
+    - [ ] E. Internet
+
+2. You need to have secure communications using HTTPS. What port number is used by default?
+   - [ ] A. 69
+   - [ ] B. 23
+   - [ ] C. 21
+   - [ ] D. 443
+
+3. You want to implement a mechanism that automates the IP configuration, including IP address, subnet mask, default gateway, and DNS information. Which protocol will you use to accomplish this?
+   - [ ] A. SMTP
+   - [ ] B. SNMP
+   - [ ] C. DHCP
+   - [ ] D. ARP
+
+4. What protocol is used to find the hardware address of a local device?
+   - [ ] A. RARP
+   - [ ] B. ARP
+   - [ ] C. IP
+   - [ ] D. ICMP
+   - [ ] E. BootP
+
+5. You need to log in to a Unix/Linux server across a network that is not secure. Which of the following protocols will allow you to remotely administer this server securely?
+   - [ ] A. Telnet
+   - [ ] B. SSH
+   - [ ] C. SFTP
+   - [ ] D. HTTP
+
+6. If you can ping by IP address but not by hostname, or FQND, which of the following port numbers is related to the server process that is involved?
+   - [ ] A. 21
+   - [ ] B. 23
+   - [ ] C. 53
+   - [ ] D. 69
+   - [ ] E. 80
+
+7. Which of the following describe the DHCP Discover message? (Choose two)
+   - [ ] A. It uses FF:FF:FF:FF:FF:FF as a layer 2 broadcast
+   - [ ] B. It uses UDP as the Transport layer protocol
+   - [ ] C. It uses TCP as the transport layer protocol
+   - [ ] D. It does not use a layer 2 destination address
+
+8. What layer 4 protocol is used for a Telnet connection, and what is the default port number?
+   - [ ] A. IP, 6
+   - [ ] B. TCP, 21
+   - [ ] C. UDP, 23
+   - [ ] D. ICMP, 21
+   - [ ] E. TCP, 23
+
+9. Which statements are true regarding ICMP packets? (Choose two).
+   - [ ] A. They acknowledge receipt of a TCP segment
+   - [ ] B. They guarantee datagram delivery
+   - [ ] C. UDP, 23
+   - [ ] D. ICMP, 21
+   - [ ] E. TCP, 23
+
+10. Which of the following services uses TCP? (Choose four)
+   - [ ] A. DHCP
+   - [ ] B. SMTP
+   - [ ] C. SNMP
+   - [ ] D. FTP
+   - [ ] E. HTTP
+   - [ ] F. TFTP
+
+11. which of the following services use UDP? (Choose three)
+   - [ ] A. DHCP
+   - [ ] B. SMTP
+   - [ ] C. SNMP
+   - [ ] D. FTP
+   - [ ] E. HTTP
+   - [ ] F. TFTP
+
+12. Which of the following TCP/IP protocols are used at the Application layer of the OSI model (Choose three.)
+   - [ ] A. IP
+   - [ ] B. TCP
+   - [ ] C. Telnet
+   - [ ] D. FTP
+   - [ ] E. TFTP
+
+13. Which of the following protocols is used by email servers to exchange messages with one another?
+   - [ ] A. POP3
+   - [ ] B. IMAP
+   - [ ] C. SMTP
+   - [ ] D. HTTP
+
+14. You need to have a connection to run applications that are installed on only your desktop computer at your office. Which protocol will provide a GUI interface to your work computer?
+   - [ ] A. Telnet
+   - [ ] B. FTP
+   - [ ] C. RDP
+   - [ ] D. IMAP
+   - [ ] E. SMTP
+
+15. Which of the following protocols can use TCP and UDP, permits authentication and secure polling of network devices, and allows for automated alerts and reports on network devices?
+   - [ ] A. DNS
+   - [ ] B. SNMP
+   - [ ] C. SMTP
+   - [ ] D. TCP
+
+16. You need to transfer files between two hots. Which protocol can you use?
+   - [ ] A. SNMP
+   - [ ] B. RIP
+   - [ ] C. NTP
+   - [ ] D. FTP
+
+17. What layer in the IP stack is equivalent to the Transport layer of the OSI model?
+   - [ ] A. Application
+   - [ ] B. Host-to-Host
+   - [ ] C. Internet
+   - [ ] D. network Access
+
+18. You need to make sure that the time is consistent across all your network devices. What protocol do you need to run on your network?
+   - [ ] A. FTP
+   - [ ] B. SCP
+   - [ ] C. NTP
+   - [ ] D. RTP
+
+19. Which of the follow allows a server to distinguish among different simultaneous requests from the same host?
+   - [ ] A. They use different port numbers
+   - [ ] B. A NAT server changes the IP address for subsequent requests
+   - [ ] C. A server is unable to accept multiple simultaneous sessions from the same host. One session must end before another can begin
+   - [ ] D. The MAC address for each one is unique
+
+20. Which of the following uses both TCP and UDP?
+   - [ ] A. FTP
+   - [ ] B. SMTP
+   - [ ] C. Telnet
+   - [ ] D. DNS
+
+## Written Lab Answers
+
+1. This would be a layer 2 broadcast, or FF:FF:FF:FF:FF:FF
+2. FTP uses both TCp ports 20 and 21 for the data channel and the control channel, respectively
+3. Both TCP and UDP
+4. ICMP uses IP directly to build error-reporting packets that are transmitted back to the originating source host when issues arise during the delivery of data packets. ICMP is also used during ping and some traceroute operations
+5. Quite simply, the service might not be running currently on that server. Another possibility might be that a firewall between the client and the server has blocked the protocol in question from passing
+6. RDP uses port 3389
+7. MGCP uses port 2427 and 2727
+8. ICMP is the protocol that  the ping and tracert commands rely on. If your having trouble getting pings and traceroutes through a router, you might need to check if ICMP is being allowed through
+9. TFTP servers respond to UDP messages sent to port 69
+10. SMTP uses TCP port 25, POP3 uses TCP port 110, RDP uses TCP port 3389, and IMAP4 uses TCP port 143
+
+## Review Question Answers
+
+1. D
+2. D
+3. C
+4. B
+5. B
+6. C
+7. A, B
+8. E
+9. C,D
+10. B,C,D,E
+11. A, C, F
+12. C,D,E
+13. C
+14. C
+15. B
+16. D
+17. B
+18. C
+19. A
+20. D

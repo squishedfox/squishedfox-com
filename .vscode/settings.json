@@ -4,7 +4,9 @@
         "bruteforce",
         "Connectionless",
         "Datagram",
+        "diskless",
         "Mbps",
+        "RARP",
         "Thicknet",
         "Thinnet"
     ]
