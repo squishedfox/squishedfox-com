@@ -43,8 +43,9 @@ Three classes of networks table
 | Class D | Multicast | | |
 | Class E | Research | | |
 
-### Class A Addresses
+### IPv4 Addressing
 
-- the first byte is assigned to the network address and the three remaining bytes are used for the host address. e.g. network.host.host.host
-- The first bit of the first byte must be a "0" or turned off, leaving the address octet decimal number to be between 0 and 127 because 2 pow 7 is 128
-- 
+- Layer 2 Broadcasts - Sent to all nodes on the Local Area Network (LAN). These broadcasts are also known as Hardware broadcasts. and typically are 6 bytes (48-bits) 
+- Broadcasts (Layer 3) - Network broadcasts which are meant to reach all hosts. These Broadcasts are a way for systems to route traffic internally on a broadcast domain or through a gateway to reach it's destination address. 
+- Unicast - Single interface broadcast which is described in both IPv4 and IPv6 
+- Mulicast (Class D) - Multicasting is a way that we can broadcast messages to multiple specific hosts instead of everyone at once. 
