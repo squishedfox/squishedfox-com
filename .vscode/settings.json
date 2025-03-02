@@ -9,5 +9,7 @@
         "RARP",
         "Thicknet",
         "Thinnet"
-    ]
+    ],
+    "editor.columnSelection": false,
+    "editor.wordWrap": "on"
 }
