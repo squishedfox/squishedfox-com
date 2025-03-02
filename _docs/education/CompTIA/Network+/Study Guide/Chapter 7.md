@@ -170,7 +170,7 @@ Three classes of networks table
     - [ ] A. packets addressed to a unicast address are delivered to a single interface
     - [ ] B. These are your typical publicly routable address, just like regular publicly routable address, in IPv4
     - [ ] C. These are like private address in IPv4 in that they are not meant to be routed
-    - [ ] D. These addresses are meant for nonrouting purposes, but they are almost globally unique so it is unlikely they will have an address overlap:w
+    - [ ] D. These addresses are meant for nonrouting purposes, but they are almost globally unique so it is unlikely they will have an address overlap
 
 10. A host is rebooted and you view the IP address that is was assigned. The address is 169.123.13.3. Which of the following happened?
     - [ ] A. the host received an APIPA address
