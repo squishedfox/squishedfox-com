@@ -14,6 +14,10 @@ permalink: /education/comptia/network-plus/book-notes/chapter-8/
 
 1.4 Given a scenario, configure a subnet and use appropriate IP addressing schemes
 
+### Resources
+
+I suggest looking at https://subnetipv4.com/ and using these videos and examples to help you walk through how to solve and practice subnetting
+
 ### How to Create Subnets 
 
 1. Determine the number of required network IPs
@@ -29,6 +33,14 @@ A 32 bit value that allows the recipient of IP packets to distinguish the networ
 | A     | network.host.host.host | 255.0.0.0 |
 | B     | network.network.host.host | 255.255.0.0 |
 | C     | network.network.network.host | 255.255.255.0 |
+
+### Classless Inter-Domain Routing (CIDR)
+
+Sometimes this concept is also called variable-length subnet masking (VLSM)
+
+Sometimes we receive 192.168.10.32/28. This is telling you what your subnet mask is. The "/" notation is telling you how many bits are on (1s). The max number of bits that can be turned on is 32 because there are four bytes in an IPv4 Address and 8 bits per part. 4 x 8 = 32. 
+
+The largest however can only ever be a /30 because you have to keep at least 2 bits for host address.
 
 
 ## Exam Essentials
