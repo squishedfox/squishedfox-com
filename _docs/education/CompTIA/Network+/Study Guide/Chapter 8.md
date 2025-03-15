@@ -24,6 +24,15 @@ I suggest looking at https://subnetipv4.com/ and using these videos and examples
 2. Determine the number of required host IDs per submit
 3. Based on the previous requirements, create one submet mask for your entire network, a unique subnet ID for each physical segment, and a range of host IDs foreach subnet
 
+You will always be looking for the following information
+
+- Network ID
+- Broadcast IP
+- First Host IP
+- Last Host IP
+- Next Network
+- Number of IP Addresses CIDR/Subnet
+
 ### Subnet Masks
 
 A 32 bit value that allows the recipient of IP packets to distinguish the network ID portion of the IP address form the host ID portion of the IP address
