@@ -251,3 +251,24 @@ E. 192.168.192.255
 10. A /23 is 255.255.254.0. The third octet is a block size of 2. Starting at 0, 2, 4. The host is in the 16.2.0 subnet; the broadcast address is 16.3.255
 
 ## Review Answers
+
+1. D
+2. B
+3. C
+4. F
+5. C
+6. D
+7. D
+8. C
+9. A
+10. C
+11. A
+12. B
+13. A, E
+14. A
+15. A
+16. C.
+17. A
+18. E
+19. D, E
+20. A
