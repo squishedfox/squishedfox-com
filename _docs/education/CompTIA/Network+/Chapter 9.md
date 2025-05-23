@@ -77,3 +77,203 @@ https://networklessons.com/ip-routing/ip-routing-explained
 27. When the CRC is found to be Okay, the hardware-destination address is checked because the router's interface is a match, the packet is pulled from the frame, and the Ether-Type field is checked to see which protocol at the Network layer the packet should be delivered to
 28. The protocol is determined to be IP, so it gets the packet. IP runs a CRC check to the IP header first and then checks the destination IP address
 29. ....
+
+## Exam Essentials
+
+- Understand the basic IP Routing Process: rmember that the frmae changes at each hop bt that the packet is never changed or minipulated in any way until it reaches the destination device
+- Understand that MAC (Media Access Control) Addresses are always local
+- Understand that a frame carries a packet to only two places
+- Remember that the difference between static and dynamic routing
+
+
+## Written Lab
+
+1. True/False: RIPv2 is a hybrid routing protocol.
+2. True/False: RIPv1 is a link state routing protocol.
+3. True/False EIGRP was created by the ISO.
+4. What defines a colleciton of networks or subnets that are in the same Administrative domain?
+5. You need a routing potocol that can be run in a very large network with routers from multiple vendors. What routing protocol would be your best choice?
+6. Which type of routing are you performing if you have to go to each router and type in each network and the path that IP will use to send packets?
+7. You are trying to reach a server on another subnet. What will be the destination hardware address of a frame sent from your host?
+8. You are trying to reach a server on another subnet. What will be the destination IP address of a packet sent form your host?
+9. A server has received a frame from your remote host. What will be the source hardware address of the frame?
+10. A server has received a packet from your remote host. What will be the destination IP address of the packet?
+
+## Review Questions
+
+1. Which is not a routing protocol?
+
+    A. RIP
+    B. RIPv2
+    C. RIPv3
+    D. EIGRP
+
+2. Whichof these best describes dynamic routing?
+
+    A. All network addresses must be hand-typed into the routing table
+    B. ONly a portion of the network address must be hand-typed into the routing table
+    C. Routing tables are updated automatically when changes occur in the network
+    D. A and B
+
+3. Which is true regarding dynamic routing?
+
+    A. Static routes are best in large networks and thus better to use than dynamic routing protocols
+    B. Static routes are automatically added to the routing table but dynamic routes must be added by hands
+    C. You must use a DNS and WINS server when configuring dynamic routing
+    D. Dynamic routes are automatically added to the routing table
+
+4. Which of the following is true for MAC addresses?
+
+    A. MAC Addresses are never local on the LAN and always pass through a router
+    B. MAC addresses are always local on the LAN and never go through or past a routers
+    C. MAC addresses will always be the IP address of the Fa0/0 interface
+    D. None of the above
+
+5. What is it called when protocols update their forwrading tables after changes have occured?
+
+    A. Name Resolution
+    B. Routing
+    C. convergence
+    D. ARP (Address Resolution Protocol) resolution
+
+6. What command would be used to view the ARP cache on your host?
+
+    A. C:\ >show ip route
+    D. C:\ >show ip arp
+    C. C:\ >show protocols
+    D. C:\ >arp -a
+
+7. What happens when a router receives a packet for a network that isn't listen in the routing table?
+
+    A. It forwards the packet to the next availabile router
+    B. It holds the packet until the address is updated in the routing table
+    C. The router will use RIPto inform the host that it can't send the packets
+    D. None of the above
+
+8. Which of the following is not a distance-vector protocol?
+
+    A. RIPv1
+    B. RIPv2
+    C. OSPF
+    D. IGRP
+
+9. Which two of the following are link-state protocols?
+
+    A. RIPv1
+    B. RIPv2
+    C. OSPF
+    D. IS-IS
+    E> IGRP
+
+10. Which of the following is a hybrid routing protocol?
+
+    A. RIPv2
+    B. EIGRP
+    C. IS-IS
+    D. IGRP
+
+11. What does the acronym EIGRP stand for?
+
+    A. Enhanced Interior Gateway Routing Protocol
+    B. Enhanced Inside Gateway Redundancy Protocol
+    C. Enhanced Interior Group Reliability Protocol
+    D. Enhanced Interior Gateway Redundancy Protocol
+
+12. What EGP protocol is used on the internet?
+
+    A. GGP
+    B. EGP
+    C. BGP
+    D. IGP
+
+13. What are the two categories of IGP protocols (Choose two)
+
+    A. Link state
+    B. Static
+    C. Distance Vector
+    D. EGP
+
+14. What two pieces of information does a router required to make a routing decision (Choose two)
+
+    A. Destination network address
+    B. Desitnation MAC (Media Access Control) address
+    C. Application layer protocol
+    D. Neighbor router
+
+15. Where does a frame have to carry a packet to if it is destined for a remote network?
+
+    A. Default gateway
+    B. Neighbor host
+    C. switched
+    D. Hub
+
+16. Where along the IP routing process does a packet get changed?
+
+    A. Router
+    B. Host A
+    C. Destination device
+    D. Host B
+
+17. When all routers in a network agree about the path from one point to another the network is said to be what?
+
+    A. Dynamic
+    B. Static
+    C. Happy
+    D. Converged
+
+18. What type of request must a client send if it does not know the destination MAC (Media Access Control) Address?
+
+    A. ARP (Address Resolution Protocol) Broadcast
+    B. Multicase
+    C. ICMP (Internet Control Messaging Protocol) redirect
+    D. Reverse ARP (Address Resolution Protocol)
+
+19. You need to perform maintenance on a router in your corporate office. It is important that the network does not go down. What can you do to accomplish your goal?
+
+    A. Configure BGP on the router
+    B. Implement NAT (Network Address Translation) on the router
+    C. Configure on the router a static route that temporarily reroutes traffic through another office
+    D. Implement convergence on the router
+
+20. When you are most likely to see a request timed out message?
+
+    A. When an unknown error has occured
+    B. When you have used the `arp -a` command incorrectly
+    C. When a known error has occured
+    D. When you are using a hybrid routing protocol
+
+## Written Lab answers
+
+1. False
+2. False
+3. False
+4. Autonomous system
+5. RIP does not work well in large networks, so OSPF would be the best answers, and both RIP and SPF are nonproprietary
+6. Static routing
+7. The MAC (Media Access Control) Address of your default gateway (router)
+8. The IP (Internet Protocol) address of the server
+9. The MAC (Media Access Control) Address of the router sending the frame to the server
+10. The IP (Internet Protocol) Address of the server
+
+## Review Answers
+
+1. C
+2. C
+3. D
+4. B
+5. C
+6. D
+7. D
+8. C
+9. C, D
+10. B
+11. A
+12. C
+13. A, C
+14. A, D
+15. A
+16. C
+17. D
+18. A
+19. C
+20. A
