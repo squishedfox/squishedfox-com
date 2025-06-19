@@ -1,8 +1,8 @@
 ---
 title: Chapter 7
 layout: page
-parent: Study Guide
-grand_parent: Network+
+parent: Network+
+grand_parent: CompTIA
 permalink: /education/comptia/network-plus/chapter-7/
 ---
 

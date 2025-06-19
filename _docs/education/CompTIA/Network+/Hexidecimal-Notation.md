@@ -11,7 +11,7 @@ permalink: /education/comptia/network-plus/hexidecimal-notation/
 
 ## Summary
 
-Hexidecimal Notation references having a base 16 number instead of base 10. 
+Hexidecimal Notation references having a base 16 number instead of base 10.
 
 Hexidecimal Table
 
