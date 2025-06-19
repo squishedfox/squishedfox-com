@@ -1,14 +1,14 @@
 ---
-title: Chapter 7 
+title: Chapter 7
 layout: page
-parent: Study Guide 
+parent: Study Guide
 grand_parent: Network+
-permalink: /education/comptia/network-plus/book-notes/chapter-7/
+permalink: /education/comptia/network-plus/chapter-7/
 ---
 
 # CompTIA Network+ N10-008 Study Guide
 
-## Chapter 7 IP (Internet Protocol) Addressing 
+## Chapter 7 IP (Internet Protocol) Addressing
 
 ### Objectives
 
@@ -31,7 +31,7 @@ permalink: /education/comptia/network-plus/book-notes/chapter-7/
 
 #### Network Addressing
 
-Class networks were created to address hierarchies of how big a network can be. 
+Class networks were created to address hierarchies of how big a network can be.
 
 Three classes of networks table
 
@@ -45,9 +45,9 @@ Three classes of networks table
 
 ### IPv4 Addressing
 
-- Layer 2 Broadcasts - Sent to all nodes on the Local Area Network (LAN). These broadcasts are also known as Hardware broadcasts. and typically are 6 bytes (48-bits) 
-- Broadcasts (Layer 3) - Network broadcasts which are meant to reach all hosts. These Broadcasts are a way for systems to route traffic internally on a broadcast domain or through a gateway to reach it's destination address. 
-- Unicast - Single interface broadcast which is described in both IPv4 and IPv6 
+- Layer 2 Broadcasts - Sent to all nodes on the Local Area Network (LAN). These broadcasts are also known as Hardware broadcasts. and typically are 6 bytes (48-bits)
+- Broadcasts (Layer 3) - Network broadcasts which are meant to reach all hosts. These Broadcasts are a way for systems to route traffic internally on a broadcast domain or through a gateway to reach it's destination address.
+- Unicast - Single interface broadcast which is described in both IPv4 and IPv6
 - Mulicast (Class D) - Multicasting is a way that we can broadcast messages to multiple specific hosts instead of everyone at once.
 
 ### IPv6 Address Types
@@ -55,7 +55,7 @@ Three classes of networks table
 - Unicast - Packets addressed to unicast address are deliverd to a single interface
 - Global Unicast - These are your typical publicly routable addresses, and they're used the same way globally unique addresses are in IPv4
 - Link-Local - Similar to Automatic Private Internet Protocol Addressing (APIPA) in that they are not meant to be routed and are unique for each unique local area network (LAN)
-- Unique Local -  Can be routed throughout a company and are meant to be only routed within the local network but _could_ be routed outside 
+- Unique Local -  Can be routed throughout a company and are meant to be only routed within the local network but _could_ be routed outside
 - Multicast - Known as a one to many address in which they can be cloned and forwarded to many specific interfaces
 - Anycast - Known as one to nearest addressing in that it can send a broadcast to the first node which has an interface that matches the logical address
 
@@ -146,13 +146,13 @@ Three classes of networks table
     - [ ] A. 10.1.1.1
     - [ ] B. 126.1.1.1
     - [ ] C. 129.1.1.1
-    - [ ] D. 192.168.1.1    
+    - [ ] D. 192.168.1.1
 
 6. Which of the following describes a broadcast address?
     - [ ] A. All network bits are on (1s)
     - [ ] B. All host bits are on (1s)
     - [ ] C. All network bits are off (0s)
-    - [ ] D. All host bits are off (0s) 
+    - [ ] D. All host bits are off (0s)
 
 7. which of the following is a layer 2 broadcast?
     - [ ] A. FF.FF.FF.EE.EE.EE
@@ -188,13 +188,13 @@ Three classes of networks table
     - [ ] A. Packets addressed to a unicast address from a mulicast address are delivered to a single interface
     - [ ] B. Packets are delivered to all interfaces identified by the addresses. This is also called a on-to-many address
     - [ ] C. It identifies multiple interfaces and is delivered to only one address. This address can also be called on-to-on-of-many
-    - [ ] D. These addresses are meant for nonrouting purposes, but they are almost globally unique so it is unlikely they will have an address overlap 
+    - [ ] D. These addresses are meant for nonrouting purposes, but they are almost globally unique so it is unlikely they will have an address overlap
 
 13. Which of the following is true when describing an anycast address?
     - [ ] A. Packets addresses to a unicast address from an anycast address are delivered to a single interface
     - [ ] B. Packets are delivered to all interfaces identified by the address. This is also called a on-to-many-address
     - [ ] C. This address identifies multiple interfaces, and the anycast packet is delivered to only address: the closest one. This address can also be called one-to-nearest
-    - [ ] D. These addresses are meant for nonrouting purposes, but they are almost globally unique so it is unlikely they will have an address overlap 
+    - [ ] D. These addresses are meant for nonrouting purposes, but they are almost globally unique so it is unlikely they will have an address overlap
 
 14. You want to ping the loopback address of your local host. Which two address could you type? (Choose two)
     - [ ] A. ping 127.0.0.1
@@ -212,7 +212,7 @@ Three classes of networks table
     - [ ] A. An IPv6 address is 32 bits long, represented in hexadecimal
     - [ ] B. An IPv6 address is 128 bits long, represented in decimal
     - [ ] C. An IPv6 address is 32 bits long, represented in hexadecimal
-    - [ ] D. An IPv6 address is 128 bits long, represented in decimal 
+    - [ ] D. An IPv6 address is 128 bits long, represented in decimal
 
 17. Which of the following is a Class C Network address?
     - [ ] A. 10.10.10.0

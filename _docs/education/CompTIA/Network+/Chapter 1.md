@@ -1,10 +1,10 @@
 ---
-title: Chapter 1 
+title: Chapter 1
 layout: page
-parent: Study Guide 
+parent: Study Guide
 grand_parent: Network+
 has_children: false
-permalink: /education/comptia/network-plus/book-notes/chapter-1/
+permalink: /education/comptia/network-plus/chapter-1/
 ---
 
 # CompTIA Network+ N10-008
@@ -188,7 +188,7 @@ Answers can be found at the bottom of the page
 7. Multiprotocol Label Switching (MPLS)
 8. Wide Area Network
 9. A segment
-10. Bus 
+10. Bus
 
 #### Review Question Answers
 
@@ -333,4 +333,4 @@ Answers can be found at the bottom of the page
     - [x] A. Cost
     - [x] B. Ease of installation
     - [x] C. Ease of maintenance
-    - [x] D. Fault tolerance requirements 
+    - [x] D. Fault tolerance requirements

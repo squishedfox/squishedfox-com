@@ -1,9 +1,9 @@
 ---
-title: Chapter 3 
+title: Chapter 3
 layout: page
-parent: Study Guide 
+parent: Study Guide
 grand_parent: Network+
-permalink: /education/comptia/network-plus/book-notes/chapter-3/
+permalink: /education/comptia/network-plus/chapter-3/
 ---
 
 # CompTIA Network+ N10-008 Study Guide
@@ -27,12 +27,12 @@ permalink: /education/comptia/network-plus/book-notes/chapter-3/
 
 - Transmission Speeds - how many bits can be transmitted per second or microsecond in some cases
 - Distance - how far can a signal be transmitted without degrading
-- Duplex - Whether the signals can send and receive 
+- Duplex - Whether the signals can send and receive
 - Noise Immunity (Security, EMI) - Whether the wire can or can't be tapped or spliced to listen in on traffic
 - Frequency - The amount measured in MHz (Megahertz) of electrical bandwidth
 
 ### Wiring Standards
- 
+
 - T568A - Standard is commonly used with patch cables (Straight through)
 - T568B - Standard is commonly used with cross over cables
 
@@ -158,16 +158,16 @@ Twinaxial Cabling is used as a short distance high speed connection cable. Advan
 
 2. Which of the following Ethernet unshielded twisted-pair cabling types is/are commonly used?
 
-  - [ ] A. 10BaseT 
-  - [ ] B. 100BaseTX 
-  - [ ] C. 1000BaseTX 
+  - [ ] A. 10BaseT
+  - [ ] B. 100BaseTX
+  - [ ] C. 1000BaseTX
   - [ ] D. All of the above
 
-3. In which of the following categories is UTP cable not rated? 
-  
+3. In which of the following categories is UTP cable not rated?
+
   - [ ] A. Category 2
-  - [ ] B. Category 3 
-  - [ ] C. Category 5e 
+  - [ ] B. Category 3
+  - [ ] C. Category 5e
   - [ ] D. Category 9
 
 4. What type of connector does UTP cable typically use

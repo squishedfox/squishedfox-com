@@ -1,9 +1,9 @@
 ---
-title: Chapter 4 
+title: Chapter 4
 layout: page
-parent: Study Guide 
+parent: Study Guide
 grand_parent: Network+
-permalink: /education/comptia/network-plus/book-notes/chapter-4/
+permalink: /education/comptia/network-plus/chapter-4/
 ---
 
 # CompTIA Network+ N10-008 Study Guide
@@ -18,7 +18,7 @@ permalink: /education/comptia/network-plus/book-notes/chapter-4/
 
 **Binary**
 
-- Binary numbers have two states and for humans are read right to left. The Number 1001 represents the number 10 in decimal. 
+- Binary numbers have two states and for humans are read right to left. The Number 1001 represents the number 10 in decimal.
 
 Reading 1001 from right to left
 
@@ -31,7 +31,7 @@ Reading 1001 from right to left
 
 **Hexidecimal**
 
-Hexidecimal has 16 different states and can be left to right. 
+Hexidecimal has 16 different states and can be left to right.
 
 | Decimal | Hexidecimal |
 |---------|-------------|
@@ -74,7 +74,7 @@ The Data Link Layer (Layer 2) converts bits into bytes, and bytes into Frames
 
 ### Collisions Domains
 
-Collision domains are when devices can only transmit signals onto a network one at a time without overwriting each other. 
+Collision domains are when devices can only transmit signals onto a network one at a time without overwriting each other.
 
 Example:
 
@@ -91,7 +91,7 @@ CSMA/CD stands for Carrier Sense Multiple Access with Collision detection. The t
 **How it works**
 
 1. Collision is detected
-2. A jam signal informs all devices that a collision has occurred  
+2. A jam signal informs all devices that a collision has occurred
 3. The collision invokes a random backoff algorithm
 4. Each device on the Ethernet segment stops transmitting for a short time until the timer expires
 5. All hosts have equal priority to transmit after the timers have expired
@@ -151,7 +151,7 @@ Broadband is what all Ethernet (as of 2025) uses today. Broadband allows for mul
 
 1. On an ethernet switch network, what address does one host computer use to communicate with another
 
-   - [ ] A. IP Address 
+   - [ ] A. IP Address
    - [ ] B. MAC address
    - [ ] C. Street address
    - [ ] D. HUB Address
@@ -176,7 +176,7 @@ Broadband is what all Ethernet (as of 2025) uses today. Broadband allows for mul
    - [ ] B. That you are running Ethernet over fiber
    - [ ] C. That you are running Ethernet over thickent
    - [ ] D. That you are bundling multiple connections
-   - [ ] E. That you are rearly old and using thinnet coax for your LAN medium 
+   - [ ] E. That you are rearly old and using thinnet coax for your LAN medium
 
 5. What network access control method helps devices share the bandwidth evenly without having two devices transmit at the same time on the network medium
 
@@ -254,7 +254,7 @@ Broadband is what all Ethernet (as of 2025) uses today. Broadband allows for mul
    - [ ] A. 128
    - [ ] B. 194
    - [ ] C. 224
-   - [ ] D. 232 
+   - [ ] D. 232
 
 16. What is the decimal number 10 in hexidecimal?
 

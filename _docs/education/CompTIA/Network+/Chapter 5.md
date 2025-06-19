@@ -1,9 +1,9 @@
 ---
 title: Chapter 5
 layout: page
-parent: Study Guide 
+parent: Study Guide
 grand_parent: Network+
-permalink: /education/comptia/network-plus/book-notes/chapter-5/
+permalink: /education/comptia/network-plus/chapter-5/
 ---
 
 # CompTIA Network+ N10-008 Study Guide
@@ -54,9 +54,9 @@ Routers are layer 3 devices that are more intelligent versions of bridges and ar
 - Routers do not forward broadcasts by default
 - Routers can filter the network based on layer 3 information such as IP Addresses
 - Routers use logic addresses at layer 3 to understand the next hold
-- Routers can use access lists, created by an administrator, to control security on the types of packets that are allowed to enter or exit an interface 
+- Routers can use access lists, created by an administrator, to control security on the types of packets that are allowed to enter or exit an interface
 - Routers provide Quality of Service (QoS) Services
-- Routers can provide layer 2 bridging functions if needed and can simultaneously route through the same interface. 
+- Routers can provide layer 2 bridging functions if needed and can simultaneously route through the same interface.
 
 #### Types of packets
 
@@ -139,7 +139,7 @@ Carrier Sense Multiple Access with Collision Detection is easier to use on syste
 
 ### Dynamic Host Configuration Protocol Server (DHCP) Server
 
-- **DCHP Servers** assign IP (Internet Protocol) Addresses to connected systems. It's a way of assigning IP Addresses as systems connect to a network rather than assigning static IP addresses to a system 
+- **DCHP Servers** assign IP (Internet Protocol) Addresses to connected systems. It's a way of assigning IP Addresses as systems connect to a network rather than assigning static IP addresses to a system
 - DHCP is an Application layer protocol that uses DORA (Discover, Request, Offer, Acknowledgement) at layer 2 (Data Link Layer)
 - **Scope** is a way of defining a range/pool of addresses within a subnet to reduce collision domains and assign IP Addresses from a DHCP Server.
 - An IP Address can be assigned to a system with a **Lease** Time-a time in which the host system is given an IP address but must release it after such they must request the same IP address or a new one.
@@ -154,7 +154,7 @@ Carrier Sense Multiple Access with Collision Detection is easier to use on syste
    - .org - assigned to a nonprofit organizations
 - **DHCP Relay** is if a message for a IP Address is relayed to another DHCP Server that may be on a different network and then forwarded back to the host system requesting one.
 
-### Domain Name Server (DNS) 
+### Domain Name Server (DNS)
 
 - **reverse lookup** is a way for finding a hostname based on the IP (internet protocol) address
 - **DMZ** is an internal DNS server which provides lookups
@@ -168,7 +168,7 @@ Carrier Sense Multiple Access with Collision Detection is easier to use on syste
 - MX Record - is for mail exchange Servers
 - SRV Record - is for a Service record that is stood up typically inside of an organization's intranet
 - CNAME Record - is commonly used to alias one record for another such as www.example.com to example.com
-- NS Records - strictly belong to Authoritative DNS Servers for a Domain 
+- NS Records - strictly belong to Authoritative DNS Servers for a Domain
 
 ### Proxy Server
 
@@ -228,10 +228,10 @@ Deciding factors for choosing equipment
 
 | Description | Device or OSI Layer |
 |-------------|---------------------|
-| This device sends and receives information about the network layer | | 
+| This device sends and receives information about the network layer | |
 | This layer creates a virtual circuit before transmitting between end stations | |
 | A layer 3 switch or multiplayer switch | |
-| This device uses hardware addresses to filter a network | | 
+| This device uses hardware addresses to filter a network | |
 | Ethernet is defined at these layers | |
 | This layer supports flow control and sequencing | |
 | This device can measure the distance to a remote network | |
@@ -251,7 +251,7 @@ Deciding factors for choosing equipment
    - [ ] B. Router
    - [ ] C. NIC
    - [ ] D. Switch
-   - [ ] E. IDS/IPS 
+   - [ ] E. IDS/IPS
 2. What advantage does a switch have over a hub
    - [ ] A. It discards frames
    - [ ] B. Transmissions received on one port will be sent out all the other ports
@@ -264,18 +264,18 @@ Deciding factors for choosing equipment
    - [ ] D. All of the above
 4. What is the primary function of a bridge?
    - [ ] A. Breaks up collision domains
-   - [ ] B. Allows a NIC or other networking device to connect to a different type of media than it was designed for 
+   - [ ] B. Allows a NIC or other networking device to connect to a different type of media than it was designed for
    - [ ] C. Allows mobile users to connect to a wired network wirelessly
-   - [ ] D. None of the above 
+   - [ ] D. None of the above
 5. A network device that is used to connect multiple devices together without segmenting a network is a ______
    - [ ] A. Hub
    - [ ] B. Wireless access point
    - [ ] C. Switch
    - [ ] D. Router
 6. Which of the following is among the benefits of a switch?
-   - [ ] A. Protect LAN Resources from attackers on the internet  
+   - [ ] A. Protect LAN Resources from attackers on the internet
    - [ ] B. Provides extra bandwidth
-   - [ ] C. Reduces throughput 
+   - [ ] C. Reduces throughput
    - [ ] D. Allows access to all computers on the LAN
 7. Which of the following devices can work at both layers 2 and 3 of the OSI model?
    - [ ] A. Hub
@@ -300,7 +300,7 @@ Deciding factors for choosing equipment
 11. What role does the A record in a Domain NAme Service (DNS) server have in your network?
    - [ ] A. Translate human name to IP address
    - [ ] B. Translates IP address to human name
-   - [ ] C. Enables printing, copying, and faxing from one device 
+   - [ ] C. Enables printing, copying, and faxing from one device
    - [ ] D. Controls network packets to optimize performance
 12. Which device does not aid in network segmentation?
    - [ ] A. Router
@@ -354,10 +354,10 @@ Deciding factors for choosing equipment
 
 | Description | Device or OSI Layer |
 |-------------|---------------------|
-| This device sends and receives information about the network layer | Router | 
+| This device sends and receives information about the network layer | Router |
 | This layer creates a virtual circuit before transmitting between end stations | Transport |
 | A layer 3 switch or multiplayer switch | Router |
-| This device uses hardware addresses to filter a network | Bridge or Switch | 
+| This device uses hardware addresses to filter a network | Bridge or Switch |
 | Ethernet is defined at these layers | Data Link and Physical |
 | This layer supports flow control and sequencing | Transport |
 | This device can measure the distance to a remote network | Router |

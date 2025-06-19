@@ -1,9 +1,9 @@
 ---
-title: Chapter 6 
+title: Chapter 6
 layout: page
-parent: Study Guide 
+parent: Study Guide
 grand_parent: Network+
-permalink: /education/comptia/network-plus/book-notes/chapter-6/
+permalink: /education/comptia/network-plus/chapter-6/
 ---
 
 # CompTIA Network+ N10-008 Study Guide
@@ -27,7 +27,7 @@ permalink: /education/comptia/network-plus/book-notes/chapter-6/
 ### DoD (Department of Defense) Layer
 
 - Process Application - controls protocols for for nod-eto-node application communication and also controls user-interface specifications
-- Host-to-Host - Similar to the OSI model transportation layer handling transmission service for applications, end-to-end communication and ensuring the error-free delivery of data. It handles packet sequencing and data integrity 
+- Host-to-Host - Similar to the OSI model transportation layer handling transmission service for applications, end-to-end communication and ensuring the error-free delivery of data. It handles packet sequencing and data integrity
 - Internet - Handles logical transmission of packets, routing based on logical IP addressing
 - Network Access - Monitors data exchange between the host and the network. It identifies hardware addressing and physical transmission of data
 
@@ -77,7 +77,7 @@ permalink: /education/comptia/network-plus/book-notes/chapter-6/
 
 ### TCP (Transmission Control Protocol)
 
-Transmission Control Protocol is a huge backbone of the internet and ensuring packets are received int he correct order and in their complete state. 
+Transmission Control Protocol is a huge backbone of the internet and ensuring packets are received int he correct order and in their complete state.
 
 TCP Headers are 60 bytes consisting of data laid out as such
 
@@ -90,7 +90,7 @@ TCP Headers are 60 bytes consisting of data laid out as such
 - Code Bits/TCP Flags - Controls functions used to set up and terminate a session
 - Window - The window size the sender is willing to accept in octets
 - Checksum - the cyclic redundancy check (CRC), used becaue TCP doesn't trust lower layers and checks everything. The CRc checks the header and the data fields.
-- Urgent - A valid field only if the urgent pointer in the code bits is set. 
+- Urgent - A valid field only if the urgent pointer in the code bits is set.
 - Options - May be 0, meaning no options present, or multiples of 32 bits.
 - Payload - the data
 
@@ -117,12 +117,12 @@ Internet Protocol Header in total 20 bytes or 160 bits
 | Priority and Type of Service | first three bits are priority bits, which tells the type of service how the datagram should be handled | 8 |
 | Total Length | Length of the packet, including header and data | 16 |
 | Identification | Unique IP-packet value used to differentiate fragmented packets from different datagram | 16 |
-| Flags | this one field specifies whether fragmentation of the packet should occur | 3 | 
+| Flags | this one field specifies whether fragmentation of the packet should occur | 3 |
 | Fragment Offset | Allows for different Maximum Transmission Units (MTUs) and breaks up packets into different fragments if they are too large for one frame | 13 |
 | Time to Live | Number of Seconds or Number of hops the packet can make before it has expired and no longer is forwarded to the destination host | 8 |
 | Protocol | Port of upper layer protocol such as TCP or UDP ports, or Network layer protocols like ARP and ICMP | 8 |
 | Header Checksum | Cyclic redundancy check (CRC) on header only | 16 |
-| Source IP Address | 32-bit IP address of sending station | 32 | 
+| Source IP Address | 32-bit IP address of sending station | 32 |
 | Destination IP Address | 32-bit IP address of receiving station | 32 |
 | Options | Used for network testing, debugging, security, and more | 32 |
 | Data | After the IP option field, will be the upper-layer data | varies |
@@ -151,7 +151,7 @@ Internet Protocol Header in total 20 bytes or 160 bits
 
 ### Generic Routing Encapsulation
 
-- Generic Routing Encapsulation is a way of creating a virtual IP point-to-point tunnel for any protocol that may be denied by either end. 
+- Generic Routing Encapsulation is a way of creating a virtual IP point-to-point tunnel for any protocol that may be denied by either end.
 - It is protocol agnostic
 - Simply a way to create an unencrypted tunnel between two networks
 

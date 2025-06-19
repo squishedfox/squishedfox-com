@@ -3,7 +3,7 @@ title: Chapter 1-
 layout: page
 parent: Study Guide
 grand_parent: Network+
-permalink: /education/comptia/network-plus/book-notes/chapter-10/
+permalink: /education/comptia/network-plus/chapter-10/
 ---
 
 # CompTIA Network+ N10-008 Study Guide

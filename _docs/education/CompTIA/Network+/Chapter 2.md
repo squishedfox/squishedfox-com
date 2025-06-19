@@ -1,9 +1,9 @@
 ---
-title: Chapter 2 
+title: Chapter 2
 layout: page
-parent: Study Guide 
+parent: Study Guide
 grand_parent: Network+
-permalink: /education/comptia/network-plus/book-notes/chapter-2/
+permalink: /education/comptia/network-plus/chapter-2/
 ---
 
 # CompTIA Network+ N10-008 Study Guide
@@ -31,7 +31,7 @@ Summary: Moves bits between devices and specifies voltage, wire speed, and pin-o
 
 Summary: Combines packets into bytes and bytes into frames, access to media using MAC addresses, and performs error detection, not correction
 
-- Responsabilities: 
+- Responsabilities:
   - Formats messages into pieces called data frames which have a header attached which links the source and destination MAC addresses.
   - Responsabile for fingerprinting devices on a network
 
@@ -57,7 +57,7 @@ Transmission Control Protocol (Connection oriented) uses a three way handshake (
 
 **Flow control** is enabled with TCP that allows a recipient to respond with confirmation of a packet or tell the sender to wait, or slow down with sending data.
 
-A **window** is the amount segments (measured in bytes) of which a sender can continue to send without an acknowledgement. **Windows** are used to control the amount of outstanding, unacknowledged data segments 
+A **window** is the amount segments (measured in bytes) of which a sender can continue to send without an acknowledgement. **Windows** are used to control the amount of outstanding, unacknowledged data segments
 
 #### UDP
 
@@ -83,7 +83,7 @@ Summary: Provides a user interface
 
 ## Written Lab
 
-1. Which layer chooses and determines the availability of communicating partners along with the resources necessary to make the connection, coordinates partnering applications, and forms a consensus on procedures for controlling data integrity and error recovery? 
+1. Which layer chooses and determines the availability of communicating partners along with the resources necessary to make the connection, coordinates partnering applications, and forms a consensus on procedures for controlling data integrity and error recovery?
 
 2. Which layer is responsible for converting frames from the Data Link Layer into electrical signals?
 
@@ -95,7 +95,7 @@ Summary: Provides a user interface
 
 6. Which layer manages the transmission of data cross physical link and is primarily concerned with physical addressing and the order delivery of frames?
 
-7. Which layer is used for reliable communication between end nodes over the network and provides mechanisms for establishing, maintaining, and terminating virtual circuits as-well-as controlling the flow of information? 
+7. Which layer is used for reliable communication between end nodes over the network and provides mechanisms for establishing, maintaining, and terminating virtual circuits as-well-as controlling the flow of information?
 
 8. Which layer provides logical addressing that routers use for path determinations
 
