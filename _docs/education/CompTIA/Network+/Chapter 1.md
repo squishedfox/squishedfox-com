@@ -11,7 +11,7 @@ permalink: /education/comptia/network-plus/chapter-1/
 
 ## Book Note(s)
 
-### Cahpter 1
+### Chapter 1
 
 #### Exam Essentials
 

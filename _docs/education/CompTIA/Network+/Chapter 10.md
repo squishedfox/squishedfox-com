@@ -214,3 +214,198 @@ Process is stateless autoconfiguration because the host is generating its own IP
 - Advanced Distance Vector Protocol
 - Hello Packets and updates are sent using multicast transmission and as with RIPing
 
+## Written Lab Questions
+
+1. The default administrative distance of RIP is what?
+2. The default administrative distance of EIGRP is what?
+3. The default administrative distance of RIPv2 is what?
+4. What is the default administrative distance of a static router?
+5. What is the version or name of RIP that is used with IPv6?
+6. What is the version or name of OSPF that is used with IPv6?
+7. What is the version or name of EIGRP that is used with IPv6?
+8. When would you use BGP?
+9. When could you use EIGRP?
+10. Is BGP considered a link-state or distance-vector routing protocol?
+
+## Review Questions
+
+1. Which of the following protocols support VLSM, summarization and discontiguous networking? (Choose three)
+
+	A. RIPv1
+	B. IGRP
+	C. EIGRP
+	D. OSPF
+	E. BGP
+	F. RIPv2
+
+2. Which of the following are considered distance-vector routing protocols? (Choose two)
+
+	A. OSPF
+	B. RIP
+	C. RIPv2
+	D. IS-IS
+
+3. Which of the following are considered link-state routing protocols? (Choose two)
+
+	A. OSPF
+	B. RIP
+	C. RIPv2
+	D. IS-IS
+
+4. Which of the following are considered hybrid routing protocols? (Choose Two)
+
+	A. OSPF
+	B. BGP
+	C. RIPv2
+	D. IS-IS
+	E. EIGRP
+
+5. Why would you want to use a dynamic routing protocol instead of using static routes?
+
+	A. There are lesss overhead on the router
+	B. Dynamic routing is more secure.
+	C. Dynamic routing scales to larger networks
+	D. The network runs faster
+
+6. Which of the folowing is a vendor-specific FHRP protocol?
+
+	A. STP
+	B. OSPF
+	C. RIPv1
+	D. EIGRP
+	E. IS-IS
+	F. HSRP
+
+7. RIP has a long convergence time and users have been compainging of response time when a router goes down and RIP has to reconverge. Which can you implement to improve convergence time on the network?
+
+	A. Replace RIP with static routes
+	B. Update RIP to RIPv2
+	C. Update RIP to OSPF using link state
+	D. Replace RIP with BGP as an exterior gateway
+
+8. What is the administrative distance of OSPF?
+
+	A. 90
+	B. 100
+	C. 110
+	D. 120
+
+9. Which of the following protocols will advertise routed IPv6 networks?
+
+	A. RIP
+	B. RIPng
+	C. OSPFv2
+	D. EIGRPv3
+
+10. What is the difference between static and dynamic routing?
+
+	A. You use static routing in large, scalable networks
+	B. Dynamic routing is used by a DNS Servers
+	C. Dynamic routes are added automatically
+	D. Static routes are added automatically
+
+11. Which routing protocol has a maximum hop count of 15?
+
+	A. RIPv1
+	B. IGRP
+	C. EIGRP
+	D. OSPF
+
+12. Which of the following describes routing convergnce time?
+
+	A. The time it takes for your VPN to connect
+	B. The time required by protocols to update their forwarding tables after changes have occured
+	C. The time required by IDS to detect an attack
+	D. The time required by switches to update their link status and go into forwarding state
+
+13. Whta routing protocal is typically used to connect ASs on the internet?
+
+	A. IGRP
+	B. RIPv2
+	C. BGP
+	D. OSPF
+
+14. RIPv2 sends out its routing table very 30 seconds just like RIPv1, but it does so more effectivly. What type of transmission does RIPv2 use to accomplish this task?
+
+	A. Broadcasts
+	B. Multicasts
+	C. Telecast
+	D. None of the above
+
+15. Which routing protocols have an administrative distance of 120? (Choose two)
+
+	A. RIPv1
+	B. RIPv2
+	C. EIGRP
+	D. OSPF
+
+16. Which of the following routing protocols uses AS path as one of the methods to build the routing tables?
+
+	A. OSPF
+	B. IS-IS
+	C. BGP
+	D. RIP
+	E. EIGRP
+
+17. Which IPv6 routing protocol uses UDP port 521?
+
+	A. RIPng
+	B. EIGRPv6
+	C. OSPFv3
+	D. IS-IS
+
+18. What EIGRP information is held in RAM and maintained through the usage of Hello and Update packets? (Select all that apply)
+
+	A. DUAL table
+	B. Neighbor table
+	C. Topology table
+	D. Successor route
+
+19. Which is true regarding EIGRP successor route?
+
+	A. Successor routes are saved in the neighbor table
+	B. Successor routes are stored in the DUAL table
+	C. Successor routes are used only if the primary route fails
+	D. A successor route is used by EIGRP to forward traffic to a destination
+
+20. Which of the following uses only hop count as a metric to find the nbets path to a remote network?
+
+	A. RIP
+	B. EIGRP
+	C. OSPF
+	D. BGP
+
+## Written Lab Answers
+
+1. 120
+2. 90
+3. 120
+4. 120
+5. RIPng (Next generation)
+6. OSPFv3
+7. EIGRPv6
+8. When you need to connect two autonomous systems (ASs) together
+9. When all your routers are cisco routers and you want easy configurations
+10. Distance vector
+
+## Answers to Review Questions
+
+1. C,D,F
+2. B, C
+3. A, D
+4. B, E
+5. C
+6. F
+7. C
+8. C
+9. B
+10. C
+12. A
+13. C
+14. B
+15. A, B
+16. C
+17. A
+18. B, C
+19. D, A
+20. A
