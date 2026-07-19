@@ -1,0 +1,15 @@
+# Zola output
+public/
+
+# Editor/OS cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files (if you want to keep these project-level, skip them)
+.vscode/
+.idea/
+*.iml
+
